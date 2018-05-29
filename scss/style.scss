@@ -1,0 +1,122 @@
+@import 'variables';
+
+body {
+    min-width: 320px;
+    width: auto !important;
+
+    font-family: $primary-font;
+    font-weight: 400;
+    color:       $grey400;
+}
+
+.s-layout--light {
+    background: $grey700;
+}
+
+.s-layout--midtone {
+    background: $midtone;
+    color: $white;
+
+    a {
+        color: $white;
+    }
+}
+
+.s-layout--black {
+    background: $black;
+    color: $white;
+
+    a {
+        color: $white;
+    }
+}
+
+.bg-white {
+    background: $white;
+}
+
+.bg-grey600 {
+    background: $grey600;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+
+//https://css-tricks.com/rems-ems/
+
+html {
+    font-size: 16px;
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+a {
+    color: $grey400;
+}
+

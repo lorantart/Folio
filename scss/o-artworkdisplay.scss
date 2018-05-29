@@ -1,0 +1,133 @@
+@import 'variables';
+
+.js-displayFadein {
+    opacity: 0;
+    will-change: opacity;
+}
+
+.js-displayFadein:first-of-type {
+    opacity: 1;
+}
+
+.u-display-wrapper {
+    width:     100%;
+    position: relative;
+    margin: 0 auto 4em auto;
+
+    .c-display__fbShare {
+        position: absolute;
+        top:   1.5em;
+        right: 3em;
+        z-index: 1;
+
+        display: none;
+    }
+
+    .c-display__img {
+        width: 100%;
+
+        vertical-align: middle;
+    }
+
+    .c-display__caption {
+        margin-top:  0.75em;
+        padding:     0.5em 1em;
+
+        border-left: 2px solid $grey500;
+
+        ul {
+
+            li {
+                display: flex;
+                align-items: center;
+                margin: 4px;
+
+                img {
+                    margin-right: 8px;
+                }
+            }
+
+            li:first-of-type {
+                margin-top: 24px;
+            }
+        }
+
+        .t-chapterDisplay__p {
+            @extend %t-article__p--small;
+
+            padding-bottom: 1em;
+            font-size: 0.9em;
+        }
+
+        .t-chapterDisplay__a {
+            @extend %t-article__p--small;
+
+            font-style: italic;
+            color: $grey500;
+            font-size: 0.9em;
+        }
+
+        .t-artworkDisplay__a {
+            @extend %t-article__a;
+        }
+
+        .t-artworkFeatures__a {
+            @extend %t-article__p--small;
+
+            color: $grey600;
+        }
+
+        .t-artworkDisplay__p {
+            @extend %t-article__p--small;
+
+            color: $grey500;
+        }
+
+        .t-artworkDisplay__p--white {
+            @extend %t-article__p;
+
+            color: $white;
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+@media all and (max-width: 800px) {
+    .u-display-wrapper {
+        padding: 0 !important;
+    }
+
+    .l-display--wide {
+        .u-display__img-wrapper {
+            overflow-x: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .c-display__img {
+            height: 100vw;
+            width: auto;
+        }
+
+        ::-webkit-scrollbar {
+            height: 0;
+            background: transparent;
+        }
+    }
+
+    .c-display__fbShare {
+        right: 1.5em !important;
+        display: block !important;
+    }
+}
+
+
+//apply to figure
+.l-display--narrow {
+    max-width: 800px;
+}
+
+.l-display--wide {
+    max-width: 100%;
+}
+

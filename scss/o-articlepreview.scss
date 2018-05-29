@@ -1,0 +1,103 @@
+@import 'variables';
+
+.u-articlePreview-wrapper {
+    max-width:  800px;
+    width:      100%;
+
+    margin-top: 4.5em;
+    margin: 0 auto;
+
+    padding: 0 1.5em;
+
+    .c-articlePreview__p {
+        @extend %t-article__p;
+    }
+
+    .m-articlePreview--art {
+        background: url(../assets/img/component/art.jpg) center center;
+    }
+
+    .m-articlePreview--art-daydreaming {
+        background: url(../assets/img/component/art-daydreaming.jpg) center center;
+    }
+
+    .m-articlePreview--art-dividedsoul {
+        background: url(../assets/img/component/art-dividedsoul.jpg) center center;
+    }
+
+    .m-articlePreview--art-portrait {
+        background: url(../assets/img/component/art-portrait.jpg) center center;
+    }
+
+    .m-articlePreview--design {
+        background: url(../assets/img/component/design.jpg) center center;
+    }
+
+    .m-articlePreview--design-designsystems {
+        background: url(../assets/img/component/design-designsystems.jpg) center center;
+    }
+
+    .m-articlePreview--article {
+        background: url(../assets/img/component/article.jpg) center center;
+    }
+
+    .m-articlePreview--article-modularity {
+        background: url(../assets/img/component/article-modularity.jpg) center center;
+    }
+
+    .o-articlePreview {
+        width:  100%;
+        height: 400px;
+
+        position: relative;
+
+        margin: 1.5em 0 4em 0;
+
+        background-size: cover;
+
+        border-radius: 8px;
+
+        .u-articlePreview__content {
+            position: absolute;
+            left:     0;
+            top:      0;
+
+            padding: 2.5em;
+
+            z-index: 1;
+
+            .c-articlePreview__h1 {
+                @extend %t-article__h2;
+                color: $white;
+                margin-bottom: 2em;
+            }
+        }
+
+        .c-articlePreview__mask {
+            width:  72%;
+            height: 100%;
+
+            position: absolute;
+            left:     0;
+            top:      0;
+
+            background: linear-gradient(90deg, $black 0%, $transparent 100%);
+
+            border-radius: 8px 0 0 8px;
+        }
+    }
+}
+
+@media all and (max-width: 800px) {
+    .u-articlePreview-wrapper {
+        padding: 0;
+    }
+
+    .c-articlePreview__p {
+        padding: 0 1.5em;
+    }
+
+    .u-articlePreview__content {
+        padding: 2em !important;
+    }
+}

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NK7H8FR');</script>
+        <!-- End Google Tag Manager -->
+
+        <title>The Design and Art of Lorant Toth</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport"             content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <meta name="author"               content="Lorant Toth">
+        <meta name="description"          content="Terméktervezés, rajzolás és festészet, média design portfólióm">
+        <meta name="keywords"             content="art, design, painting, writing, blog, portfolio, lorantart">
+
+        <meta property="og:url"           content="http://www.lorant.design/site/the-chameleon-design-system.html"/>
+        <meta property="og:type"          content="website"/>
+        <meta property="og:title"         content="Portfólióm - Tóth Lóránt"/>
+        <meta property="og:description"   content="Grafit- és szénrajzaim a közelmúltból"/>
+        <meta property="og:image"         content="../assets/img/component/art-daydreaming.jpg"/>
+
+        <link rel="icon" type="image/png" href="../assets/icon/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="../assets/icon/favicon-32x32.png" sizes="32x32">
+
+        <link rel="stylesheet"            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+        <link rel="stylesheet"            href="../css/main.css" type="text/css">
+
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script type="text/javascript"    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript"    src="../js/riot+compiler.min.js"></script>
+
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        <style>
+            .slick-track {
+                position: absolute;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NK7H8FR"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <div class="u-overFlowX-wrapper">
+
+            <o-cookiebar></o-cookiebar>
+            
+            <main>
+                <div class="u-cover__wrapper js-coverHeight">
+                    
+                    <div class="js-coverAnimation">
+                        <div class="u-cover__layer u-cover__background--tcds"></div>
+                        <div class="u-cover__layer u-cover__mask--mdwds"></div>
+                    </div>
+
+                    <o-header></o-header>
+
+                    <h1 class="t-cover__h1">
+                        A Chameleon<br/>
+                        design rendszer
+                    </h1>
+
+                    <c-cover-toc></c-cover-toc>
+                </div>
+
+
+
+
+                <c-section-navigator></c-section-navigator>
+
+
+
+
+                <div class="u-chapter-wrapper js-maxScrollHeight">
+                    <c-progressbar></c-progressbar>
+
+                    <!--
+                    <section class="js-prologueHeight">
+                    </section>
+                    -->
+
+                    <section class="o-article--chapter">
+                        <c-chapter-title
+                            chapter_number  ="01"
+                            chapter_title   ="A Chameleon története"
+                            chapter_id      ="chapter-1">
+                        </c-chapter-title>
+
+                        <p class="t-chapter__p">
+                            A Chameleon a lorant.design mögött működő design rendszer. Egy viszonylag kisméretű rendszerről van szó, ami a tervezés számos területére 
+                            kiterjed. A Chameleon szépségét tehát nem a megszámlálhatatlan komponensből álló könyvtára adja, sem a számtalan illusztrációból álló
+                            visszajelző állapotai, hiszen egyik sem mondható el róla. Hanem az, hogy minden területen megfelelően definiált szabályok mentén, konzisztens 
+                            keretek közé tereli az oldal fejlődését. Minden, ami ki van dolgozva benne, jól működik, aminek mérőszáma a komponenseknél a teljes reszponzivitás
+                            és a magasfokú skálázhatóság, a stílusnál az egységesség és harmónia, ami mind a kommunikációt és írott stílust, mind pedig a vizuális megjelenést
+                            tükrözi.
+                        </p>
+
+                        <p class="t-chapter__p">
+                            A design rendszer aktuális állapotát lentebb letöltheted. Tartalmazza a tervezést segítő iránymutatásokat, a stílusokat (szín, ikonográfia,
+                            tipográfia) és komponenskészletét. Habár az oldal használata közben többel is találkozhatsz, ezen a demó oldalon ki tudsz próbálni párat, és
+                            azt is meg tudod nézni, hogy hogyan működnek.
+                        </p>
+
+                        <o-emailform></o-emailform>
+
+                        <c-chapter-subtitle
+                            subtitle="A modularitás felhasználása fizikai környezetben">
+                        </c-chapter-subtitle>
+
+                        <p class="t-chapter__p">
+                            Az iparban nem újdonság a moduláris tervezés. Az egyik leglátványosabb eredményt nem is olyan régen az autógyártásban érte el, ahol 
+                            <a href="https://us5.campaign-archive.com/?u=7e093c5cf4&id=ead8a72012&e=ecb25a3f93" class="t-article__a">
+                                20 éve egy új modell piacra vezetése a tervezéstől kezdve 
+                                5 év volt, viszont a moduláris tervezés bevezetésének köszönhetően ez napjainkra egy évre csökkent.
+                            </a>
+                            A modularitásnak sok előnye van, és a különböző iparágak különbözőképpen használják ezt ki. Hídépítésnél például sokkal könnyebb az egységeket 
+                            szállítani, majd ezeket a helyszínen összeszerelni, míg hajógyártásnál lehetőséget ad a skálázhatóságra, lehetőséget biztosítva sokkal nagyobb 
+                            méretű hajók építésére.
+                        </p>
+                </div>
+
+
+                
+                <section class="u-chameleonSlider-wrapper">
+                    <div class="u-chameleon__header-mask"></div>
+                    <div class="u-chameleon__header-wrapper"></div>
+                    <div class="o-chameleonSlider">
+
+
+                        <div class="u-chameleon-wrapper">
+                            <div class="u-chameleon__content">
+
+                                <h1 class="t-slickModule__h1">Principles</h1>
+
+                                <h2 class="t-slickModule__h2"><span class="m-lighter">01</span>Linear Flow</h2>
+                                <p class="t-chameleonDescription__p">
+                                    A felhasználó figyelmét lineáris oldalstruktúrán keresztül kötjük le.
+                                </p>
+
+                                <h2 class="t-slickModule__h2"><span class="m-lighter">02</span>Unity</h2>
+                                <p class="t-chameleonDescription__p">
+                                    Egységben gondolkodunk és nem tervezünk kivételeket és speciális eseteket.
+                                </p>
+
+                                <h2 class="t-slickModule__h2"><span class="m-lighter">03</span>Separation</h2>
+                                <p class="t-chameleonDescription__p">
+                                    A különböző tartalmakat egyértelműen elválasztjuk és nem keverjük őket.
+                                </p>
+
+                                <h2 class="t-slickModule__h2"><span class="m-lighter">04</span>Less is More</h2>
+                                <p class="t-chameleonDescription__p">
+                                    Minél egyszerűbben minél többet közvetítünk a felhasználónak.
+                                </p>
+
+                                <h2 class="t-slickModule__h2"><span class="m-lighter">05</span>Seamless experience</h2>
+                                <p class="t-chameleonDescription__p">
+                                    Technológiai és antropometriai tulajdonságoktól függetlenül trevezünk.
+                                </p>
+
+                                <h2 class="t-slickModule__h2"><span class="m-lighter">06</span>Visual Boldness</h2>
+                                <p class="t-chameleonDescription__p">
+                                    Vakmerőek vagyunk a vizuális eszközökkel, miközben megtartjuk az oldal hierarchiáját.
+                                </p>
+
+                                <h2 class="t-slickModule__h2"><span class="m-lighter">07</span>Space of Exploration</h2>
+                                <p class="t-chameleonDescription__p">
+                                    Teret adunk a kísérletezésnek a lenyűgöző eredmény eléréséhez.
+                                </p>
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="u-chameleon-wrapper">
+                            <div class="u-chameleon__content">
+
+                                <h1 class="t-slickModule__h1">Styles</h1>
+    
+                                <h2 class="t-slickModule__h2"><span class="m-lighter">01</span>Color</h2>
+                                <p class="t-chameleonDescription__p">
+                                    A Chameleon színhasználata nagyon változatos.
+                                </p>
+
+                                <div class="c-styles__color-wrapper">
+                                    <div class="c-styles__swatches-wrapper">
+                                        <div class="c-styles__swatch m-swatch--color-blue">         <p class="t-swatch__p">blue (pr)</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-neon">         <p class="t-swatch__p" style="color:inherit">neon (sc)</p></div>
+                                    </div>
+
+                                    <div class="c-styles__swatches-wrapper">
+                                        <div class="c-styles__swatch m-swatch--color-blue-asc">     <p class="t-swatch__p">blue-asc</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-blue">         <p class="t-swatch__p">blue</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-blue-desc">    <p class="t-swatch__p">blue-desc</p></div>
+                                    </div>
+
+                                    <div class="c-styles__swatches-wrapper">
+                                        <div class="c-styles__swatch m-swatch--color-purple-asc">   <p class="t-swatch__p">purple-asc</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-purple">       <p class="t-swatch__p">purple</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-navy-asc">     <p class="t-swatch__p">navy-asc</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-navy">         <p class="t-swatch__p">navy</p></div>
+                                    </div>
+
+                                    <div class="c-styles__swatches-wrapper">
+                                        <div class="c-styles__swatch m-swatch--color-white">        <p class="t-swatch__p" style="color:inherit">white</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-white-desc">   <p class="t-swatch__p" style="color:inherit">white-desc</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-midtone-asc">  <p class="t-swatch__p">midtone-asc</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-midtone">      <p class="t-swatch__p">midtone</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-black-asc">    <p class="t-swatch__p">black-asc</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-black">        <p class="t-swatch__p">black</p></div>
+                                    </div>
+
+                                    <div class="c-styles__swatches-wrapper">
+                                        <div class="c-styles__swatch m-swatch--color-grey700">      <p class="t-swatch__p" style="color:inherit">grey700</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-grey600">      <p class="t-swatch__p" style="color:inherit">grey600</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-grey500">      <p class="t-swatch__p">grey500</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-grey400">      <p class="t-swatch__p">grey400</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-grey300">      <p class="t-swatch__p">grey300</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-grey200">      <p class="t-swatch__p">grey200</p></div>
+                                        <div class="c-styles__swatch m-swatch--color-grey100">      <p class="t-swatch__p">grey100</p></div>
+                                    </div>
+                                </div>
+    
+                                <h2 class="t-slickModule__h2"><span class="m-lighter">02</span>Typography</h2>
+                                <p class="t-chameleonDescription__p">
+                                    Az elsődleges betűtípus az Open Sans.
+                                </p>
+
+                                <div class="u-dropdown-wrapper">
+                                    <div class="c-modifier-wrapper">
+                                        <span class="c-modifier m-modifier--top">u</span>
+                                        <span class="c-modifier m-modifier--bottom">d</span>
+                                    </div>
+
+
+                                    <div class="u-textField-wrapper u-labelPositioner__js m-input--wide" style="min-height: 160px; margin-top: 0;">
+                                        <input type     ="text"
+                                            value       ="Open Sans is love, Open Sans is life x)"
+                                            class       ="c-textField"
+                                            id          ="inputDemo"
+                                            onclick     ="select()"
+                                            style       ="font-weight: 300; font-size: 24px; height: 100%; background: #fafaff; text-align: center;"
+                                            required>
+                                        <span class="c-textField__bar"></span>
+                                        <label for="mce-EMAIL" class="c-textField__label" style="left: 50%; transform: translateX(-50%); top: 1em;">Próbáld ki!</label>
+                                    </div>
+
+
+                                    <span class="c-dropdown">
+                                        <select onchange="changeFont(this);">
+                                            <option value="300">300</option>
+                                            <option value="500">500</option>
+                                            <option value="600">600</option>
+                                            <option value="700">700</option>
+                                        </select>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="u-chameleon-wrapper">
+                            <div class="u-chameleon__content">
+                                <h1 class="t-chameleonTitle__h1">Daydreaming</h1>
+                                <p class="t-chameleonDescription__p">Figurative painting project with the most epic chillout mix recommendations.</p>
+                                <div class="js-resizable"><o-emailform></o-emailform></div>
+                                <pre>
+                                    <code class="html">
+                                        <c-chapter-title
+                                            chapterNumber  ="01"
+                                            chapterTitle   ="Moduláris tervezés"
+                                            chapterId      ="chapter-1">
+                                        <c-chapter-title>
+                                    </code>
+                                </pre>
+                            </div>
+                        </div>
+
+
+
+                    <div class="u-chameleon-wrapper">
+                        <div class="u-chameleon__content">
+                            <h1 class="t-chameleonTitle__h1">Daydreaming</h1>
+                            <p class="t-chameleonDescription__p">Figurative painting project with the most epic chillout mix recommendations.</p>
+                            <o-emailform></o-emailform>
+                        </div>
+                    </div>
+
+
+
+                    <div class="u-chameleon-wrapper">
+                        <div class="u-chameleon__content">
+                            <h1 class="t-chameleonTitle__h1">Daydreaming</h1>
+                            <p class="t-chameleonDescription__p">Figurative painting project with the most epic chillout mix recommendations.</p>
+                        </div>
+                    </div>
+
+
+                </section>
+
+            </main>
+
+            <div>End of Story</div>
+
+            <o-footer></o-footer>
+        </div>
+
+        <script type="text/javascript"  src="../js/site-settings.js">               </script>
+        <script type="text/javascript"  src="../js/cover-animation.js">             </script>
+        <script type="text/javascript"  src="../js/slick.js">                       </script>
+        <script type="text/javascript"  src="../js/slickslider-chameleon.js">       </script>
+        <!--<script type="text/javascript"  src="../js/code-highlighter.js">        </script>-->
+        <script type="text/javascript"  src="../js/resize-component.js">            </script>
+        <script type="text/javascript"  src="../js/chapter-navigation.js">          </script>
+        <script type="text/javascript"  src="../js/typography-control.js">          </script>
+
+
+
+        <!-- import Riot tags -->
+        <script type="riot/tag"         src="components/o-cookiebar.tag"            ></script>
+        <script type="riot/tag"         src="components/o-header.tag"               ></script>
+        <script type="riot/tag"         src="components/c-progressbar.tag"          ></script>
+        <script type="riot/tag"         src="components/c-section-navigator.tag"    ></script>
+        <script type="riot/tag"         src="components/c-cover-toc.tag"            ></script>
+        <script type="riot/tag"         src="components/c-chapter-title.tag"        ></script>
+        <script type="riot/tag"         src="components/c-chapter-subtitle.tag"     ></script>
+        <script type="riot/tag"         src="components/c-articledisplay.tag"       ></script>
+        <script type="riot/tag"         src="components/c-highlight.tag"            ></script>
+        <script type="riot/tag"         src="components/o-emailform.tag"            ></script>
+        <script type="riot/tag"         src="components/o-footer.tag"               ></script>
+
+        <!-- mount Riot tags -->
+        <script>
+            riot.mount('o-cookiebar')
+
+            riot.mount('o-header',
+            {
+                overflow:  '',
+                color:     'm-header--transparent',
+                maskColor: ''
+            })
+
+            riot.mount('c-section-navigator',
+            {
+                toc_items: [
+                    { chapter_id: '#chapter-1',   chapter_title: 'A Chameleon története'                     },
+                    { chapter_id: '#chapter-2',   chapter_title: 'A design válság'                        },
+                    { chapter_id: '#chapter-3',   chapter_title: 'Megoldáskeresés a design válságban'     },
+                    { chapter_id: '#chapter-4',   chapter_title: 'Design rendszerek'                      }
+                ]
+            })
+
+            riot.mount('c-cover-toc',
+            {
+                toc_items: [
+                    { chapter_id: '#chapter-1',   chapter_number: '01',   chapter_title: 'A Chameleon története'                     },
+                    { chapter_id: '#chapter-2',   chapter_number: '02',   chapter_title: 'A design válság'                        },
+                    { chapter_id: '#chapter-3',   chapter_number: '03',   chapter_title: 'Megoldáskeresés a design válságban'     },
+                    { chapter_id: '#chapter-4',   chapter_number: '04',   chapter_title: 'Design rendszerek'                      }
+                ]
+            })
+            
+            riot.mount('c-progressbar')
+            riot.mount('c-chapter-title')
+            riot.mount('c-chapter-subtitle')
+            riot.mount('c-articledisplay')
+            riot.mount('c-highlight')
+
+            riot.mount('o-emailform',
+            {
+                color:       'm-emailForm--white',
+                input_color: 't-textField--light',
+                hidden:      ''
+            })
+
+            riot.mount('o-footer',
+            {
+                color: 'm-footer--white',
+            })
+        </script>
+        
+    </body>
+</html>

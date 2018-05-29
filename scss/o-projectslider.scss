@@ -1,0 +1,170 @@
+@import 'variables';
+
+.u-projectSlider-wrapper {
+    padding: 0 2em;
+    position: relative;
+    z-index: 0;
+
+    a {
+        outline: 0;
+    }
+    
+    .u-project-wrapper {
+        border-radius: 4px;
+    
+        margin: 2em;
+        transition: margin 0.2s, box-shadow 0.4s;
+
+        box-shadow: 0 0.25em 2.5em 0 $transparent24;
+        cursor: pointer;
+
+        .u-project__cover {
+            height: 50vh;
+
+            background-size: cover !important;
+            border-radius: 4px 4px 0 0;
+        }
+
+        .u-project__cover--dd {
+            background: url(../assets/img/art/01-daydreaming.jpg) center center;
+        }
+
+        .u-project__cover--ds {
+            background: url(../assets/img/art/02-dividedsoul.jpg) center center;
+        }
+
+        .u-project__cover--td {
+            background: url(../assets/img/art/03-drawings.jpg) center center;
+        }
+
+
+        
+
+        .u-project__cover--mdwds {
+            background: url(../assets/img/design/01-mdwds.jpg) center center;
+        }
+    
+        .u-project__cover--tcds {
+            background: url(../assets/img/design/02-tcds.jpg) center center;
+        }
+
+        .u-project__description {
+            padding: 2.5em;
+
+            background: $white;
+            border-radius: 0 0 4px 4px;
+
+            .t-projectTitle__h1 {
+                @extend %t-project__h1;
+                margin-bottom: 1.5em;
+            }
+    
+            .t-projectDescription__p {
+                @extend %t-article__p;
+            }
+
+            .t-projectCount__p {
+                @extend %t-article__p--small;
+                color: $blue;
+                margin-bottom: 0 !important;
+            }
+        }
+    }
+
+    .u-project-wrapper:hover {
+        box-shadow: 0 0.25em 2.5em 0 $transparent40;
+        margin-top: 1.8em;
+        //originally 2em, not 0!
+    }
+    
+    .js-slick__navigation {
+        display: flex;
+    
+        position: absolute;
+        top:  -1.5em;
+        left: 50%;
+        transform: translate(-50%, 0);
+    
+        li {
+            width: 0.5em;
+            height: 0.5em;
+            
+            margin: 0 1em;
+            border-radius: 1em;
+            outline: 0;
+            background: $transparent24;
+            cursor: pointer;
+        }
+    
+        .slick-active {
+            background: $blue;
+            box-shadow: 0 0 1em $blue;
+        }
+        
+    }
+}
+
+@media all and (max-width: 1680px) {
+    .u-projectSlider-wrapper {
+        padding: 1em;
+
+        .u-project-wrapper {
+            margin: 1em;
+        }
+
+        .u-project-wrapper:hover {
+            margin-top: 0.8em;
+        }
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .u-projectSlider-wrapper {
+        padding: 2.5em 0 1em 0;
+
+        .u-project-wrapper {
+            margin: 1em 0.5em;
+        }
+
+        .u-project-wrapper:hover {
+            margin-top: 1em;
+        }
+    }   
+}
+
+@media all and (max-width: 540px) {
+    .u-projectSlider-wrapper {
+        padding: 2.5em 0 0 0;
+    }
+}
+
+
+
+
+
+
+.u-categorySlider-wrapper {
+        position: relative;
+        z-index: 0;
+
+    .u-screenContent-wrapper {
+        width:  100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+
+        .u-category-wrapper {
+            min-height: 100vh;
+        }
+
+        .c-category__art {
+            background: url(../assets/illustration/index/art.svg) center center;
+            background-size: cover;
+        }
+
+        .c-category__design {
+            background: url(../assets/illustration/index/design.svg) center center;
+            background-size: cover;
+        }
+    }
+}

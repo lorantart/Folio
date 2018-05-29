@@ -1,0 +1,46 @@
+@import 'variables';
+
+.u-socialConnect-wrapper {
+    width:      100%;
+    max-width:  800px;
+
+    margin: 4.5em auto 0 auto;
+
+    padding: 0 1.5em;
+
+    text-align: center;
+
+    .c-socialConnect__p {
+        @extend %t-article__h3;
+
+        margin-bottom: 1.5em !important;
+    }
+
+    .u-socialConnect__icon {
+        width:  48px;
+        height: 48px;
+
+        margin-right: 16px;  
+    }
+
+    a:last-of-type {
+        margin-right: -16px;
+    }
+
+    a {
+        transition: opacity 0.2s ease-in-out;
+        opacity: 0.48;
+    }
+
+    a:hover, a:focus {
+        outline: 0;
+        opacity: 1;
+    }
+}
+
+@media all and (max-width: 456px) {
+    .u-socialConnect__icon {
+        width:  40px !important;
+        height: 40px !important;
+    }
+}

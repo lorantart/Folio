@@ -1,0 +1,51 @@
+.u-portraitDisplay-wrapper .c-portraitDisplay__caption .t-portraitDisplay__p {
+  font-size: 0.8em;
+  line-height: 1.5; }
+
+.u-portraitDisplay-wrapper .c-portraitDisplay__caption .t-portraitDisplay__a {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(100%, #00ffdf), to(#00ffdf));
+  background-image: -webkit-linear-gradient(left, #00ffdf 100%, #00ffdf 100%);
+  background-image: -o-linear-gradient(left, #00ffdf 100%, #00ffdf 100%);
+  background-image: linear-gradient(90deg, #00ffdf 100%, #00ffdf 100%);
+  background-repeat: no-repeat;
+  background-size: 110% 0.2em;
+  background-position: 0 90%;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  -o-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out; }
+  .u-portraitDisplay-wrapper .c-portraitDisplay__caption .t-portraitDisplay__a:hover {
+    background-size: 110% 110%; }
+
+.u-portraitDisplay-wrapper {
+  width: 100%;
+  max-width: 800px;
+  padding: 0 1.5em;
+  position: relative;
+  margin-bottom: 4em; }
+  .u-portraitDisplay-wrapper .c-fbShare {
+    position: absolute;
+    top: 1.5em;
+    right: 3em;
+    display: none; }
+  .u-portraitDisplay-wrapper .c-portraitDisplay__img {
+    width: 100%;
+    max-width: 800px;
+    vertical-align: middle; }
+  .u-portraitDisplay-wrapper .c-portraitDisplay__caption {
+    margin-top: 0.75em;
+    padding: 0.5em 1em;
+    border-left: 2px solid #9a9aa2; }
+    .u-portraitDisplay-wrapper .c-portraitDisplay__caption .t-portraitDisplay__p {
+      color: #9a9aa2; }
+
+@media all and (max-width: 800px) {
+  .u-portraitDisplay-wrapper {
+    padding: 0 !important; }
+  .c-fbShare {
+    right: 1.5em !important;
+    display: block; }
+  .c-portraitDisplay__caption {
+    margin-left: 1.5em; } }
+
+.u-portraitDisplay-wrapper:hover .c-fbShare {
+  display: block; }

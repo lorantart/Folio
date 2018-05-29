@@ -1,0 +1,116 @@
+.c-floatingAction .m-floatingAction--icon {
+  width: 24px;
+  height: 24px; }
+
+.c-secondaryButton {
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 300; }
+
+.c-primaryButton {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 300;
+  letter-spacing: 0.56px; }
+
+.c-primaryButton {
+  color: #ffffff;
+  margin: 3em auto 0 auto;
+  padding: 1.5em 2.5em;
+  background: #2979FF;
+  border: 0;
+  border-radius: 100px;
+  outline: 0;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.2s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out; }
+
+.c-primaryButton:hover {
+  background: #448AFF;
+  -webkit-box-shadow: 0 2px 24px 0 #2979FF;
+  box-shadow: 0 2px 24px 0 #2979FF; }
+
+.c-primaryButton:active {
+  background: #0D47A1;
+  -webkit-box-shadow: 0 2px 80px 0 #2979FF;
+  box-shadow: 0 2px 80px 0 #2979FF; }
+
+.c-primaryButton:focus {
+  -webkit-box-shadow: 0 0 8px 2px #2979FF;
+  box-shadow: 0 0 8px 2px #2979FF;
+  background: #0D47A1; }
+
+.c-secondaryButton {
+  color: #ffffff;
+  margin: 0;
+  padding: 1.2em 2em;
+  border: solid 1px #ffffff;
+  border-radius: 100px;
+  outline: 0;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out; }
+
+.c-secondaryButton:hover, .c-secondaryButton:focus {
+  color: #595b6f;
+  background: #ffffff;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4); }
+
+.c-secondaryButton:active {
+  background: #c3ccd6; }
+
+.c-floatingAction {
+  width: 3.5em;
+  height: 3.5em;
+  position: fixed;
+  bottom: 3em;
+  left: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  z-index: 2; }
+
+.c-floatingAction:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4); }
+
+.m-floatingAction--white {
+  background: #ffffff; }
+
+.m-floatingAction--white:active {
+  background: #fafaff; }
+
+.m-floatingAction--blue {
+  background: #ffffff; }
+
+.m-floatingAction--blue:active {
+  background: #0D47A1; }
+
+.m-floatingAction--navy {
+  background: #3f51b5; }
+
+.m-floatingAction--navy:active {
+  background: #3f51b5; }
+
+.m-floatingAction--purple {
+  background: #743fb5; }
+
+.m-floatingAction--purple:active {
+  background: #6a37b9; }

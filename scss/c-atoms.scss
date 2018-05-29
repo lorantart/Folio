@@ -1,0 +1,390 @@
+@import 'variables';
+
+// Primary button
+// apply to <a> tag
+
+.c-primaryButton {
+    @extend %t-primaryButton__a;
+    color: $white;
+
+    margin: 3em auto 0 auto;
+    padding: 1.5em 2.5em;
+
+    background: $blue;
+    border: 0;
+    border-radius: 100px;
+
+    outline: 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+}
+
+.c-primaryButton:hover {
+    background: $blue-asc;
+    box-shadow: 0 2px 24px 0 $blue;
+}
+
+.c-primaryButton:focus {
+    box-shadow: 0 2px 40px 0 $blue;
+}
+
+
+
+// RIPPLE EFFECT: include js and add data-ripple to tag
+.ripple{
+    position: absolute;
+    top:0; left:0; bottom:0; right:0;
+    overflow: hidden;
+    -webkit-transform: translateZ(0); /* to contain zoomed ripple */
+    transform: translateZ(0);
+    border-radius: inherit; /* inherit from parent (rounded buttons etc) */
+    pointer-events: none;   /* allow user interaction */
+    animation: ripple-shadow 0.4s forwards;
+}
+
+.rippleWave{
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0.7); -webkit-transform: scale(0.7);
+    background: rgba(255,255,255, 1);
+    opacity: 0.24;
+    animation: ripple 2s forwards;
+}
+
+@keyframes ripple-shadow {
+    0%   {box-shadow: 0 0 0 rgba(0,0,0,0.0);}
+    20%  {box-shadow: 0 4px 16px rgba(0,0,0,0.04);}
+    100% {box-shadow: 0 0 0 rgba(0,0,0,0.0);}
+}
+
+@keyframes ripple {
+    to {transform: scale(24); opacity:0;}
+}
+
+
+
+
+
+
+// Secondary button
+// apply to <a> tag
+
+.c-secondaryButton {
+    @extend %t-secondaryButton__a;
+    color: $white;
+
+    margin: 0;
+    padding: 1.2em 2em;
+
+    border: solid 1px $white;
+    border-radius: 100px;
+
+    outline: 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.c-secondaryButton:hover, .c-secondaryButton:focus {
+    color: $grey400;
+
+    background: $white;
+    box-shadow: 0 2px 8px $transparent40;
+}
+
+.c-secondaryButton:active {
+    background: $grey600;
+}
+
+
+
+// floatingAction
+
+.c-floatingAction {
+    width:  3.5em;
+    height: 3.5em;
+
+    position: fixed;
+    bottom:   3em;
+    left:     3em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 100%;
+    box-shadow: 0 2px 8px 0 $transparent40;
+
+    transition: box-shadow 0.2s ease-in-out;
+
+    z-index: 2;
+
+    .m-floatingAction--icon {
+        @extend %icon-m;
+        opacity: 0.56;
+        transition: opacity 0.2s ease-in-out;
+    } 
+}
+
+.c-floatingAction:hover {
+    box-shadow: 0 4px 16px 0 $transparent40;
+}
+
+.c-floatingAction:hover .m-floatingAction--icon {
+    opacity: 1;
+}
+
+
+.m-floatingAction--white {
+    background: $white;
+}
+
+.m-floatingAction--white:active {
+    background: $white-desc;
+}
+
+.m-floatingAction--blue {
+    background: $white;
+}
+
+.m-floatingAction--blue:active {
+    background: $blue-desc;
+}
+
+.m-floatingAction--navy {
+    background: $navy;
+}
+
+.m-floatingAction--navy:active {
+    background: $navy;
+}
+
+.m-floatingAction--purple {
+    background: $purple;
+}
+
+.m-floatingAction--purple:active {
+    background: $purple-asc;
+}
+
+
+
+// dropdown
+.u-dropdown-wrapper {
+    min-height: 160px;
+
+    display: flex;
+
+    .c-dropdown {
+        position: relative;
+        vertical-align: middle;
+
+        border-left: 1px solid $white;
+
+        select {
+            height: 100%;
+            background: $grey700;
+            padding: 1.5em;
+            outline: 0;
+            border: 0;
+            border-radius: 0 2px 2px 0;
+
+            appearance: none;
+
+            font-family: $primary-font;
+            @extend %t-article__p;
+            margin: 0;
+
+            cursor: pointer;
+
+            transition: background-color 0.24s ease-in-out;
+        }
+
+        select:hover {
+            background: $grey650;
+        }
+    }
+    
+    .c-dropdown::before,
+    .c-dropdown::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    }
+}
+
+
+// modifier
+.c-modifier-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .c-modifier {
+        height: 50%;
+        padding: 0 1.5em;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background: $grey700;
+        border-right: 1px solid $white;
+
+        cursor: pointer;
+
+        transition: background-color 0.24s ease-in-out;
+    }
+
+    .c-modifier:hover {
+        background: $grey650;
+    }
+    
+    .m-modifier--top {
+        border-bottom: 1px solid $white;
+        border-top-left-radius: 2px;
+    }
+
+    .m-modifier--bottom {
+        border-bottom-left-radius: 2px;
+    }
+}
+
+
+// textfield
+.u-textField-wrapper {
+    position: relative;
+    margin-top: 3.5em;
+    
+    .c-textField {
+        width: 100%;
+        padding: 10px 0;
+
+        display: block;
+
+        font-family: $primary-font;
+        font-size: 1em;
+        background: $transparent;
+
+        border: none;
+        border-bottom: 1px solid $grey600;
+    }
+
+    .t-textField--light {
+        color: $grey200;
+    }
+
+    .t-textField--dark {
+        color: $white;
+    }
+      
+    input:focus {
+        outline: none;
+    }
+
+    .c-textField__label {
+        font-family: $primary-font;
+        color: $grey500;
+        font-size: 1em;
+        font-weight: 500;
+
+        position: absolute;
+        left: 0;
+        top:  12px;
+
+        pointer-events: none;
+        transition: 0.2s ease all;
+    }
+      
+    input:focus ~ label, input:valid ~ label {
+        top: -20px;
+        font-size: 0.9em;
+        color: $blue;
+    }
+
+    .u-labelPositioner__js {
+        top: -20px;
+        font-size: 0.9em;
+        color: $blue;
+    }
+
+    .c-textField__bar {
+        width: 100%;
+
+        display: block;
+        position: relative;
+
+        z-index: 1;
+    }
+      
+    .c-textField__bar:before, .c-textField__bar:after 	{
+        content: '';
+        height: 2px;
+        width:  0;
+
+        position: absolute;
+        bottom:   0;
+        
+        background: $blue;
+
+        transition: 0.2s ease all;
+    }
+      
+    .c-textField__bar:before {
+        left: 50%;
+    }
+      
+    .c-textField__bar:after {
+        right: 50%;
+    }
+      
+    input:focus ~ .c-textField__bar:before, input:focus ~ .c-textField__bar:after {
+        width: 50%;
+    }
+
+    .error {
+        margin-top: 4px;
+
+        font-size: 0.9em;
+        color:     $red;
+    }
+      
+    .active {
+        display: flex;
+    
+        animation: fadeIn 0.4s;
+    }
+      
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+}
+
+
+
+  // input
+.c-input {
+    appearance: none;
+
+    font-family: $primary-font;
+    font-size: 16px;
+
+    background: $grey700;
+    padding: 1.5em;
+
+    text-align: center;
+    border:  0;
+    outline: 0;
+    margin:  0;
+
+    transition: background-color 0.24s ease-in-out;
+}
+
+.c-input:hover {
+    background: $grey650;
+}
+
+.m-input--wide {
+    width: 100%;
+}

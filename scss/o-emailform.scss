@@ -1,0 +1,93 @@
+@import 'variables';
+
+.u-emailForm-wrapper {
+    width: 100%;
+
+    padding: 5em 0 5em 0;
+    margin-bottom: 4em;
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    .c-welcomeModule {
+        @extend %t-article__h2;
+        display: none;
+
+        margin: 0 auto;
+    }
+
+    .o-emailForm {
+        max-width:  800px;
+        width:      100%;
+
+        margin: 0 auto;
+        padding: 0 1.5em;
+
+        .u-emailForm__header-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            
+            .c-emailForm__hide {
+                display: flex;
+            }
+        }
+
+        .t-emailForm__h2 {
+            @extend %t-article__h2;
+            margin-bottom: 0.875em;
+        }
+
+        .t-emailForm__p {
+            @extend %t-article__p--medium;
+            color: $grey500;
+        }
+        
+        .u-submit-wrapper {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .c-emailForm__footer {
+        display: flex;
+        justify-content: flex-end;
+
+        margin-right: 2em;
+
+        .t-emailForm__a {
+            @extend %t-article__p--small;
+            font-weight: 600;
+            color: $grey550;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .t-emailForm__a:hover {
+            color: $grey500;
+            text-decoration: underline;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .c-emailForm__footer {
+            justify-content: center;
+            margin: 3em 0 -1.5em 0;
+        }
+    }
+}
+
+.m-emailForm--white {
+    background: $grey700;
+}
+
+.m-emailForm--midtone {
+    background: $midtone-asc;
+}
+
+.m-emailForm--black {
+    background: $black-asc;
+}

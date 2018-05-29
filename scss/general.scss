@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'typography';
+
+.c-pageError {
+    max-width: 1200px;
+
+    display: block;
+
+    margin: 0 auto;
+}
+
+.t-pageError__h1 {
+    @extend %t-article__h1;
+
+    margin-bottom: 1.5em !important;
+    text-align: center;
+}
+
+.t-pageError__p {
+    @extend %t-article__h3;
+    color: $grey500;
+
+    margin: 1em 0 0.875em 0 !important;
+    text-align: center;
+}

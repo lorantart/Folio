@@ -1,0 +1,168 @@
+.u-cover__wrapper {
+    min-height: 100vh;
+    width: 100%;
+
+    margin-bottom: 6em;
+
+    .js-coverAnimation {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+
+        .u-cover__layer {
+            height: 100vh;
+            width: 100%;
+    
+            position: absolute;
+            top:  0;
+            left: 0;
+
+            background-size: cover !important;
+        }
+
+        .u-cover__background--mdwds {
+            background: url(../assets/img/design/modular-design-with-design-systems/cover/illustration.jpg) center center;
+            z-index: -1;
+        }
+
+        .u-cover__foreground--mdwds {
+            background: url(../assets/img/design/modular-design-with-design-systems/cover/illustration-foreground.png) center center;
+            z-index: 0;
+        }
+
+        .u-cover__mask--mdwds {
+            background: url(../assets/img/design/modular-design-with-design-systems/cover/illustration-mask.png) center center;
+            z-index: 1;
+        }
+
+
+
+        .u-cover__background--tcds {
+            background: url(../assets/img/design/the-chameleon-design-system/cover/illustration.jpg) center center;
+            z-index: -1;
+        }
+    }
+
+    .t-cover__h1 {
+        @extend %t-cover__h1;
+        color: $white;
+
+        margin: 1.5rem 0 3rem 7.5rem;
+        
+    }
+
+    .c-cover__table-of-content {
+        max-width: 38em;
+        position: relative;
+        z-index: 1;
+
+        .u-table-of-content-wrapper {
+            width: 100%;
+            margin-left: 7.5em;
+            background: $white;
+
+            box-shadow: 0 0.25em 2.5em 0 $transparent40;
+
+            position: relative;
+            z-index:  2;
+
+            .c-table-of-content__item {
+                display: flex;
+                align-items: center;
+
+                padding: 1.75em 2.5em;
+
+                border-bottom: solid 1px $grey600;
+                cursor: pointer;
+
+                box-shadow: 0;
+
+                transition: box-shadow 0.2s ease-in-out;
+
+                .u-cover__listNumber-wrapper {
+                    position: relative;
+                    margin-right: 2em;
+
+                    .t-cover__listNumber {
+                        @extend %t-strokedEffect;
+                        font-size: 3em;
+                        -webkit-text-stroke-color: $blue;
+                    }
+
+                    .t-cover__listNumber--under {
+                        position: absolute;
+                        top:  0;
+                        left: 4px;
+                        z-index: -1;
+
+                        @extend %t-strokedEffect;
+                        font-size: 3em;
+                        -webkit-text-stroke-color: $neon;
+                    }
+                }
+
+                p {
+                    @extend %t-article__h3;
+                    margin: 0;
+                }
+            }
+
+            .c-table-of-content__item:hover {
+                box-shadow: 0 0 1.5em 0 $transparent40;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 920px) {
+    .u-cover__wrapper {
+        min-height: 50vh;
+        margin-bottom: 3em;
+
+        .js-coverAnimation {
+
+            .u-cover__layer { 
+                height: 50vh;
+            }
+        }
+
+        .t-cover__h1 {
+            text-align: center;
+            font-size: 3em;
+            margin: 1.5rem 0 3rem 0;
+        }
+
+        .c-cover__table-of-content {
+            margin: 0 auto !important;
+
+            .u-table-of-content-wrapper {
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 456px) {
+    .u-cover__wrapper {
+        min-height: 35vh;
+
+        .js-coverAnimation {
+
+            .u-cover__layer { 
+                height: 35vh;
+            }
+        }
+
+        .t-cover__h1 {
+            font-size: 2.25em;
+            margin: 1.5rem 0 3rem 0;
+        }
+
+        .c-cover__table-of-content {
+
+            ol {
+                width: 100% !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+@import 'variables';
+
+.o-cookieBar {
+    width:  100%;
+    height: 40px;
+
+    display:         none;
+    align-items:     center;
+    justify-content: space-between;
+
+    padding: 0 2rem;
+
+    color:     $white;
+    font-size: 0.8em;
+
+    background: $blue;
+
+    position: relative;
+    z-index:  3;
+
+    .u-cookieExplain-wrapper {
+        display: flex;
+    }
+
+    a {
+        color: $white;
+        text-decoration: underline;
+
+        cursor: pointer;
+    }
+
+    .t-cookieAccept__a {
+        background: $white;
+        padding: 0.25em 0.875em;
+        color: $blue;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+
+    .t-cookieAccept__a:hover {
+        color: $blue-asc;
+    }
+}
+
+@media all and (max-width: 456px) {
+    .o-cookieBar {
+        padding: 0 1.5rem;
+    }
+}

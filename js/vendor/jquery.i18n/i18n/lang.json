@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alice",
+			"David",
+			"Santhosh"
+		],
+		"last-updated": "2012-09-21",
+		"locale": "en"
+	},
+	"en": {
+		"appname-title": "Example Application",
+		"appname-sub-title": "An example application with jquery.i18n",
+		"appname-header-introduction": "Introduction",
+		"appname-about": "About this application",
+		"appname-footer": "Footer text"
+		},
+	"hu": {
+		"appname-title": "അപ്ലിക്കേഷന്‍ ഉദാഹരണം",
+		"appname-sub-title": "jquery.i18n ഉപയോഗിച്ചുള്ള അപ്ലിക്കേഷന്‍ ഉദാഹരണം",
+		"appname-header-introduction": "ആമുഖം",
+		"appname-about": "ഈ അപ്ലിക്കേഷനെപ്പറ്റി",
+		"appname-footer": "അടിക്കുറിപ്പു്"
+	}
+}

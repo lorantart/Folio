@@ -1,0 +1,272 @@
+//sticky footer: https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+@import 'variables';
+@import 'typography';
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh; 
+}
+
+.u-overFlowX-wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    justify-content: center;
+    flex: 1;
+
+    position: relative;
+    z-index: 1;
+
+    .js-fadingBlock {
+        will-change: transform;
+        transition: transform 1s ease-in-out, filter 1s ease-in-out;
+    }
+
+    .c-pageTitle {
+        .t-pageTitle__h1 {
+            @extend %t-article__h1;
+    
+            margin: 2rem 0;
+            text-align: center;
+    
+            z-index: 2;
+            position: relative;
+        }
+    }
+
+    section {
+        margin: 0 auto;
+
+        .t-aboutProject__a {
+            @extend %t-article__h3;
+
+            color: $blue;
+            cursor: pointer;
+        }
+
+        .t-aboutProject__a:hover {
+            color: $blue-asc;
+        }
+    }
+
+    //text introduction to articles
+    // apply to section
+    .o-article {
+        max-width: 800px;
+        padding: 4em 1.5em;
+
+        margin: 0 auto;
+
+        .t-article__h1 {
+            @extend %t-article__h1;
+        }
+
+        .t-article__h2 {
+            @extend %t-article__h2;
+        }
+
+        .t-article__p {
+            @extend %t-article__p;
+        }
+
+        p:last-of-type {
+            margin-bottom: 0 !important;
+        }
+
+        a {
+            text-decoration: none;
+            color: $grey400;
+        }
+
+        a:active {
+            color: $white;
+        }
+
+        .t-article__a {
+            @extend %t-article__a;
+        }
+    }
+
+
+    //text introduction to artworks
+    // apply to section
+    
+
+
+    //chapter design for articles
+    //apply to section
+    .o-article--chapter {
+        max-width: 800px;
+        padding: 4em 1.5em;
+
+        margin: 0 auto;
+
+        position: relative;
+        z-index: 1;
+
+        .t-chapter__prologueTitle {
+            @extend %t-article__h2;
+        }
+
+        .u-chapter__chapterTitle-wrapper {
+            display: flex;
+            align-items: center;
+
+            margin-bottom: 2.5em;
+
+            .u-chapter__chapterNumber-wrapper {
+                position: relative;
+                margin-right: 2em;
+
+                .t-chapter__chapterNumber {
+                    @extend %t-strokedEffect;
+                    -webkit-text-stroke-color: $blue;
+
+                    font-size: 4em;
+                }
+
+                .t-chapter__chapterNumber--under {
+                    position: absolute;
+                    top:  0;
+                    left: 4px;
+                    z-index: -1;
+
+                    @extend %t-strokedEffect;
+                    -webkit-text-stroke-color: $neon;
+
+                    font-size: 4em;
+                }
+            }
+
+            .t-chapter__title {
+                @extend %t-chapter__h2;
+            }
+        }
+
+        .u-chapter__chapterSubtitle-wrapper {
+            display: flex;
+            align-items: center;
+
+            margin: 6em 0 2.5em 0;
+
+            .u-chapter__chapterBox-wrapper {
+                position: relative;
+                margin-right: 2em;
+
+                .t-chapter__chapterBox {
+                    width:  2em;
+                    height: 2em;
+                    border: 1px solid $blue;
+                }
+
+                .t-chapter__chapterBox--under {
+                    width:  2em;
+                    height: 2em;
+
+                    position: absolute;
+                    top: -4px;
+                    left: 4px;
+                    z-index: -1;
+
+                    border: 1px solid $neon;
+                }
+            }
+
+            .t-chapter__subtitle {
+                @extend %t-chapter__h3;
+            }
+        }
+
+        .t-chapter__p {
+            @extend %t-article__p;
+        }
+
+        .u-highlight-wrapper {
+            margin: 3em 0;
+            text-align: center;
+
+            mark {
+                @extend %t-article__h2;
+                @extend %t-highlight;
+            }
+
+            p {
+                margin-top: 2em;
+            }
+        }
+
+        p:last-of-type {
+            margin-bottom: 0 !important;
+        }
+
+        a {
+            text-decoration: none;
+            color: $grey400;
+        }
+
+        a:active {
+            color: $white;
+        }
+
+        .t-article__a {
+            @extend %t-article__a;
+        }
+    }
+
+
+    //image gallery wrapper for artworks
+    //apply to section
+    .o-artGallery {
+        display:        flex;
+        flex-direction: column;
+        align-items:    center;
+
+        figure {
+            padding: 0 1.5em;
+        }
+
+        figcaption {
+            padding: 0 1.5em;
+        }
+    }
+
+    
+}
+
+.u-article--sliding-wrapper {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    right: -100vw;
+    z-index: 1;
+
+    padding: 0 2em;
+
+    transition: transform 1s ease-in-out;
+
+    .o-article--sliding {
+        max-width: 800px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .t-article--sliding__a {
+            @extend %t-article__a;
+        }
+    
+        .t-article--sliding__p {
+            @extend %t-article__h3;
+        }
+    }
+}

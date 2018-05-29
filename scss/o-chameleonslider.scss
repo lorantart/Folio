@@ -1,0 +1,306 @@
+@import 'variables';
+
+.u-chameleonSlider-wrapper {
+    padding: 0 2em;
+    position: relative;
+    z-index: 0;
+
+    margin-top: 160px;
+
+    a {
+        outline: 0;
+    }
+
+    .u-chameleon__header-mask {
+        width:  1400px;
+        height: 1400px;
+
+        position: absolute;
+        top: 300px;
+        transform: rotate(-45deg) translateX(104%);
+        background: linear-gradient(-90deg, rgba(255,255,255,0) 0%, $purple 100%);
+
+        border-radius: 24px;
+
+        z-index: -1;
+    }
+
+    .u-chameleon__header-wrapper {
+        width: 100%;
+        background: $w-transparent96;
+        height: 1600px;
+        position: absolute;
+        top: -1600px;
+        
+        z-index: 0;
+    }
+
+    .u-chameleon-wrapper {
+        border-radius: 4px;
+        margin: 2em 12em;
+        box-shadow: 0 1em 4em 0 $blue-desc08;
+        outline: 0;
+
+        .u-chameleon__content {
+            padding: 4em;
+
+            background: $w-transparent96;
+            border-radius: 4px;
+
+            user-select: text;
+
+            .t-slickModule__h1 {
+                @extend %t-slickModule__h1;
+                margin-bottom: 3.5rem;
+            }
+
+            .t-slickModule__h2 {
+                @extend %t-slickModule__h2;
+                margin-bottom: 1em;
+            }
+
+            .m-lighter {
+                color: $grey600;
+                margin-right: 1em;
+            }
+    
+            .t-chameleonDescription__p {
+                @extend %t-article__p;
+                margin-bottom: 2.5em;
+            }
+
+            .c-styles__color-wrapper {
+                display:   flex;
+                flex-wrap: wrap;
+
+                margin-bottom: 2.5em;
+
+                .c-styles__swatches-wrapper {
+                    margin: 0 2em 2em 0;
+
+                    .c-styles__swatch {
+                        width:  144px;
+
+                        padding: 0.875em 1.5em;
+
+                        display:         flex;
+                        align-items:     center;
+
+                        .t-swatch__p {
+                            @extend %t-article__p--small;
+                            font-weight: 300;
+
+                            color: $white;
+                        }
+                    }
+
+                    .m-swatch--color-purple {
+                        background: $purple;
+                    }
+
+                    .m-swatch--color-purple-asc {
+                        background: $purple-asc;
+                    }
+
+                    .m-swatch--color-navy {
+                        background: $navy;
+                    }
+
+                    .m-swatch--color-navy-asc {
+                        background: $navy-asc;
+                    }
+
+                    .m-swatch--color-neon {
+                        background: $neon;
+                    }
+
+                    .m-swatch--color-blue {
+                        background: $blue;
+                    }
+
+                    .m-swatch--color-blue-asc {
+                        background: $blue-asc;
+                    }
+
+                    .m-swatch--color-blue-desc {
+                        background: $blue-desc;
+                    }
+
+                    .m-swatch--color-white {
+                        background: $white;
+                    }
+
+                    .m-swatch--color-white-desc {
+                        background: $white-desc;
+                    }
+
+                    .m-swatch--color-midtone-asc {
+                        background: $midtone-asc;
+                    }
+
+                    .m-swatch--color-midtone {
+                        background: $midtone;
+                    }
+
+                    .m-swatch--color-midtone-asc {
+                        background: $midtone-asc;
+                    }
+
+                    .m-swatch--color-black {
+                        background: $black;
+                    }
+
+                    .m-swatch--color-black-asc {
+                        background: $black-asc;
+                    }
+
+                    .m-swatch--color-grey100 {
+                        background: $grey100;
+                    }
+
+                    .m-swatch--color-grey200 {
+                        background: $grey200;
+                    }
+
+                    .m-swatch--color-grey300 {
+                        background: $grey300;
+                    }
+
+                    .m-swatch--color-grey400 {
+                        background: $grey400;
+                    }
+
+                    .m-swatch--color-grey500 {
+                        background: $grey500;
+                    }
+
+                    .m-swatch--color-grey600 {
+                        background: $grey600;
+                    }
+
+                    .m-swatch--color-grey700 {
+                        background: $grey700;
+                    }
+                }
+            }
+
+            p:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+    .js-chameleon__navigation {
+        display: flex;
+    
+        position: absolute;
+        top:  -5em;
+        left: 50%;
+        transform: translate(-50%, 0);
+    
+        li {
+            width: 0.4em;
+            height: 0.4em;
+
+            font-size: 1.125em;
+            font-weight: 300;
+            
+            margin: 0 4em;
+            border-radius: 1em;
+            outline: 0;
+            background: $transparent;
+            cursor: pointer;
+        }
+
+        li:before {
+            position: absolute;
+            top: -4em;
+            transform: translateX(calc(-50% + 0.2em));
+        }
+
+        li:nth-child(1):before {
+            content: 'Principles';
+        }
+
+        li:nth-child(2):before {
+            content: 'Styles';
+        }
+
+        li:nth-child(3):before {
+            content: 'Atoms';
+        }
+
+        li:nth-child(4):before {
+            content: 'Molecules';
+        }
+
+        li:nth-child(5):before {
+            content: 'Organisms';
+        }
+
+        li:nth-child(6):before {
+            content: 'Templates';
+        }
+
+        li:nth-child(6):before {
+            content: 'Pages';
+        }
+
+        li:hover {
+            font-weight: 400;
+        }
+    
+        .slick-active {
+            background: $blue;
+            box-shadow: 0 0 1em $blue;
+            font-weight: 600;
+        }
+        
+    }
+}
+
+@media all and (max-width: 1680px) {
+    .u-chameleonSlider-wrapper {
+        padding: 1em;
+
+        .u-chameleon-wrapper {
+            margin: 1em;
+        }
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .u-chameleonSlider-wrapper {
+        padding: 2.5em 1em 1em 1em;
+    }   
+}
+
+@media all and (max-width: 540px) {
+    .u-chameleonSlider-wrapper {
+        padding: 2.5em 0 0 0;
+    }
+}
+
+
+
+/* nem működik */
+
+@media all and (max-width: 1024px) {
+    .u-chameleon__wrapper {
+        margin: 1em 2em;
+
+        .u-chameleon__content {
+            padding: 2em;
+        }
+    }
+}
+
+@media all and (max-width: 540px) {
+    .u-chameleon__wrapper {
+        margin: 1em 0;
+
+        .u-chameleon__content {
+            padding: 1em;
+        }
+    }   
+}

@@ -1,0 +1,148 @@
+%divider-vertical {
+    width: 1px !important;
+}
+
+%divider-horizontal {
+    height: 1px !important;
+}
+
+%icon-s {
+    width:  16px;
+    height: 16px;
+}
+
+%icon-m {
+    width:  24px;
+    height: 24px;
+}
+
+%icon-l {
+    width:  32px;
+    height: 32px;
+}
+
+%t-cover__h1 {
+    font-size: 4em;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+%t-strokedEffect {
+    color: $white;
+
+    font-weight: 700;
+    line-height: 1.5;
+    color:       $blue;
+
+    -webkit-text-fill-color:   $transparent;
+    -webkit-text-stroke-width: 0.8px;
+}
+
+%t-slickModule__h1 {
+    font-size: 3em;
+    line-height: 1;
+    font-weight: 700;
+}
+
+%t-slickModule__h2 {
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: 600;
+
+    text-transform: uppercase;
+}
+
+%t-article__h1 {
+    font-size: 2.5em;
+    line-height: 1.5;
+    font-weight: 300;
+
+    margin-bottom: 0.5em;
+}
+
+%t-article__h2 {
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 300;
+
+    margin-bottom: 1.5em;
+}
+
+%t-article__h3 {
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: 300;
+
+    margin-bottom: 1.5em;
+}
+
+%t-article__p {
+    font-size: 1.125em;
+    line-height: 2;
+
+    margin-bottom: 1.5em;
+}
+
+%t-article__p--medium {
+    font-size: 1em;
+    line-height: 2;
+}
+
+%t-article__p--small {
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+%t-article__a {
+    background-image:    linear-gradient(90deg, $neon 100%, $neon 100%);
+    background-repeat:   no-repeat;
+    background-size:     110% 0.2em;
+    background-position: 0 90%;
+    transition: background-size 0.2s ease-in-out;
+    
+    &:hover {
+        background-size: 110% 110%;
+    }
+}
+
+%t-chapter__h2 {
+    font-size: 2em;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+}
+
+%t-project__h1 {
+    font-size: 1.25em;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
+%t-chapter__h3 {
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+%t-highlight {
+    background: $neon;
+    font-style: italic;
+}
+
+%t-secondaryButton__a {
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+%t-primaryButton__a {
+    font-family: $primary-font;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: 0.56px;
+}
+
