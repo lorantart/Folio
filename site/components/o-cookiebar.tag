@@ -16,6 +16,8 @@
             {
                 $(".o-cookieBar").slideDown().css('display', 'flex');
                 $(".u-cookieExplain-wrapper, .u-hide__cookieBar").fadeIn();
+                //hozzá kell adni a cookiebar magasságát a popoverhez eltartásnak
+                
             }
         }
 
@@ -25,7 +27,7 @@
                 $(".o-cookieBar").slideUp();
                 $(".u-cookieExplain-wrapper, .u-hide__cookieBar").fadeOut();
                 //le kell venni kattintásra a felső margin-t
-                $(".c-header__popover").css("margin-top", "0");
+                
             })
         });
 

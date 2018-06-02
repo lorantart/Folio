@@ -1,18 +1,27 @@
 @import 'variables';
 @import 'typography';
 
-.c-pageError {
-    max-width: 1200px;
+.c-pageError__illustration {
+    width:     100%;
+    max-width: 960px;
 
     display: block;
 
+    padding: 0 1.5em;
     margin: 0 auto;
+}
+
+@media all and (max-width: 560px) {
+    .c-pageError__illustration {
+        width: 120%;
+        transform: translateX(-10%);
+    }
 }
 
 .t-pageError__h1 {
     @extend %t-article__h1;
 
-    margin-bottom: 1.5em !important;
+    margin: 0 1em 1.5em 1em !important;
     text-align: center;
 }
 

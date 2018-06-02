@@ -27,7 +27,10 @@ footer, header, hgroup, menu, nav, section {
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility; }
 
 body {
   line-height: 1.5; }
@@ -1343,13 +1346,22 @@ main .o-article--chapter .u-highlight-wrapper mark {
   font-weight: 300;
   letter-spacing: 0.56px; }
 
-.c-pageError {
-  max-width: 1200px;
+.c-pageError__illustration {
+  width: 100%;
+  max-width: 960px;
   display: block;
+  padding: 0 1.5em;
   margin: 0 auto; }
 
+@media all and (max-width: 560px) {
+  .c-pageError__illustration {
+    width: 120%;
+    -webkit-transform: translateX(-10%);
+    -ms-transform: translateX(-10%);
+    transform: translateX(-10%); } }
+
 .t-pageError__h1 {
-  margin-bottom: 1.5em !important;
+  margin: 0 1em 1.5em 1em !important;
   text-align: center; }
 
 .t-pageError__p {
@@ -2199,11 +2211,11 @@ progress[value]::-webkit-progress-bar {
         align-self: center;
         color: #8a8a9b; }
       .u-sectionNavigator-wrapper ol li a:hover {
-        font-weight: 600;
+        color: #595b6f;
         cursor: pointer; }
-    .u-sectionNavigator-wrapper ol .active {
+    .u-sectionNavigator-wrapper ol .active a {
       font-weight: 600;
-      color: #595b6f !important; }
+      color: #2979FF !important; }
 
 @media all and (max-width: 1600px) {
   .u-chapter-wrapper {

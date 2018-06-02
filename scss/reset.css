@@ -26,6 +26,9 @@ footer, header, hgroup, menu, nav, section {
 }
 * {
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 body {
 	line-height: 1.5;

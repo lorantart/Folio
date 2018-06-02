@@ -31,15 +31,17 @@
             }
 
             a:hover {
-                font-weight: 600;
+                color: $grey400;
     
                 cursor: pointer;
             }
         }
         
         .active {
-            font-weight: 600;
-            color: $grey400 !important;
+            a {
+                font-weight: 600;
+                color: $blue !important;
+        }
         }
     }
 }
