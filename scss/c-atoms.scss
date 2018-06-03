@@ -170,86 +170,6 @@
 
 
 
-// dropdown
-.u-dropdown-wrapper {
-    min-height: 160px;
-
-    display: flex;
-
-    .c-dropdown {
-        position: relative;
-        vertical-align: middle;
-
-        border-left: 1px solid $white;
-
-        select {
-            height: 100%;
-            background: $grey700;
-            padding: 1.5em;
-            outline: 0;
-            border: 0;
-            border-radius: 0 2px 2px 0;
-
-            appearance: none;
-
-            font-family: $primary-font;
-            @extend %t-article__p;
-            margin: 0;
-
-            cursor: pointer;
-
-            transition: background-color 0.24s ease-in-out;
-        }
-
-        select:hover {
-            background: $grey650;
-        }
-    }
-    
-    .c-dropdown::before,
-    .c-dropdown::after {
-    content: "";
-    position: absolute;
-    pointer-events: none;
-    }
-}
-
-
-// modifier
-.c-modifier-wrapper {
-    display: flex;
-    flex-direction: column;
-
-    .c-modifier {
-        height: 50%;
-        padding: 0 1.5em;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        background: $grey700;
-        border-right: 1px solid $white;
-
-        cursor: pointer;
-
-        transition: background-color 0.24s ease-in-out;
-    }
-
-    .c-modifier:hover {
-        background: $grey650;
-    }
-    
-    .m-modifier--top {
-        border-bottom: 1px solid $white;
-        border-top-left-radius: 2px;
-    }
-
-    .m-modifier--bottom {
-        border-bottom-left-radius: 2px;
-    }
-}
-
 
 // textfield
 .u-textField-wrapper {
@@ -363,28 +283,101 @@
 
 
 
-  // input
-.c-input {
-    appearance: none;
+// tcds - colorswatches
+.u-colorSwatches-wrapper {
+    display: flex;
+    align-items: center;
 
-    font-family: $primary-font;
-    font-size: 16px;
+    margin-top: 4em;
 
+    .t-colorSwatches__p {
+        @extend %t-article__p--small;
+
+        color: $grey100;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .c-colorSwatches {
+        width:  2.5em;
+        height: 2.5em;
+
+        margin-left: 1em;
+
+        box-shadow: 0 2px 8px 0 $transparent24;
+        transition: all 0.2s ease-in-out;
+
+        cursor: pointer;
+    }
+
+    .c-colorSwatches:hover {
+        box-shadow: 0 2px 16px 0 $transparent40;
+    }
+
+    .active {
+        box-shadow: 0 0 2px 2px $blue48 !important;
+    }
+}
+
+.m-bg--light {
+    background: $white-desc;
+    border: 1px solid $grey700;
+}
+
+.m-bg--midtone {
+    background: $midtone-asc;
+}
+
+.m-bg--dark {
+    background: $black-asc;
+}
+
+
+
+
+// Download btn
+.c-btn__downloadFile-wrapper {
+    width: fit-content;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 100px;
+
+    padding: 0.875em 2em;
+    margin: 2.5em auto 0 auto;
+
+    box-shadow: 0 2px 24px 0 $transparent16;
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    .u-text-wrapper {
+        margin-left: 1.5em;
+
+        .c-btn__downloadFile__h1 {
+            @extend %t-article__p--small;
+
+            color: $grey100;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .c-btn__downloadFile__p {
+            @extend %t-article__p--small;
+
+            color: $grey500;
+            font-weight: 600;
+        }
+    }
+}
+
+.c-btn__downloadFile-wrapper:hover {
     background: $grey700;
-    padding: 1.5em;
-
-    text-align: center;
-    border:  0;
-    outline: 0;
-    margin:  0;
-
-    transition: background-color 0.24s ease-in-out;
+    box-shadow: 0 2px 24px 0 $transparent24;
 }
 
-.c-input:hover {
-    background: $grey650;
-}
-
-.m-input--wide {
-    width: 100%;
+.c-btn__downloadFile-wrapper:active {
+    background: $grey600;
+    box-shadow: 0 2px 16px 0 $transparent24;
 }

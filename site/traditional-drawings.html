@@ -29,16 +29,17 @@
         <link rel="stylesheet"            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
         <link rel="stylesheet"            href="../css/main.css" type="text/css">
 
-        <script type="text/javascript"    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type="text/javascript"    src="../js/riot+compiler.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../js/vendor/riot/riot+compiler.min.js"></script>
     </head>
 
-    <body>
+    <body>  
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NK7H8FR"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
         <div class="u-overFlowX-wrapper">
-            <!-- Google Tag Manager (noscript) -->
-            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NK7H8FR"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-            <!-- End Google Tag Manager (noscript) -->
 
             <o-cookiebar></o-cookiebar>
             <o-header></o-header>
@@ -211,18 +212,16 @@
             <o-footer></o-footer>
         </div>
 
-        <!-- import casual js -->
-        <script type="text/javascript"  src="../js/main-focusing.js">               </script>
 
         <!-- import Riot tags -->
-        <script type="riot/tag"         src="components/o-cookiebar.tag"            ></script>
-        <script type="riot/tag"         src="components/o-header.tag"               ></script>
-        <script type="riot/tag"         src="components/c-floatingaction.tag"       ></script>
-        <script type="riot/tag"         src="components/c-artworkdisplay.tag"       ></script>
-        <script type="riot/tag"         src="components/o-emailform.tag"            ></script>
-        <script type="riot/tag"         src="components/c-button-secondary.tag"     ></script>
-        <script type="riot/tag"         src="components/o-articlepreview.tag"       ></script>
-        <script type="riot/tag"         src="components/o-footer.tag"               ></script>
+        <script type="riot/tag" src="components/o-cookiebar.tag"            ></script>
+        <script type="riot/tag" src="components/o-header.tag"               ></script>
+        <script type="riot/tag" src="components/c-floatingaction.tag"       ></script>
+        <script type="riot/tag" src="components/c-artworkdisplay.tag"       ></script>
+        <script type="riot/tag" src="components/o-emailform.tag"            ></script>
+        <script type="riot/tag" src="components/c-button-secondary.tag"     ></script>
+        <script type="riot/tag" src="components/o-articlepreview.tag"       ></script>
+        <script type="riot/tag" src="components/o-footer.tag"               ></script>
 
         <!-- mount Riot tags -->
         <script>
@@ -263,6 +262,10 @@
                 color: 'm-footer--white',
             })
         </script>
+
+        <!-- Regular JS -->
+        <script src="../js/main-focusing.js"    ></script>
+        <script src="../js/cookie.js"           ></script>
 
     </body>
 </html>

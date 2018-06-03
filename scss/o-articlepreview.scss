@@ -91,6 +91,14 @@
 @media all and (max-width: 800px) {
     .u-articlePreview-wrapper {
         padding: 0;
+
+        .o-articlePreview {
+            border-radius: 0;
+    
+            .c-articlePreview__mask {
+                border-radius: 0;
+            }
+        }
     }
 
     .c-articlePreview__p {

@@ -30,7 +30,7 @@
         <link rel="stylesheet"            href="../css/main.css" type="text/css">
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="../js/riot+compiler.min.js"></script>
+        <script src="../js/vendor/riot/riot+compiler.min.js"></script>
     </head>
 
     <body>
@@ -41,9 +41,8 @@
 
         <div class="u-overFlowX-wrapper">
 
-            <o-cookiebar></o-cookiebar>
-
             <main class="u-categorySlider-wrapper">
+                <o-cookiebar></o-cookiebar>
                 <o-header></o-header>
 
                 <div class="u-screenContent-wrapper">
@@ -66,15 +65,10 @@
             <!-- <o-footer style="z-index: 1"></o-footer> -->
         </div>
 
-        <script type="text/javascript" src="../js/slick.js">                             </script>
-        <script type="text/javascript" src="../js/chrome-vhfix.js">                      </script>
-        <script type="text/javascript" src="../js/slickslider-index.js">                 </script>
-        <script type="text/javascript" src="../js/lang-redir/localization.js">           </script>
-
         <!-- import Riot tags -->
-        <script type="riot/tag"        src="components/o-cookiebar.tag"            ></script>
-        <script type="riot/tag"        src="components/o-header.tag"               ></script>
-        <script type="riot/tag"        src="components/o-footer.tag"               ></script>
+        <script type="riot/tag" src="components/o-cookiebar.tag"   ></script>
+        <script type="riot/tag" src="components/o-header.tag"      ></script>
+        <script type="riot/tag" src="components/o-footer.tag"      ></script>
 
         <!-- mount Riot tags -->
         <script>
@@ -92,6 +86,13 @@
                 color: 'm-footer--white',
             })
         </script>
+
+        <!-- Regular JS -->
+        <script src="../js/cookie.js"                     ></script>
+        <script src="../js/vendor/slick/slick.js"         ></script>
+        <script src="../js/chrome-vhfix.js"               ></script>
+        <script src="../js/slickslider-index.js"          ></script>
+        <script src="../js/lang-redir/localization.js"    ></script>
 
     </body>
 </html>

@@ -86,7 +86,7 @@
 
     $(document).ready(function() 
     {
-        $(".u-sectionNavigator-wrapper li:first").addClass("active");
+        $(".u-sectionNavigator-wrapper li:first").addClass("active")
         $(".js-chapter").on("click", jsChapterOnClick)
         $(document).on('scroll.chapterselect', changeChapterOnScroll)
     })

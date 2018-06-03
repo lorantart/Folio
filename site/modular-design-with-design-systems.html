@@ -29,8 +29,8 @@
         <link rel="stylesheet"            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
         <link rel="stylesheet"            href="../css/main.css" type="text/css">
 
-        <script type="text/javascript"    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type="text/javascript"    src="../js/riot+compiler.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../js/vendor/riot/riot+compiler.min.js"></script>
     </head>
 
     <body>
@@ -40,9 +40,6 @@
         <!-- End Google Tag Manager (noscript) -->
 
         <div class="u-overFlowX-wrapper">
-
-            <o-cookiebar></o-cookiebar>
-            
             <main>
                 <div class="u-cover__wrapper js-coverHeight">
                     
@@ -52,6 +49,7 @@
                         <div class="u-cover__layer u-cover__mask--mdwds"></div>
                     </div>
 
+                    <o-cookiebar></o-cookiebar>
                     <o-header></o-header>
 
                     <h1 class="t-cover__h1 localized">s-mdwds-cover-h1</h1>
@@ -843,6 +841,7 @@
         <!-- Regular js -->
         <script src="../js/cookie.js"                      ></script>
         <script src="../js/site-settings.js"               ></script>
+        <script src="../js/chrome-vhfix.js"                ></script>
         <script src="../js/cover-animation.js"             ></script>
         <script src="../js/chapter-navigation.js"          ></script>
         <script src="../js/lang-redir/localization.js"     ></script>
