@@ -30,7 +30,7 @@
             z-index: 0;
         }
 
-        .u-cover__mask--mdwds {
+        .u-cover__mask {
             background: url(../assets/img/design/modular-design-with-design-systems/cover/illustration-mask.png) center center;
             z-index: 1;
         }
@@ -142,14 +142,23 @@
     }
 }
 
+@media all and (max-width: 600px) {
+    .js-coverAnimation {
+
+        .u-cover__mask {
+            display: none;
+        }
+    }
+}
+
 @media all and (max-width: 456px) {
     .u-cover__wrapper {
-        min-height: 35vh;
+        min-height: 45vh;
 
         .js-coverAnimation {
 
             .u-cover__layer { 
-                height: 35vh;
+                height: 45vh;
             }
         }
 

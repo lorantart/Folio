@@ -32,9 +32,25 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="../js/vendor/riot/riot+compiler.min.js"></script>
 
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
+
+        <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js"></script>
+        <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushJScript.js"></script>
+        <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushXml.js"></script>
+        <link href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css" rel="stylesheet" type="text/css">
+        <link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeEclipse.css" rel="stylesheet" type="text/css">
+
+
+        <script language="javascript" type="text/javascript">
+            SyntaxHighlighter.config.bloggerMode = true;
+            SyntaxHighlighter.all();
+        </script>
+
+        <style type="text/css">
+            .syntaxhighlighter { 
+                overflow-y: hidden !important;
+                overflow-x: auto !important;
+            }
+        </style>
     </head>
 
     <body>
@@ -51,7 +67,7 @@
                     
                     <div class="js-coverAnimation">
                         <div class="u-cover__layer u-cover__background--tcds"></div>
-                        <div class="u-cover__layer u-cover__mask--mdwds"></div>
+                        <div class="u-cover__layer u-cover__mask"></div>
                     </div>
 
                     <o-cookiebar></o-cookiebar>
@@ -153,14 +169,143 @@
 
                         <div class="u-colorSwatches-wrapper">
                             <p class="t-colorSwatches__p">Szín:</p>
-                            <div class="c-colorSwatches m-bg--light   js--activateLight      active"    ></div>
-                            <div class="c-colorSwatches m-bg--midtone js--activateMidtone"              ></div>
-                            <div class="c-colorSwatches m-bg--dark    js--activateDark"                 ></div>
+                            <div data-ripple class="c-colorSwatches m-bg--light   js--activateLight      active"    ></div>
+                            <div data-ripple class="c-colorSwatches m-bg--midtone js--activateMidtone"              ></div>
+                            <div data-ripple class="c-colorSwatches m-bg--dark    js--activateDark"                 ></div>
                         </div>
 
                     </section>
 
                     <o-emailform></o-emailform>
+
+                    <section class="o-article--chapter">
+                        <c-chapter-subtitle
+                            subtitle="Tag inicializálás">
+                        </c-chapter-subtitle>
+
+                        <p class="t-chapter__p">
+                            A Chameleon reszponzív komponenseit az alábbi módon lehet beilleszteni az oldalba:
+                        </p>
+
+                        <pre class="brush: xml;">
+                            <emailform></emailform>
+                        </pre>
+
+                        <p class="t-chapter__p">
+                            A body végén be kell tölteni a hozzá tartozó .tag fájlt, majd külön scriptben a változók értékeit felül tudjuk írni. Ebben az esetben a változók
+                            osztályok, amik a fentebbi példa alapján szabályozzák a komponens megjelenését.
+                        </p>
+
+                        <pre class="brush: javascript;">
+                            <!--
+                            <script type="riot/tag" src="components/emailform.tag"></script>
+                            <script>
+                                riot.mount('emailform',
+                                {
+                                    color:       'm-emailForm--white',
+                                    input_color: 't-textField--light',
+                                    hidden:      ''
+                                })
+                            </script>
+                            -->
+                        </pre>
+
+                        <p class="t-chapter__p">
+                            Az oldal betöltődésekor a Riot lecseréli az összes egyedi taget a hozzá tartozó .tag fájl tartalmára. Vagyis a korábban egyetlen sorban
+                            inicializált komponens helyére ez fog betöltődni:
+                        </p>
+
+                        <pre class="brush: xml;">
+                            <emailform class="js-fadingBlock">
+                                <section class="u-emailForm-wrapper { opts.hidden } { opts.color }">
+                                    <div class="c-welcomeModule">Kösz a subot haver</div>
+                                    <div class="o-emailForm">
+                                        <div id="mc_embed_signup">
+                                            <form
+                                                action  ="https://facebook.us10.list-manage.com/subscribe/post-json?u=f166a4fec809ddc72abe762be&amp;id=4f5c138711&amp;c=?" 
+                                                method  ="get"
+                                                id      ="mc-embedded-subscribe-form"
+                                                name    ="mc-embedded-subscribe-form"
+                                                class   ="validate"
+                                                target  ="_blank"
+                                                novalidate>
+                                        
+                                                <div id="mc_embed_signup_scroll">
+                                                    <div class="u-emailForm__header-wrapper">
+                                                        <h2 class="t-emailForm__h2 localized">s-emailform-title</h2>
+                                                    </div>
+                                                    <p class="t-emailForm__p localized">s-emailform-p</p>
+
+                                                    <div class="mc-field-group">
+                                                        <div class="u-textField-wrapper u-labelPositioner__js">
+                                                            <input type     ="email"
+                                                                value       =""
+                                                                name        ="EMAIL"
+                                                                class       ="c-textField { opts.input_color }"
+                                                                id          ="mce-EMAIL"
+                                                                pattern     =".*@.*\..*"
+                                                                required>
+                                                            <span class="c-textField__bar"></span>
+                                                            <label for="mce-EMAIL" class="c-textField__label localized">s-emailform-email</label>
+                                                            <span id="mce-EMAIL--error" class="error" aria-live="polite"></span>
+                                                        </div>
+                                                    </div>
+                                                
+                                                    <div class="mc-field-group">
+                                                        <div class="u-textField-wrapper">
+                                                            <input type      ="text"
+                                                                    value    =""
+                                                                    name     ="FNAME"
+                                                                    class    ="c-textField { opts.input_color }"
+                                                                    id       ="mce-FNAME"
+                                                                    required>
+                                                            <span class="c-textField__bar"></span>
+                                                            <label for="mce-FNAME" class="c-textField__label localized">s-emailform-nickname</label>
+                                                            <span id="mce-FNAME--error" class="error" aria-live="polite"></span>
+                                                        </div>
+                                                    </div>
+                                                
+                                                    <div id="mce-responses" class="clear">
+                                                        <div class="response" id="mce-error-response"   style="display:none"></div>
+                                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                                    </div>
+                                                
+                                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                                        <input type="text" name="b_f166a4fec809ddc72abe762be_4f5c138711" tabindex="-1" value="">
+                                                    </div>
+
+                                                    <div class="u-submit-wrapper">
+                                                        <button data-ripple type="submit" value="Feliratkozom!" name="subscribe" id="mc-embedded-subscribe" class="c-primaryButton localized">s-emailform-cta</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="c-emailForm__footer">
+                                        <a class="t-emailForm__a c-emailForm__hide js-close localized">s-emailform-hide</a>
+                                    </div>
+                                </section>
+                            </emailform>
+                        </pre>
+                    </section>
+                
+
+                    <section class="u-articlePreview-wrapper">
+                        <p class="c-articlePreview__p">
+                            Ha részletesebben olvasnál a tervezési megközelítésemről, itt megteheted:
+                        </p>
+                    </section>
+
+                    <o-articlepreview
+                        title1="Moduláris tervezés"
+                        title2="design rendszerekkel"
+                        background="m-articlePreview--article-modularity"
+                        
+                        cta="Tovább a projekthez"
+                        link="modular-design-with-design-systems.html">
+                    </o-articlepreview>
+                    
                 </div>
             </main>
 
@@ -175,6 +320,8 @@
         <script type="riot/tag" src="components/c-cover-toc.tag"            ></script>
         <script type="riot/tag" src="components/c-chapter-title.tag"        ></script>
         <script type="riot/tag" src="components/c-chapter-subtitle.tag"     ></script>
+        <script type="riot/tag" src="components/o-articlepreview.tag"       ></script>
+        <script type="riot/tag" src="components/c-button-secondary.tag"     ></script>
         <script type="riot/tag" src="components/c-articledisplay.tag"       ></script>
         <script type="riot/tag" src="components/c-highlight.tag"            ></script>
         <script type="riot/tag" src="components/o-emailform.tag"            ></script>
@@ -211,6 +358,7 @@
             riot.mount('c-chapter-title')
             riot.mount('c-chapter-subtitle')
             riot.mount('c-articledisplay')
+            riot.mount('o-articlepreview')
             riot.mount('c-highlight')
 
             riot.mount('o-emailform',

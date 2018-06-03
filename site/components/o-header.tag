@@ -14,14 +14,16 @@
         <div class="u-header__contact-wrapper">
             <ul>
                 <li class="mb-3">
-                    <img src="../assets/icon/phone.svg" class="m-popover--icon"/>
+                    <i class="material-icons md-24 md-black m-popover--icon">phone</i>
                     <span class="mr-1">+</span>
                     <span class="mr-1">36</span>
                     <span class="mr-1">30</span>
                     <span class="mr-1">427</span>
                     <span class="mr-1">4274</span>
                 </li>
-                <li><img src="../assets/icon/email.svg" class="m-popover--icon"/>hello@lorant.design</li>
+                <li>
+                    <i class="material-icons md-24 md-black m-popover--icon">email</i>hello@lorant.design
+                </li>
             </ul>
         </div>
     </div>
@@ -85,6 +87,7 @@
                 location.reload(); 
                 return false; 
             } );
+
             $('.js-language-selector-en').click( function(e) 
             {                
                 e.preventDefault(); 

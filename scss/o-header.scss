@@ -36,10 +36,10 @@
 
 .m-header--white {
     background: $white;
-    color:      $grey400;
+    color:      $grey300;
 
     a {
-        color:  $grey400;
+        color:  $grey300;
     }
 
     a:hover {
@@ -117,7 +117,7 @@
 
     font-size: 0.9rem;
     line-height: 1.5;
-    color: $grey400;
+    color: $grey300;
 
     box-shadow: 0 4px 40px 0 $transparent40;
 
@@ -127,11 +127,8 @@
         margin: 2rem 0 0.5rem 4rem;
 
         .m-popover--icon {
-            @extend %icon-m;
-
             vertical-align: bottom;
             margin-right: 1.5rem;
-            opacity: 0.56;
         }
     }
 
@@ -140,7 +137,7 @@
         margin: 2rem 0 0 4rem;
 
         .t-popover__a {
-            color: $grey400;
+            color: $grey300;
         }
 
         .c-popover__divider {

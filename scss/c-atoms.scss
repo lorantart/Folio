@@ -87,7 +87,7 @@
 }
 
 .c-secondaryButton:hover, .c-secondaryButton:focus {
-    color: $grey400;
+    color: $grey300;
 
     background: $white;
     box-shadow: 0 2px 8px $transparent40;
@@ -121,9 +121,7 @@
     z-index: 2;
 
     .m-floatingAction--icon {
-        @extend %icon-m;
-        opacity: 0.56;
-        transition: opacity 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
     } 
 }
 
@@ -132,7 +130,7 @@
 }
 
 .c-floatingAction:hover .m-floatingAction--icon {
-    opacity: 1;
+    color: $black;
 }
 
 

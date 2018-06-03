@@ -739,7 +739,7 @@ body {
   width: auto !important;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  color: #595b6f; }
+  color: #484b53; }
 
 .s-layout--light {
   background: #fafaff; }
@@ -799,7 +799,7 @@ body {
 
 /* Rules for using icons as black on a light background. */
 .material-icons.md-black {
-  color: black; }
+  color: rgba(0, 0, 0, 0.72); }
 
 .material-icons.md-dark {
   color: rgba(0, 0, 0, 0.54); }
@@ -841,17 +841,13 @@ h3 {
   font-size: 1.5em; }
 
 a {
-  color: #595b6f; }
+  color: #484b53; }
 
 .o-header .u-header__links-wrapper .c-header__links-divider {
   width: 1px !important; }
 
 .c-header__popover .u-popover__navigation-wrapper .c-popover__divider {
   height: 1px !important; }
-
-.c-floatingAction .m-floatingAction--icon, .c-header__popover .u-header__contact-wrapper .m-popover--icon {
-  width: 24px;
-  height: 24px; }
 
 .u-cover__wrapper .t-cover__h1 {
   font-size: 4em;
@@ -1003,7 +999,7 @@ main {
       margin-bottom: 0 !important; }
     main .o-article a {
       text-decoration: none;
-      color: #595b6f; }
+      color: #484b53; }
     main .o-article a:active {
       color: #ffffff; }
   main .o-article--chapter {
@@ -1065,7 +1061,7 @@ main {
       margin-bottom: 0 !important; }
     main .o-article--chapter a {
       text-decoration: none;
-      color: #595b6f; }
+      color: #484b53; }
     main .o-article--chapter a:active {
       color: #ffffff; }
   main .o-artGallery {
@@ -1123,10 +1119,6 @@ main {
 
 .c-header__popover .u-popover__navigation-wrapper .c-popover__divider {
   height: 1px !important; }
-
-.c-floatingAction .m-floatingAction--icon, .c-header__popover .u-header__contact-wrapper .m-popover--icon {
-  width: 24px;
-  height: 24px; }
 
 .u-cover__wrapper .t-cover__h1 {
   font-size: 4em;
@@ -1249,10 +1241,6 @@ main .o-article--chapter .u-highlight-wrapper mark {
 
 .c-header__popover .u-popover__navigation-wrapper .c-popover__divider {
   height: 1px !important; }
-
-.c-floatingAction .m-floatingAction--icon, .c-header__popover .u-header__contact-wrapper .m-popover--icon {
-  width: 24px;
-  height: 24px; }
 
 .u-cover__wrapper .t-cover__h1 {
   font-size: 4em;
@@ -1451,7 +1439,7 @@ main .o-article--chapter .u-highlight-wrapper mark {
   transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out; }
 
 .c-secondaryButton:hover, .c-secondaryButton:focus {
-  color: #595b6f;
+  color: #484b53;
   background: #ffffff;
   -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4); }
@@ -1484,17 +1472,16 @@ main .o-article--chapter .u-highlight-wrapper mark {
   transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
   z-index: 2; }
   .c-floatingAction .m-floatingAction--icon {
-    opacity: 0.56;
-    -webkit-transition: opacity 0.2s ease-in-out;
-    -o-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out; }
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
 
 .c-floatingAction:hover {
   -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.4);
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.4); }
 
 .c-floatingAction:hover .m-floatingAction--icon {
-  opacity: 1; }
+  color: #000000; }
 
 .m-floatingAction--white {
   background: #ffffff; }
@@ -1810,9 +1797,9 @@ progress[value]::-webkit-progress-bar {
 
 .m-header--white {
   background: #ffffff;
-  color: #595b6f; }
+  color: #484b53; }
   .m-header--white a {
-    color: #595b6f; }
+    color: #484b53; }
   .m-header--white a:hover {
     text-decoration: underline; }
   .m-header--white .m-language--inactive {
@@ -1861,7 +1848,7 @@ progress[value]::-webkit-progress-bar {
   background: #ffffff;
   font-size: 0.9rem;
   line-height: 1.5;
-  color: #595b6f;
+  color: #484b53;
   -webkit-box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.4);
   box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.4);
   cursor: default; }
@@ -1869,13 +1856,12 @@ progress[value]::-webkit-progress-bar {
     margin: 2rem 0 0.5rem 4rem; }
     .c-header__popover .u-header__contact-wrapper .m-popover--icon {
       vertical-align: bottom;
-      margin-right: 1.5rem;
-      opacity: 0.56; }
+      margin-right: 1.5rem; }
   .c-header__popover .u-popover__navigation-wrapper {
     display: none;
     margin: 2rem 0 0 4rem; }
     .c-header__popover .u-popover__navigation-wrapper .t-popover__a {
-      color: #595b6f; }
+      color: #484b53; }
     .c-header__popover .u-popover__navigation-wrapper .c-popover__divider {
       width: 100%;
       margin: 0 -2rem 0 -2rem;
@@ -2282,7 +2268,7 @@ progress[value]::-webkit-progress-bar {
   .u-display-wrapper .c-display__caption {
     margin-top: 0.75em;
     padding: 0.5em 1em;
-    border-left: 2px solid #8a8a9b; }
+    border-left: 2px solid #595b6f; }
     .u-display-wrapper .c-display__caption ul li {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -2297,11 +2283,15 @@ progress[value]::-webkit-progress-bar {
       margin-top: 24px; }
     .u-display-wrapper .c-display__caption .t-chapterDisplay__p {
       padding-bottom: 1em;
-      font-size: 0.9em; }
+      font-size: 0.9em;
+      opacity: 0.92; }
     .u-display-wrapper .c-display__caption .t-chapterDisplay__a {
       font-style: italic;
       color: #8a8a9b;
       font-size: 0.9em; }
+    .u-display-wrapper .c-display__caption .m-chapterDisplay__icon {
+      vertical-align: middle;
+      margin-left: 0.25em; }
     .u-display-wrapper .c-display__caption .t-artworkFeatures__a {
       color: #cfd4da; }
     .u-display-wrapper .c-display__caption .t-artworkDisplay__p {
@@ -2501,7 +2491,7 @@ progress[value]::-webkit-progress-bar {
     .u-cover__wrapper .js-coverAnimation .u-cover__foreground--mdwds {
       background: url(../assets/img/design/modular-design-with-design-systems/cover/illustration-foreground.png) center center;
       z-index: 0; }
-    .u-cover__wrapper .js-coverAnimation .u-cover__mask--mdwds {
+    .u-cover__wrapper .js-coverAnimation .u-cover__mask {
       background: url(../assets/img/design/modular-design-with-design-systems/cover/illustration-mask.png) center center;
       z-index: 1; }
     .u-cover__wrapper .js-coverAnimation .u-cover__background--tcds {
@@ -2573,11 +2563,15 @@ progress[value]::-webkit-progress-bar {
       .u-cover__wrapper .c-cover__table-of-content .u-table-of-content-wrapper {
         margin: 0; } }
 
+@media all and (max-width: 600px) {
+  .js-coverAnimation .u-cover__mask {
+    display: none; } }
+
 @media all and (max-width: 456px) {
   .u-cover__wrapper {
-    min-height: 35vh; }
+    min-height: 45vh; }
     .u-cover__wrapper .js-coverAnimation .u-cover__layer {
-      height: 35vh; }
+      height: 45vh; }
     .u-cover__wrapper .t-cover__h1 {
       font-size: 2.25em;
       margin: 1.5rem 0 3rem 0; }

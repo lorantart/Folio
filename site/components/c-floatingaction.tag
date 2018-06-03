@@ -1,7 +1,7 @@
 <c-floatingaction>
     <a href={ opts.link }>
         <div data-ripple class="c-floatingAction m-floatingAction--white">
-            <img src="../assets/icon/gridlist.svg" class="m-floatingAction--icon"/>
+            <i class="material-icons md-24 md-dark m-floatingAction--icon">arrow_back</i>
         </div>
     </a>
 

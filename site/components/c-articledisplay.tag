@@ -6,7 +6,7 @@
                 { opts.caption_content }
             </p>
             <a class="t-chapterDisplay__a" href="{ opts.source_url }" target="_blank">
-                Kép forrása
+                Kép forrása <i class="material-icons md-18 m-chapterDisplay__icon">open_in_new</i>
             </a>
         </figcaption>
     </figure>
