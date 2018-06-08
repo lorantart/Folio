@@ -4,8 +4,8 @@ jQuery(function($) {
     } );
     
     $.i18n().load( {
-        'en': '../js/vendor/jquery.i18n/i18n/lang.json',
-        'hu': '../js/vendor/jquery.i18n/i18n/lang.json'
+        'en': '../js/vendor/jquery.i18n/i18n/en.json',
+        'hu': '../js/vendor/jquery.i18n/i18n/hu.json'
     } ).done(function() {
         $('.switch-locale').on('click', 'a', function(e) {
             e.preventDefault();
@@ -15,7 +15,7 @@ jQuery(function($) {
 
     var set_locale_to = function(locale) {
         if (locale) {
-            $.i18n().locale = locale;
+          $.i18n().locale = locale;
         }
         $('body').i18n();
     };

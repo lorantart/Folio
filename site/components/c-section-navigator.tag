@@ -9,6 +9,24 @@
     </div>
 
     <script>
+    //Scroll to section on click
+    $(document).on('click', 'a[href^="#"]', function(e) {
+        var id = $(this).attr('href');
+        
+        var $id = $(id);
+        if ($id.length === 0) {
+            return;
+        }
+
+        e.preventDefault();
+        
+        // top position relative to the document
+        var pos = $id.offset().top - 100;
+        
+        // animated top scrolling
+        $('body, html').animate({scrollTop: pos}, scrollSpeed);
+    });
+
     //Fade in navbar after position
     $(document).on("scroll.navigator", function() {
         var fadeInPosition = $('.js-coverHeight').outerHeight() + $('.js-prologueHeight').outerHeight();
@@ -19,11 +37,11 @@
         }
     });
 
-    //chapter positioner
+    //Chapter marker positioner
     function getCurrentChapter()
     {
         var currentPosition = $(this).scrollTop()
-        var threshold = 100;
+        var threshold = 300;
 
         var chapters = $('[id^=chapter-]')
         var chapterNumber = 0;
