@@ -1,8 +1,8 @@
 <c-highlight>
     <div class="u-highlight-wrapper">
-        <mark class="localized">
+        <mark>
             { opts.content }
         </mark>
-        <p class="localized">&mdash;{ opts.author }</p>
+        <p>&mdash;{ opts.author }</p>
     </div>
 </c-highlight>

@@ -8,8 +8,8 @@
         </div>
         <figcaption class="c-display__caption">
             <a href="{ opts.musicsource }" target="_blank" class="t-artworkDisplay__a">{ opts.musictitle }</a>
-            <p class="t-artworkDisplay__p--white localized">{ opts.artworktitle }</p>
-            <p class="t-artworkDisplay__p localized">{ opts.date }</p>
+            <p class="t-artworkDisplay__p--white">{ opts.artworktitle }</p>
+            <p class="t-artworkDisplay__p">{ opts.date }</p>
             <ul>
                 <li each = { opts.features }>
                     <img src="../assets/icon/tag--gold.svg" width="24px" height="16px"/>

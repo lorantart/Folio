@@ -7,7 +7,7 @@
                         <h2 class="t-cover__listNumber"> { chapter_number } </h2>
                         <h2 class="t-cover__listNumber--under">{ chapter_number }</h2>
                     </div>
-                    <p class="localized">{ chapter_title }</p>
+                    <p>{ chapter_title }</p>
                 </a>
             </li>
         </ol>

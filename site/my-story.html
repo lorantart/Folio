@@ -29,8 +29,8 @@
         <link rel="stylesheet"            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
         <link rel="stylesheet"            href="../css/main.css" type="text/css">
 
-        <script     src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script     src="../js/vendor/riot/riot+compiler.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../js/vendor/riot/riot+compiler.min.js"></script>
     </head>
 
     <body>
@@ -44,33 +44,13 @@
 
         <main>
             <section class="o-article">
-                <h1 class="t-article__h1">Szia! Lóránt vagyok.</h1>
-                <h2 class="t-article__h2">Letisztult felhasználói felületeket tervezek online termékek számára.</h2>
+                <h1 class="t-article__h1" data-i18n="s-mystory-title"></h1>
+                <h2 class="t-article__h2" data-i18n="s-mystory-subtitle"></h2>
 
-                <p class="t-article__p">
-                    Habár ez nem volt mindig így. Néhány éve még concept artist szerettem volna lenni, hogy menő filmeken és játékokon dolgozhassak. Nagyon szeretek rajzolni, 
-                    de az utóbbi években rájöttem, hogy nem szeretném hivatásként űzni.
-                </p>
-
-                <p class="t-article__p">
-                    Ahogy elkezdtem ismerkedni a product design szakmával, egyre nyilvánvalóbbá vált számomra, hogy megtaláltam a területemet. Régóta közel áll hozzám a webes 
-                    tervezés, de őszintén szólva a kódolás sosem volt az erősségem, és visszavett a lelkesedésemből, hogy a terveket nem tudtam úgy életre kelteni, ahogyan azokat 
-                    megálmodtam. Ahogy elkezdtem product designerként dolgozni, ez a problémám megoldódott, hiszen a felület frontend fejlesztői gondoskodtak a terveim 
-                    megvalósításáról.
-                </p>
-                        
-                <p class="t-article__p">
-                    Azonban rövidesen rájöttem, hogy ahhoz, hogy igazán jó és technológiailag is átgondolt terveket tudjak készíteni, elengedhetetlen a HTML, CSS és javascript 
-                    alapszintű ismerete. Ennek két oka is van: tervezésnél fontos tekintettel lenni a design kódszintű implementálására, vagyis arra, hogy milyen módszerekkel 
-                    lesz megvalósítható az általam tervezett látványterv. Másrészt pedig annak ellenére, hogy egyre jobb prototípuskészítő alkalmazások jelennek meg a piacon, 
-                    még mindig nehézkes velük a reszponzív layout-ok, valamint az interakciókon alapuló felületek prezentálása.
-                </p>
-                        
-                <p class="t-article__p">
-                    Így kezdtem el jópár év kihagyás után ismét kódolni szabadidőmben. Még van hova fejlődnöm, azonban már most érzem, hogy mennyivel kifinomultabb megoldásokat 
-                    tudok tervezni, miközben nagy figyelmet fordítok a design rendszerszintű megtervezésére. Ezt a UI fejlesztők is értékelni szokták, én pedig sokkal gyorsabban 
-                    tudok ezáltal dolgozni, így mégtöbb izgalmas kihívás elé állítva őket : )
-                </p>
+                <p class="t-article__p" data-i18n="s-mystory-p1"></p>
+                <p class="t-article__p" data-i18n="s-mystory-p2"></p>
+                <p class="t-article__p" data-i18n="s-mystory-p3"></p>
+                <p class="t-article__p" data-i18n="s-mystory-p4"></p>
             </section>
 
 
@@ -80,59 +60,37 @@
 
 
             <section class="u-articlePreview-wrapper">
-                <p class="c-articlePreview__p">
-                    Hamarosan végzek az egyetemmel, ahol szakdolgozatom témájának a moduláris tervezést választottam. Ha érdekel egy könnyed olvasmány nagyszerű forrásokkal 
-                    arról, hogy hogyan tört be a modularitás a szoftverfejlesztésbe, majd a webes design folyamatokba, akkor ajánlom figyelmedbe.
+                <p class="c-articlePreview__p" data-i18n="s-mystory-caption-design">
+                    
                 </p>
             </section>
 
             <o-articlepreview
-                title1="Moduláris tervezés"
-                title2="design rendszerekkel"
+                title="s-articlepreview-design-title"
                 background="m-articlePreview--article-modularity"
                 
-                cta="Tovább a projekthez"
-                link="modular-design-with-design-systems.html">
+                cta="s-articlepreview-projects-cta"
+                link="design.html">
             </o-articlepreview>
 
-            <!--
-            <section class="u-articlePreview-wrapper">
-                <p class="c-articlePreview__p">
-                    Ha kíváncsi vagy, hogy milyen módszerekkel tervezek, itt találhatsz egy pár projektet, ahol bemutatom, hogy hogyan járultam hozzá a legnagyobb 
-                    hazai ingatlankereskedő portál felületeinek újratervezéséhez.
-                </p>
-            </section>
-            <o-articlepreview
-                title1="Rajzaim és"
-                title2="festményeim"
-                background="m-articlePreview--art"
-                
-                cta="Tovább a projektekhez"
-                link="art.html">
-            </o-articlepreview>
-            -->
+
 
             <section class="u-articlePreview-wrapper">
-                <p class="c-articlePreview__p">
-                    Ha pedig a rajzaim érdekelnek, amiket szabadidőmben szoktam firkálgatni (és a végtelenségig túlrészletezni), itt megtalálod őket, és ha szívesen 
-                    használnád háttérképként valamelyiket, le is töltheted 4K felbontásban.
-                </p>
+                <p class="c-articlePreview__p" data-i18n="s-mystory-caption-art"></p>
             </section>
             <o-articlepreview
-                title1="Rajzaim és"
-                title2="festményeim"
-                background="m-articlePreview--art"
+                title       ="s-articlepreview-art-title"
+                background  ="m-articlePreview--art"
                 
-                cta="Tovább a projektekhez"
-                link="art.html">
+                cta         ="s-articlepreview-projects-cta"
+                link        ="art.html">
             </o-articlepreview>
 
             
 
             <section class="u-socialConnect-wrapper">
-                <p class="c-socialConnect__p">
-                    Nagyon örülök a látogatásodnak. Tartsuk a kapcsolatot!
-                </p>
+                <p class="c-socialConnect__p" data-i18n="s-mystory-thanksforvisit"></p>
+
                 <a href="http://.linkedin.com/in/lorantart/" target="_blank"><img src="../assets/icon/05-linkedin.svg"  class="u-socialConnect__icon"/></a>
                 <a href="http://instagram.com/lorantart"     target="_blank"><img src="../assets/icon/04-instagram.svg" class="u-socialConnect__icon"/></a>
                 <a href="http://facebook.com/lorant.toth"    target="_blank"><img src="../assets/icon/02-facebook.svg"  class="u-socialConnect__icon"/></a>
@@ -178,7 +136,16 @@
         </script>
 
         <!-- Regular JS -->
-        <script src="../js/cookie.js"></script>
-
+        <script src="../js/cookie.js"                                      ></script>
+        
+        <script src="../js/vendor/jquery.i18n/CLDRPluralRuleParser.js"     ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.js"              ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.messagestore.js" ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.fallbacks.js"    ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.language.js"     ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.parser.js"       ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.emitter.js"      ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.emitter.bidi.js" ></script>
+        <script src="../js/vendor/jquery.i18n/global.js"                   ></script>
     </body>
 </html>

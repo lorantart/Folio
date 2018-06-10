@@ -47,41 +47,23 @@
 
             <main>
                 <section class="c-pageTitle">
-                    <h1 class="t-pageTitle__h1">
-                        Daydreaming
-                    </h1>
+                    <h1 class="t-pageTitle__h1" data-i18n="s-daydreaming-title"></h1>
                 </section>
 
                 <section class="u-article--sliding-wrapper">
                     <div class="o-article--sliding">
-                        <a class="js-transformDescription t-aboutProject__a">Back to the artworks</a>
-                        <p class="t-article--sliding__p">
-                            A Daydreaming egy spontán kísérletezés eredményeként jött létre. Nem projektnek terveztem, hanem egyedülálló rajznak. 2016 nyarán kezdődött:
-                            sok időm volt napközben, és le akartam foglalni magamat. Nagyon szeretem a Divided Soul színes világát, de ekkor kezdett egy kicsit sok lenni.
-                            Ki akartam próbálni valami újat, ami mozgalmasabb, emberközelibb.
-                        </p>
-
-                        <p class="t-article--sliding__p">
-                            Egy gyenge minőségű Pinterest képpel kezdődött, de arra pont elég volt, hogy kiindulást adjon a koncepcióhoz. Az első festményt 3 nap alatt
-                            fejeztem be, reggeltől estig dolgoztam rajta. Annyira élveztem, hogy rá pár napra elkezdtem a következőt, és egy héttel később az is elkészült.
-                            A harmadik a Bad Karma volt, a széria ikonikus képe, amivel azóta számtalan helyen találkoztam.
-                        </p>
-
-                        <p class="t-article--sliding__p">
-                            Azonban idővel elkezdtem eltávolodni az eredeti hangulattól, és nem jó irányba. A sorozat egyre színesebb lett, a koncepció pedig egyre
-                            erőltetettebb. Emiatt pár festményt kivettem belőle, de egyelőre
-                            <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">a DeviantArt oldalamon</a> fent vannak. Sajnos 
-                            már nem tudok ugyanazzal az intenzitással dolgozni rajta, amivel kezdtem, de ezt tartom a legeredetibb projektemnek, és azon dolgozok, hogy 
-                            visszatereljem abba az irányba, ahonnan indult.
-                        </p>
-                        <a class="js-transformDescription t-aboutProject__a">Back to the artworks</a>
+                        <a class="js-transformDescription t-aboutProject__a" data-i18n="s-artsubpage-to-artworks"></a>
+                        <p class="t-article--sliding__p" data-i18n="s-dd-about-p1"></p>
+                        <p class="t-article--sliding__p" data-i18n="s-dd-about-p2"></p>
+                        <p class="t-article--sliding__p" data-i18n="s-dd-about-p3"></p>
+                        <a class="js-transformDescription t-aboutProject__a" data-i18n="s-artsubpage-to-artworks"></a>
                     </div>
                 </section>
 
 
 
                 <section class="o-artGallery">
-                    <a class="js-transformGallery t-aboutProject__a js-fadingBlock">Read the story</a>
+                    <a class="js-transformGallery t-aboutProject__a js-fadingBlock" data-i18n="s-artsubpage-to-story"></a>
 
                     <c-artworkdisplay class="js-daydreams"
                         socialSource ="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Fwww.lorantart.com%2Ffolio2018%2Fassets%2Fimg%2Fart%2Fdrawings%2F12.jpg&layout=button&size=large&mobile_iframe=true&appId=404130523427166&width=73&height=28"
@@ -148,12 +130,11 @@
 
 
                 <o-articlepreview
-                    title1="Grafit- és szén"
-                    title2="portrérajzaim"
-                    background="m-articlePreview--art-portrait"
+                    title      ="s-articlepreview-td-title"
+                    background ="m-articlePreview--art-portrait"
                     
-                    cta="Tovább a projekthez"
-                    link="traditional-drawings.html">
+                    cta        ="s-articlepreview-project-cta"
+                    link       ="traditional-drawings.html">
                 </o-articlepreview>
 
 
@@ -231,8 +212,18 @@
         </script>
 
         <!-- Regular JS -->
-        <script src="../js/cookie.js"                       ></script>
-        <script src="../js/main-focusing.js"                ></script>
+        <script src="../js/cookie.js"                                      ></script>
+        <script src="../js/main-focusing.js"                               ></script>
+
+        <script src="../js/vendor/jquery.i18n/CLDRPluralRuleParser.js"     ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.js"              ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.messagestore.js" ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.fallbacks.js"    ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.language.js"     ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.parser.js"       ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.emitter.js"      ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.emitter.bidi.js" ></script>
+        <script src="../js/vendor/jquery.i18n/global.js"                   ></script>
 
     </body>
 </html>

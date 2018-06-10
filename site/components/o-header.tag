@@ -2,12 +2,12 @@
     <div class="c-header__popover" id="js-popover">
         <div class="u-header__hero-wrapper js-popover__hero-wrapper">
             <div class="c-header__hero"></div>
-            <div class="c-header__name localized">s-navigation-name</div>
+            <div class="c-header__name" data-i18n="s-navigation-name"></div>
         </div>
         <div class="u-popover__navigation-wrapper">
             <ul>
-                <li class="mb-6"><a href="index.html"    class="t-popover__a localized">s-navigation-projects</a></li>
-                <li class="mb-5"><a href="my-story.html" class="t-popover__a localized">s-navigation-my-story</a></li>
+                <li class="mb-6"><a href="index.html"    class="t-popover__a" data-i18n="s-navigation-projects"></a></li>
+                <li class="mb-5"><a href="my-story.html" class="t-popover__a" data-i18n="s-navigation-my-story"></a></li>
             </ul>
             <div class="c-popover__divider"></div>
         </div>
@@ -37,19 +37,19 @@
 
             <div class="u-user-wrapper">
                 <div class="c-header__hero"></div>
-                <div class="c-header__name localized">s-navigation-name</div>
+                <div class="c-header__name" data-i18n="s-navigation-name"></div>
             </div>
         </div>
         <div class="u-header__fillspace"></div>
         <div class="u-header__links-wrapper">
             <div class="c-header__navigation">
-                <a href="my-story.html" class="mr-7 localized">s-navigation-my-story</a>
-                <a href="index.html" class="localized">s-navigation-projects</a>
+                <a href="my-story.html" class="mr-7" data-i18n="s-navigation-my-story"></a>
+                <a href="index.html" data-i18n="s-navigation-projects"></a>
             </div>
             <div class="c-header__links-divider"></div>
-            <div class="c-header__language">
-                <a href="#" class="js-language-selector-hu m-language--active mr-3">HU</a>
-                <a href="#" class="js-language-selector-en m-language--inactive">EN</a>
+            <div class="c-header__language switch-locale">
+                <a href="#" class="js-language-selector-hu m-language--active mr-3" data-locale="hu">HU</a>
+                <a href="#" class="js-language-selector-en m-language--inactive" data-locale="en">EN</a>
             </div>
         </div>
     </header>

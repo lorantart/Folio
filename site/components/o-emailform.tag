@@ -1,6 +1,6 @@
 <o-emailform class="js-fadingBlock">
     <section class="u-emailForm-wrapper { opts.hidden } { opts.color }">
-        <div class="c-welcomeModule">Kösz a subot haver</div>
+        <div class="c-welcomeModule" data-i18n="s-emailform-thankmsg"></div>
         <div class="o-emailForm">
             <div id="mc_embed_signup">
                 <form
@@ -14,9 +14,9 @@
 
                     <div id="mc_embed_signup_scroll">
                         <div class="u-emailForm__header-wrapper">
-                            <h2 class="t-emailForm__h2 localized">s-emailform-title</h2>
+                            <h2 class="t-emailForm__h2" data-i18n="s-emailform-title"></h2>
                         </div>
-                        <p class="t-emailForm__p localized">s-emailform-p</p>
+                        <p class="t-emailForm__p" data-i18n="s-emailform-p"></p>
                             
                         <div class="mc-field-group">
                             <div class="u-textField-wrapper u-labelPositioner__js">
@@ -28,7 +28,7 @@
                                     pattern     =".*@.*\..*"
                                     required>
                                 <span class="c-textField__bar"></span>
-                                <label for="mce-EMAIL" class="c-textField__label localized">s-emailform-email</label>
+                                <label for="mce-EMAIL" class="c-textField__label" data-i18n="s-emailform-email"></label>
                                 <span id="mce-EMAIL--error" class="error" aria-live="polite"></span>
                             </div>
                         </div>
@@ -42,7 +42,7 @@
                                         id       ="mce-FNAME"
                                         required>
                                 <span class="c-textField__bar"></span>
-                                <label for="mce-FNAME" class="c-textField__label localized">s-emailform-nickname</label>
+                                <label for="mce-FNAME" class="c-textField__label" data-i18n="s-emailform-nickname"></label>
                                 <span id="mce-FNAME--error" class="error" aria-live="polite"></span>
                             </div>
                         </div>
@@ -58,14 +58,14 @@
                         </div>
                         
                         <div class="u-submit-wrapper">
-                            <button data-ripple type="submit" value="Feliratkozom!" name="subscribe" id="mc-embedded-subscribe" class="c-primaryButton localized">s-emailform-cta</button>
+                            <button data-ripple type="submit" value="Feliratkozom!" name="subscribe" id="mc-embedded-subscribe" class="c-primaryButton" data-i18n="s-emailform-cta"></button>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
         <div class="c-emailForm__footer">
-            <a class="t-emailForm__a c-emailForm__hide js-close localized">s-emailform-hide</a>
+            <a class="t-emailForm__a c-emailForm__hide js-close" data-i18n="s-emailform-hide"></a>
         </div>
     </section>
 

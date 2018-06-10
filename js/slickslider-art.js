@@ -24,8 +24,6 @@ $(document).ready(function() {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                centerMode: true,
-                centerPadding: '20px',
                 infinite: true,
                 dots: true,
                 dotsClass: 'js-slick__navigation'

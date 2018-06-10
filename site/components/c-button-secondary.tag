@@ -1,5 +1,5 @@
 <c-button-secondary>
-    <a data-ripple class="c-secondaryButton localized" href={ opts.link }>{ opts.cta }</a>
+    <a data-ripple class="c-secondaryButton" href={ opts.link } data-i18n="{ opts.cta }"></a>
 
     <script>
         /*

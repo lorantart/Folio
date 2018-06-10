@@ -4,6 +4,6 @@
             <div class="t-chapter__chapterBox"></div>
             <div class="t-chapter__chapterBox--under"></div>
         </div>
-        <h3 class="t-chapter__subtitle localized">{ opts.subtitle }</h3>
+        <h3 class="t-chapter__subtitle">{ opts.subtitle }</h3>
     </div>
 </c-chapter-subtitle>

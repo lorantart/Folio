@@ -1,0 +1,285 @@
+// 1.  COMPONENTS
+// 1.1 header + footer
+// 1.2 Cookiebar
+// 1.3 Emailform
+// 1.4 Articlepreview
+// 1.6 Button-primary
+// 1.7 Button-secondary
+
+// 2. MY STORY
+
+// 3. ART
+// 3.1 Daydreaming
+// 3.2 Dividedsoul
+// 3.3 Portraitart
+
+// 4. MDWDS
+
+
+{
+    hu: {
+        // 1.  COMPONENTS
+        // 1.1 header + footer
+		s-navigation-name: Toth Lorant
+        s-navigation-my-story: Történetem
+        s-navigation-projects: Projektjeim
+        s-navigation-resume: Önéletrajzom
+        s-navigation-mailing-list: Hírlevél listám
+        // 1.2 Cookiebar
+        s-cookiebar-content: Weboldalam cookie-kat használ.
+        s-cookiebar-details: Bővebben
+        s-cookiebar-accept: Elfogadom
+        // 1.3 Emailform
+        s-emailform-title: Értesülj az új feltöltésekről!
+        s-emailform-p:
+            '''
+            A hírleveleket angolul írom, és többek között a rajzaim, festményeim mögötti történetről szólnak. Iratkozz fel, ha
+            szeretnél minél többet megtudni róluk.
+            '''
+        s-emailform-email: Erre az email címre küldöm
+        s-emailform-nickname: Így foglak szólítani
+        s-emailform-cta: Feliratkozom!
+        s-emailform-hide: Ne mutasd többet
+        s-emailform-thankmsg: Köszi a feliratkozást!
+        // 1.4 Articlepreview
+        s-articlepreview-art-title: Rajzaim és<br>festményeim
+        s-articlepreview-dd-title: Daydreaming:<br>Ébren álmodva
+        s-articlepreview-ds-title: The Divided Soul:<br>Fantasy tájképek
+        s-articlepreview-td-title: Grafit- és szén<br>portrérajzaim
+        s-articlepreview-design-title: Moduláris megközelítés<br>digitális terméktervezésben
+        s-articlepreview-project-cta: Tovább a projekthez
+        s-articlepreview-projects-cta: Tovább a projektekhez
+        // 1.6 Button-primary
+        // 1.7 Button-secondary
+        // 1.8 Articledisplay
+        s-articledisplay-caption-source: Kép forrása
+
+        // 3. ART
+        s-daydreaming-title: Daydreaming
+        s-dividedsoul-title: The Divided Soul
+        s-portraitart-title: Portrait Art
+
+        s-art-see-all: Mind a
+        s-art-artworks: rajz megtekintése
+
+        s-art-daydreaming-description: Figurative painting project with the most epic chillout mix recommendations.
+        s-art-dividedsoul-description: Fantasy landscape art project showcasing scenes from a breathtaking imaginary world.
+        s-art-portraitart-description: Traditional (mostly pencil) drawings of Pinterest portraits featuring epic trap tracks.
+
+
+
+
+        // 4. MDWDS
+        s-mdwds-chapter-1-subchapter-1-img1:
+            '''
+            A moduláris tervezés lehetővé teszi a sorozatgyártást, így a modelleket nem egymás után, egyedileg készítik el, hanem egyszerre, 
+            párhuzamosan dolgoznak rajtuk.
+            '''
+    }
+    
+    en: {
+        // 1.  COMPONENTS
+        // 1.1 header + footer
+		s-navigation-name: Lorant Toth
+        s-navigation-my-story: My Story
+        s-navigation-projects: Projects
+        s-navigation-resume: Resume
+        s-navigation-mailing-list: Mailing list
+        // 1.2 Cookiebar
+        s-cookiebar-content: My website uses cookies.
+        s-cookiebar-details: Details
+        s-cookiebar-accept: I accept
+        // 1.3 Emailform
+        s-emailform-title: Get notified about project updates!
+        s-emailform-p: 
+            '''
+            In my emails I write about the background story of my drawings and paintings. Subscribe if you'd like to get to 
+            know more about 'em!
+            '''
+        s-emailform-email: Gonna send it to this email
+        s-emailform-nickname: That's how I'm gonna call you
+        s-emailform-cta: Subscribe!
+        s-emailform-hide: Hide this form
+        s-emailform-thankmsg: Thanks 4 the sub, brother!
+        // 1.4 Articlepreview
+        s-articlepreview-art-title: My drawings<br>and paintings
+        s-articlepreview-dd-title: Daydreaming:<br>Dreaming awake
+        s-articlepreview-ds-title: The Divided Soul:<br>Fantasy Landscapes
+        s-articlepreview-td-title: Graphite- and charcoal<br>portrait art
+        s-articlepreview-design-title: Modular approaches<br>in product design
+        s-articlepreview-project-cta: Continue to project
+        s-articlepreview-projects-cta: Continue to projects
+        // 1.6 Button-primary
+        // 1.7 Button-secondary
+        // 1.8 Articledisplay
+        s-articledisplay-caption-source: Image source
+
+
+        // 2. MY STORY
+        s-mystory-title: Szia! Lóránt vagyok.
+        s-mystory-subtitle: Letisztult felhasználói felületeket tervezek online termékek számára.
+        s-mystory-p1:
+            '''
+            Habár ez nem volt mindig így. Néhány éve még concept artist szerettem volna lenni, hogy menő filmeken és játékokon dolgozhassak. Nagyon szeretek rajzolni, 
+            de az utóbbi években rájöttem, hogy nem szeretném hivatásként űzni.
+            '''
+        s-mystory-p2:
+            '''
+            Ahogy elkezdtem ismerkedni a product design szakmával, egyre nyilvánvalóbbá vált számomra, hogy megtaláltam a területemet. Régóta közel áll hozzám a webes 
+            tervezés, de őszintén szólva a kódolás sosem volt az erősségem, és visszavett a lelkesedésemből, hogy a terveket nem tudtam úgy életre kelteni, ahogyan azokat 
+            megálmodtam. Ahogy elkezdtem product designerként dolgozni, ez a problémám megoldódott, hiszen a felület frontend fejlesztői gondoskodtak a terveim 
+            megvalósításáról.
+            '''
+        s-mystory-p3:
+            '''
+            Azonban rövidesen rájöttem, hogy ahhoz, hogy igazán jó és technológiailag is átgondolt terveket tudjak készíteni, elengedhetetlen a HTML, CSS és javascript 
+            alapszintű ismerete. Ennek két oka is van: tervezésnél fontos tekintettel lenni a design kódszintű implementálására, vagyis arra, hogy milyen módszerekkel 
+            lesz megvalósítható az általam tervezett látványterv. Másrészt pedig annak ellenére, hogy egyre jobb prototípuskészítő alkalmazások jelennek meg a piacon, 
+            még mindig nehézkes velük a reszponzív layout-ok, valamint az interakciókon alapuló felületek prezentálása.
+            '''
+        s-mystory-p4:
+            '''
+            Így kezdtem el jópár év kihagyás után ismét kódolni szabadidőmben. Még van hova fejlődnöm, azonban már most érzem, hogy mennyivel kifinomultabb megoldásokat 
+            tudok tervezni, miközben nagy figyelmet fordítok a design rendszerszintű megtervezésére. Ezt a UI fejlesztők is értékelni szokták, én pedig sokkal gyorsabban 
+            tudok ezáltal dolgozni, így mégtöbb izgalmas kihívás elé állítva őket : )
+            '''
+
+        s-mystory-caption-design:
+        '''
+            Hamarosan végzek az egyetemmel, ahol szakdolgozatom témájának a moduláris tervezést választottam. Ha érdekel egy könnyed olvasmány nagyszerű forrásokkal 
+            arról, hogy hogyan tört be a modularitás a szoftverfejlesztésbe, majd a webes design folyamatokba, akkor ajánlom figyelmedbe.
+        '''
+
+        s-mystory-caption-art:
+        '''
+            Ha pedig a rajzaim érdekelnek, amiket szabadidőmben szoktam firkálgatni (és a végtelenségig túlrészletezni), itt megtalálod őket, és ha szívesen 
+            használnád háttérképként valamelyiket, le is töltheted 4K felbontásban.
+        '''
+
+        s-mystory-thanksforvisit: Nagyon örülök a látogatásodnak. Tartsuk a kapcsolatot!
+
+
+
+        // 3. ART
+        s-daydreaming-title: Daydreaming
+        s-dividedsoul-title: The Divided Soul
+        s-portraitart-title: Portrait Art
+
+        s-art-see-all: See all
+        s-art-artworks: artworks
+
+        s-art-daydreaming-description: Figurative painting project with girls, cute pets and moody lights.
+        s-art-dividedsoul-description: Fantasy landscape art project showcasing scenes from a breathtaking imaginary world.
+        s-art-portraitart-description: Traditional drawings of Pinterest portraits featuring the best chillout tracks.
+
+        s-artsubpage-to-artworks: Back to the artworks
+        s-artsubpage-to-story: Read the story
+
+        // 3.1 Daydreaming
+        s-dd-about-p1:
+            '''
+            A Daydreaming egy spontán kísérletezés eredményeként jött létre. Nem projektnek terveztem, hanem egyedülálló rajznak. 2016 nyarán kezdődött:
+            sok időm volt napközben, és le akartam foglalni magamat. Nagyon szeretem a Divided Soul színes világát, de ekkor kezdett egy kicsit sok lenni.
+            Ki akartam próbálni valami újat, ami mozgalmasabb, emberközelibb.
+            '''
+        s-dd-about-p2:
+            '''
+            Egy gyenge minőségű Pinterest képpel kezdődött, de arra pont elég volt, hogy kiindulást adjon a koncepcióhoz. Az első festményt 3 nap alatt
+            fejeztem be, reggeltől estig dolgoztam rajta. Annyira élveztem, hogy rá pár napra elkezdtem a következőt, és egy héttel később az is elkészült.
+            A harmadik a Bad Karma volt, a széria ikonikus képe, amivel azóta számtalan helyen találkoztam.
+            '''
+        s-dd-about-p3:
+            '''
+            Azonban idővel elkezdtem eltávolodni az eredeti hangulattól, és nem jó irányba. A sorozat egyre színesebb lett, a koncepció pedig egyre
+            erőltetettebb. Emiatt pár festményt kivettem belőle, de egyelőre
+            <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">a DeviantArt oldalamon</a> fent vannak. Sajnos 
+            már nem tudok ugyanazzal az intenzitással dolgozni rajta, amivel kezdtem, de ezt tartom a legeredetibb projektemnek, és azon dolgozok, hogy 
+            visszatereljem abba az irányba, ahonnan indult.
+            '''
+
+        // 3.2 Dividedsoul
+        s-ds-about-p1:
+            '''
+            A Divided Soul egy fantasy stílusú, digitális illusztrációkból álló sorozat, amit 2015 nyarának végén kezdtem el, és a mai napig dolgozom rajta.
+            Egy gyakorló projektnek indult, amihez az inspirációt <a href="http://noahbradley.com" class="t-article--sliding__a" target="blank">Noah Bradley: 
+            The Sin of Man</a> kollekciója adta. Az utóbbi évek alatt rengeteget  fejlődtem, és a projekt is sokat haladt előre, így az idő folyamán kiírtam 
+            belőle festményeket, amikről úgy gondoltam, hogy kevésbé illenek az általam elképzelt világba. Ha érdekelnek, még megtalálod őket 
+            <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">a DeviantArt profilomon</a>.
+            '''
+        s-ds-about-p2:
+            '''
+            A Divided Soul nagyon közel áll a szívemhez, de nem tartom többnek egy hobbiprojektnél. Örülök, ha minél több emberhez eljut, de azon kívül, 
+            hogy kiélem a kreativitásomat és lekötöm az álmodozásomat, nincs semmi különleges tervem vele. Éppen ezért, a teljes széria szabadon letölthető 
+            és <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">bizonyos korlátok közt felhasználható</a>.
+            '''
+        s-ds-about-p3:
+            '''
+            Nagyon sokat köszönhetek napjaink nyílt és segítőkész alkotói közösségének, és úgy gondolom, hogy ez mindenkinek megadja a lehetőséget, hogy 
+            kellő elszántsággal beteljesítse álmait. Továbbá a 9GAG seregének, ahol a Divided Soul 
+            <a href="https://9gag.com/gag/a8MqeAd" class="t-article--sliding__a" target="blank">nagyon meleg fogadtatásban részesült</a>.
+            '''
+        s-ds-about-p4:
+            '''
+            Ha tetszenek a munkáim, az övékét is biztosan inspirálónak találod majd:
+            <a href="https://artstation.com/kimagu"        class="t-article--sliding__a" target="blank">Kimagu</a>,
+            <a href="https://morippin.deviantart.com"      class="t-article--sliding__a" target="blank">Morippin</a>,
+            <a href="https://artstation.com/danyiart"      class="t-article--sliding__a" target="blank">DanyiArt</a>,
+            <a href="https://artstation.com/markmolnar"    class="t-article--sliding__a" target="blank">Molnar Mark</a>,
+            <a href="https://artstation.com/jotto"         class="t-article--sliding__a" target="blank">Otto Szatmari</a>,
+            <a href="https://artstation.com/jordangrimmer" class="t-article--sliding__a" target="blank">Jordan Grimmer</a>,
+            <a href="https://artstation.com/noahbradley"   class="t-article--sliding__a" target="blank">Noah Bradley</a>.
+            '''
+
+        // 3.3 Portraitart
+        s-td-about-p1:
+            '''
+            Az utóbbi pár év alatt legalább száz portrét rajzoltam grafittal. Emlékszem, mennyire nehezen kezdődött - szinte mindent rosszul csináltam.
+            Majd az egyik egészen jól sikerült, úgyhogy megálltam egy percre, és elgondolkodtam, hogy mit csináltam másképp, mint korábban. Ekkor jöttem rá,
+            hogy a rajz nem fénykép, ezért nem is szabad úgy tekinteni rá. Mindig is használtam referenciaképeket, de túlzottan ragaszkodtam a látvány
+            megörökítéséhez.
+            '''
+        s-td-about-p2:
+            '''
+            Számomra egy rajz akkor sikerül jól, ha el tud rugaszkodni a referenciaképtől annyira, hogy ha nem egymás mellett látod a kettőt, akkor nem
+            tűnik fel a hasonlóság, és természetesen emellett helytáll téma, kompozíció, anatómia és tónusozás terén. Ez nem könnyű feladat, és habár 
+            szereztem némi gyakorlatot az utóbbi években, a mai napig küszködöm ezzel - annyira, hogy nagyjából minden tizedik rajzom éri el ezt a szintet.
+            A többi a kellemes gyakorlás kategóriába esik, és a fiókom mélyén végzik, hogy soha senki ne lássa őket :)
+            <a href="https://instagram.com/lorantart" class="t-article--sliding__a" target="blank">(Na jó, talán Instagramra felkerül egy-egy közülük)</a>.
+            '''
+        s-td-about-p3:
+            '''
+            Természetesen nem magamtól jöttem rá mindenre, amit most tudok. A következő művészek nagy hatással voltak rám, és nagyon sokat tanultam tőlük:
+            <a href="http://proko.com/"          class="t-article--sliding__a" target="blank">Stan Prokopenko</a>,
+            <a href="http://stevehustonart.com/" class="t-article--sliding__a" target="blank">Steve Huston</a>,
+            <a href="http://caseybaugh.com/"     class="t-article--sliding__a" target="blank">Casey Baugh</a>,
+            <a href="http://redrabbit7.com/"     class="t-article--sliding__a" target="blank">Jeremy Mann</a>,
+            <a href="http://alpayefe.com/"       class="t-article--sliding__a" target="blank">Alpay Efe</a>.
+            '''
+        s-td-about-p4:
+            '''
+            A rajzoknak azt a címet adtam, amelyik számot készítésük közben leginkább hallgattam. EDM veszély, előre szólok.
+            '''
+
+
+
+        // 4. DESIGN
+        s-mdwds-title: Modular Design with Design Systems
+        s-tcds-title: The Chameleon Design System
+
+        s-design-mdwds-description: Fenntartható rendszerek létrehozása kevesebb munkával és több tervezéssel
+        s-design-tcds-description: A lorant.design mögött működő design rendszer demója és letöltése
+
+        s-design-proceedstudy: Continue to study
+        s-design-proceedarticle: Continue to article
+
+
+
+
+        // 5. MDWDS
+        s-mdwds-chapter-1-subchapter-1-img1:
+            '''
+            A moduláris tervezés lehetővé teszi a sorozatgyártást, így a modelleket nem egymás után, egyedileg készítik el, hanem egyszerre, 
+            párhuzamosan dolgoznak rajtuk.
+            '''
+    }
+}

@@ -52,9 +52,13 @@
                         <a href="daydreaming.html">
                             <div class="u-project__cover u-project__cover--dd"></div>
                             <div class="u-project__description">
-                                <h1 class="t-projectTitle__h1">Daydreaming</h1>
-                                <p class="t-projectDescription__p localized">s-art-daydreaming-description</p>
-                                <p class="t-projectCount__p">See all <span class="js-writeDaydreamCount"></span> artworks</p>
+                                <h1 class="t-projectTitle__h1" data-i18n="s-daydreaming-title"></h1>
+                                <p class="t-projectDescription__p" data-i18n="s-art-daydreaming-description"></p>
+                                <p class="t-projectCount__p">
+                                    <span data-i18n="s-art-see-all">See all</span>
+                                    <span class="js-writeDaydreamCount"></span>
+                                    <span data-i18n="s-art-artworks">artworks</span>
+                                </p>
                             </div>
                         </a>
                     </div>
@@ -64,9 +68,9 @@
                         <a href="the-divided-soul.html">
                             <div class="u-project__cover u-project__cover--ds"></div>
                             <div class="u-project__description">
-                                <h1 class="t-projectTitle__h1">The Divided Soul</h1>
-                                <p class="t-projectDescription__p localized">s-art-dividedsoul-description</p>
-                                <p class="t-projectCount__p">See all <span class="js-writeSoulCount"></span> artworks</p>
+                                <h1 class="t-projectTitle__h1" data-i18n="s-dividedsoul-title"></h1>
+                                <p class="t-projectDescription__p" data-i18n="s-art-dividedsoul-description"></p>
+                                <p class="t-projectCount__p"><span data-i18n="s-art-see-all">See all</span> <span class="js-writeSoulCount"></span> <span data-i18n="s-art-artworks">artworks</span></p>
                             </div>
                         </a>
                     </div>
@@ -76,9 +80,9 @@
                         <a href="traditional-drawings.html">
                             <div class="u-project__cover u-project__cover--td"></div>
                             <div class="u-project__description">
-                                <h1 class="t-projectTitle__h1">Portrait Art</h1>
-                                <p class="t-projectDescription__p">Traditional (mostly pencil) drawings of Pinterest portraits featuring epic trap tracks.</p>
-                                <p class="t-projectCount__p">See all <span class="js-writePortraitCount"></span> artworks</p>
+                                <h1 class="t-projectTitle__h1" data-i18n="s-portraitart-title"></h1>
+                                <p class="t-projectDescription__p" data-i18n="s-art-portraitart-description"></p>
+                                <p class="t-projectCount__p"><span data-i18n="s-art-see-all">See all</span> <span class="js-writePortraitCount"></span> <span data-i18n="s-art-artworks">artworks</span></p>
                             </div>
                         </a>
                     </div>
@@ -113,13 +117,22 @@
         </script>
 
         <!-- Regular JS -->
-        <script src="../js/cookie.js"                               ></script>
-        <script src="../js/vendor/slick/slick.js"                   ></script>
-        <script src="../js/slickslider-art.js"                      ></script>
-        <script src="../js/chrome-vhfix.js"                         ></script>
-        <script src="../js/class-counter.js"                        ></script>
-        <script src="../js/vendor/button-ripple/button-ripple.js"   ></script>
-        <script src="../js/lang-redir/localization.js"              ></script>
+        <script src="../js/cookie.js"                                      ></script>
+        <script src="../js/vendor/slick/slick.js"                          ></script>
+        <script src="../js/slickslider-art.js"                             ></script>
+        <script src="../js/chrome-vhfix.js"                                ></script>
+        <script src="../js/class-counter.js"                               ></script>
+        <script src="../js/vendor/button-ripple/button-ripple.js"          ></script>
+
+        <script src="../js/vendor/jquery.i18n/CLDRPluralRuleParser.js"     ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.js"              ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.messagestore.js" ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.fallbacks.js"    ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.language.js"     ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.parser.js"       ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.emitter.js"      ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.emitter.bidi.js" ></script>
+        <script src="../js/vendor/jquery.i18n/global.js"                   ></script>
 
     </body>
 </html>
