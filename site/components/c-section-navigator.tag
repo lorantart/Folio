@@ -3,7 +3,7 @@
         <div class="c-sectionNavigator__marker"></div>
         <ol id="js-chapterlist">
             <li class="js-chapter" each={ opts.toc_items }>
-                <a href="{ chapter_id }">{ chapter_title }</a>
+                <a href="{ chapter_id }" data-i18n="{ chapter_title }"></a>
             </li>
         </ol>
     </div>

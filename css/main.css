@@ -2411,12 +2411,10 @@ progress[value]::-webkit-progress-bar {
     background: url(../assets/img/component/art-portrait.jpg) center center; }
   .u-articlePreview-wrapper .m-articlePreview--design {
     background: url(../assets/img/component/design.jpg) center center; }
-  .u-articlePreview-wrapper .m-articlePreview--design-designsystems {
-    background: url(../assets/img/component/design-designsystems.jpg) center center; }
-  .u-articlePreview-wrapper .m-articlePreview--article {
-    background: url(../assets/img/component/article.jpg) center center; }
-  .u-articlePreview-wrapper .m-articlePreview--article-modularity {
-    background: url(../assets/img/component/article-modularity.jpg) center center; }
+  .u-articlePreview-wrapper .m-articlePreview--design-mdwds {
+    background: url(../assets/img/component/design-mdwds.jpg) center center; }
+  .u-articlePreview-wrapper .m-articlePreview--design-tcds {
+    background: url(../assets/img/component/design-tcds.jpg) center center; }
   .u-articlePreview-wrapper .o-articlePreview {
     width: 100%;
     height: 400px;

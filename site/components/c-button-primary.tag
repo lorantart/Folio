@@ -1,5 +1,5 @@
 <c-button-primary>
-    <a data-ripple class="c-primaryButton" href={ opts.link }>{ opts.cta }</a>
+    <a data-ripple class="c-primaryButton" href={ opts.link } data-i18n="{ opts.cta }"></a>
 
     <script>
         jQuery(function($) {
