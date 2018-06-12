@@ -76,6 +76,7 @@
                 $( '.c-header__popover').hide();
             });
 
+            /*
             $('.js-language-selector-hu').click( function(e) 
             {
                 e.preventDefault(); 
@@ -98,7 +99,9 @@
                 setCookie("selectedLanguage","en",365); 
                 location.reload(); 
                 return false; 
-            } );
+            });
+            */
         });
+    
     </script>
 </o-header>
