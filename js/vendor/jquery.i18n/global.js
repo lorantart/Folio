@@ -1,42 +1,51 @@
 jQuery(function($) {
     $.getJSON('/js/vendor/jquery.i18n/i18n/lang.json', lang => {
-        $.i18n({
-            locale: 'en'
-        })
+        if (getCookie("selectedLanguage") === 'hu') {
+            $.i18n({
+                locale: 'hu'
+            })
+            activateHU()
+        } else {
+            $.i18n({
+                locale: 'en'
+            })
+            activateEN()
+        }
         
         $.i18n()
             .load(lang)
             .done(function() {
                 $('.js-language-selector-hu').click(function() {
-                    $.i18n({
-                        locale: 'hu'
-                    })
-                    $('body').i18n();
-                    $('.js-language-selector-hu').removeClass('m-language--inactive').addClass('m-language--active')
-                    $('.js-language-selector-en').removeClass('m-language--active').addClass('m-language--inactive')
-                    setHtml();
+                    activateHU()
+                    setHtml()
                 })
         
                 $('.js-language-selector-en').click(function() {
-                    $.i18n({
-                        locale: 'en'
-                    })
-                    $('body').i18n();
-                    $('.js-language-selector-en').removeClass('m-language--inactive').addClass('m-language--active')
-                    $('.js-language-selector-hu').removeClass('m-language--active').addClass('m-language--inactive')
-                    setHtml();
+                    activateEN()
+                    setHtml()
                 })
-            $('body').i18n();
-        })
+
+                $('body').i18n()
+            })
+
+        function activateEN() {
+            $('.js-language-selector-en').removeClass('m-language--inactive').addClass('m-language--active')
+            $('.js-language-selector-hu').removeClass('m-language--active').addClass('m-language--inactive')
+        }
+
+        function activateHU() {
+            $('.js-language-selector-hu').removeClass('m-language--inactive').addClass('m-language--active')
+            $('.js-language-selector-en').removeClass('m-language--active').addClass('m-language--inactive')
+        }
     
-        function set_locale_to(locale) {
+        /*
+        function setLocaleTo(locale) {
             if (locale) {
                 $.i18n().locale = locale;
             }
             $('body').i18n();
         }
-
-        
+        */  
 
         //Ezt itten én hákoltam bele
         //https://www.bountysource.com/issues/31020111-html-elements-are-escaped
@@ -49,6 +58,6 @@ jQuery(function($) {
             })
         }
 
-        $(document).ready(function() { setHtml(), SetLocaleTo(locale); });
+        $(document).ready(function() { setHtml() });
     })
 })

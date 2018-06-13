@@ -76,7 +76,6 @@
                 $( '.c-header__popover').hide();
             });
 
-            /*
             $('.js-language-selector-hu').click( function(e) 
             {
                 e.preventDefault(); 
@@ -85,22 +84,29 @@
                 if(currentLanguage == "hu") return false;
 
                 setCookie("selectedLanguage","hu",365); 
-                location.reload(); 
+                //location.reload();
+                $.i18n({
+                    locale: 'hu'
+                })
+                $('body').i18n();
                 return false; 
-            } );
+            });
 
-            $('.js-language-selector-en').click( function(e) 
+            $('.js-language-selector-en').click( function(e)
             {                
-                e.preventDefault(); 
+                e.preventDefault();
 
                 var currentLanguage = getCookie("selectedLanguage");
                 if(currentLanguage == "en") return false;
 
-                setCookie("selectedLanguage","en",365); 
-                location.reload(); 
-                return false; 
+                setCookie("selectedLanguage","en",365);
+                $.i18n({
+                    locale: 'en'
+                })
+                $('body').i18n();
+                //location.reload(); 
+                return false;
             });
-            */
         });
     
     </script>

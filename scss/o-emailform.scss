@@ -14,7 +14,18 @@
         @extend %t-article__h2;
         display: none;
 
+        text-align: center;
+
+        padding: 0 1em;
         margin: 0 auto;
+
+        .t-feedback__a {
+            color: $blue;
+        }
+
+        .t-feedback__a:hover {
+            text-decoration: underline;
+        }
     }
 
     .o-emailForm {

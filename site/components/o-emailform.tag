@@ -1,6 +1,6 @@
 <o-emailform class="js-fadingBlock">
     <section class="u-emailForm-wrapper { opts.hidden } { opts.color }">
-        <div class="c-welcomeModule" data-i18n="s-emailform-thankmsg"></div>
+        <div class="c-welcomeModule"></div>
         <div class="o-emailForm">
             <div id="mc_embed_signup">
                 <form
@@ -190,7 +190,11 @@
                         if (data.result === 'success')
                         {
                             $('.o-emailForm').slideUp(400)
-                            $('.c-welcomeModule').html('Kösz tesa! Majd kuldom a cuccokat!')
+                            if (getCookie("selectedLanguage") === 'hu') {
+                                $('.c-welcomeModule').html("Köszi!<br> Hamarosan küldöm a menő cuccokat :)")
+                            } else {
+                                $('.c-welcomeModule').html("Thanks!<br> You'll get all 'em goodies :)")
+                            }
                             $('.c-welcomeModule').delay(600).slideDown()
                             $('#mce-EMAIL').val('')
                         }
@@ -214,18 +218,31 @@
                     var match = data.msg.match(too_many_signup_attempts);
                     var email = match[1]
 
-                    return 'Hé hé hé! Ennyire ne legyél mohó!<br>Túl sokszor próbáltad regisztrálni a(z) '+email+' email címet!';
+                    if (getCookie("selectedLanguage") === 'hu') {
+                        return "Hey, hey, hey!!<br>Don't be so greedy... You've been trying to register '+email+' too many times!";
+                    } else {
+                        return "Hé, hé, hé!!<br>Ne legyél ennyire mohó... Túl sokszor próbáltad regisztrálni ezt a címet: '+email+'!";
+                    }
                 }
                 if (data.msg.match(already_signed_up))
                 {
                     var match = data.msg.match(already_signed_up);
                     var email = match[1]
                     var link = match[2]
-                    return 'Már regisztráltál a(z) '+email+' címmel. <a href="'+link+'">Itt tudod módosítani a regisztrációt.</a>'
+
+                    if (getCookie("selectedLanguage") === 'hu') {
+                        return 'Már regisztráltad ezt a címet: '+email+'.<br><a class="t-feedback__a" href="'+link+'">Itt tudod módosítani a beállításaidat.</a>'
+                    } else {
+                        return 'You\'ve already registered '+email+'.<br><a class="t-feedback__a" href="'+link+'">You can edit your preferences here.</a>'
+                    }
                 }
                 else
                 {
-                    return 'Hiba történt a feliratkozás során. Próbáld meg később!'
+                    if (getCookie("selectedLanguage") === 'hu') {
+                        return 'Hiba történt a regisztráció közben. Próbálkozz később!'
+                    } else {
+                        return 'An error occurred during subscription. Try again later!'
+                    }
                 }
             }
 
@@ -272,14 +289,22 @@
             {
                 if (!emailfield.validity.valid)
                 {
-                    emailfieldError.innerHTML = "Az email formátuma nem megfelelő";
+                    if (getCookie("selectedLanguage") === 'hu') {
+                        emailfieldError.innerHTML = "Valós email címet adj meg!";
+                    } else {
+                        emailfieldError.innerHTML = "Enter a valid email address!";
+                    }
                     emailfieldError.className = "error active";
                     event.preventDefault();
                 }
 
                 if (!nicknamefield.validity.valid)
                 {
-                    nicknamefieldError.innerHTML = "Ne felejtsd el kitölteni!";
+                    if (getCookie("selectedLanguage") === 'hu') {
+                        nicknamefieldError.innerHTML = "Add meg a nevedet!";
+                    } else {
+                        nicknamefieldError.innerHTML = "Enter your nickname!";
+                    }
                     nicknamefieldError.className = "error active";
                     event.preventDefault();
                 }

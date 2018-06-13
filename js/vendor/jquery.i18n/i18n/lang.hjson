@@ -7,9 +7,9 @@
 // 1.7 Button-secondary
 // 1.8 Articledisplay
 
-// 2. MY STORY
+// 2.  MY STORY
 
-// 3. ART
+// 3.  ART
 // 3.1 Daydreaming
 // 3.2 Dividedsoul
 // 3.3 Portraitart
@@ -34,14 +34,13 @@
         s-emailform-title: Értesülj az új feltöltésekről!
         s-emailform-p:
             '''
-            A hírleveleket angolul írom, és többek között a rajzaim, festményeim mögötti történetről szólnak. Iratkozz fel, ha
-            szeretnél minél többet megtudni róluk.
+            Ha szeretnél elsők közt értesülni a feltöltéseimről, és kíváncsi vagy a munkáim mögötti történetekre, akkor mindenképpen iratkozz fel a hírlevelemre!
+            Meglehet, hogy időnként exkluzív tartalmat is küldök.
             '''
         s-emailform-email: Erre az email címre küldöm
         s-emailform-nickname: Így foglak szólítani
         s-emailform-cta: Feliratkozom!
         s-emailform-hide: Ne mutasd többet
-        s-emailform-thankmsg: Köszi a feliratkozást!
         // 1.4 Articlepreview
         s-articlepreview-art-title: Rajzaim és<br>festményeim
         s-articlepreview-design-title: Moduláris megközelítés<br>digitális terméktervezésben
@@ -83,7 +82,7 @@
             Azonban rövidesen rájöttem, hogy ahhoz, hogy igazán jó és technológiailag is átgondolt terveket tudjak készíteni, elengedhetetlen a HTML, CSS és javascript 
             alapszintű ismerete. Ennek két oka is van: tervezésnél fontos tekintettel lenni a design kódszintű implementálására, vagyis arra, hogy milyen módszerekkel 
             lesz megvalósítható az általam tervezett látványterv. Másrészt pedig annak ellenére, hogy egyre jobb prototípuskészítő alkalmazások jelennek meg a piacon, 
-            még mindig nehézkes velük a reszponzív layout-ok, valamint az interakciókon alapuló felületek prezentálása.
+            még mindig nehézkes velük a reszponzív layoutok, valamint az interakciókon alapuló felületek prezentálása.
             '''
         s-mystory-p4:
             '''
@@ -117,12 +116,12 @@
         s-art-see-all: Mind a
         s-art-artworks: rajz megtekintése
 
-        s-art-daydreaming-description: Figurative painting project with girls, cute pets and moody lights.
-        s-art-dividedsoul-description: Fantasy landscape art project showcasing scenes from a breathtaking imaginary world.
-        s-art-portraitart-description: Traditional drawings of Pinterest portraits featuring the best chillout tracks.
+        s-art-daydreaming-description: Figurális festészeti projekt lányokkal, aranyos állatokkal és hangulatos fényekkel.
+        s-art-dividedsoul-description: Egy lenyűgöző, képzeletbeli világ bemutatása fantasy tájképeken keresztül.
+        s-art-portraitart-description: Hagyományos, szabadkézi rajzok Pinterest portrékról a legjobb chillout számokkal.
 
-        s-artsubpage-to-artworks: Back to the artworks
-        s-artsubpage-to-story: Read the story
+        s-artsubpage-to-artworks: Vissza a rajzokhoz
+        s-artsubpage-to-story: Olvasd el a történetet
 
         // 3.1 Daydreaming
         s-dd-about-p1:
@@ -133,51 +132,108 @@
             '''
         s-dd-about-p2:
             '''
-            Egy gyenge minőségű Pinterest képpel kezdődött, de arra pont elég volt, hogy kiindulást adjon a koncepcióhoz. Az első festményt 3 nap alatt
+            Egy gyenge minőségű Pinterest képpel kezdődött, ami arra pont elég volt, hogy kiindulást adjon a koncepcióhoz. Az első festményt 3 nap alatt
             fejeztem be, reggeltől estig dolgoztam rajta. Annyira élveztem, hogy rá pár napra elkezdtem a következőt, és egy héttel később az is elkészült.
             A harmadik a Bad Karma volt, a széria ikonikus képe, amivel azóta számtalan helyen találkoztam.
             '''
         s-dd-about-p3:
             '''
             Azonban idővel elkezdtem eltávolodni az eredeti hangulattól, és nem jó irányba. A sorozat egyre színesebb lett, a koncepció pedig egyre
-            erőltetettebb. Emiatt pár festményt kivettem belőle, de egyelőre
-            <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">a DeviantArt oldalamon</a> fent vannak. Sajnos 
+            erőltetettebb. Emiatt pár festményt kivettem belőle, de egyelőre a
+            <a target="blank" href="https://lorantart.deviantart.com/" class="t-article--sliding__a">DeviantArt oldalamon</a> fent vannak. Sajnos 
             már nem tudok ugyanazzal az intenzitással dolgozni rajta, amivel kezdtem, de ezt tartom a legeredetibb projektemnek, és azon dolgozok, hogy 
             visszatereljem abba az irányba, ahonnan indult.
             '''
+
+        s-dd-06-title: Bad Karma
+        s-dd-06-date: 2016 augusztus
+
+        s-dd-05-title: Daydreaming
+        s-dd-05-date: 2016 július
+
+        s-dd-04-title: Daydream
+        s-dd-04-date: 2016 július
+
+        s-dd-03-title: Stressed Out
+        s-dd-03-date: 2016 október
+
+        s-dd-02-title: Light of Hope
+        s-dd-02-date: 2016 december
+
+        s-dd-01-title: Catch and Release
+        s-dd-01-date: 2017 február
 
         // 3.2 Dividedsoul
         s-ds-about-p1:
             '''
             A Divided Soul egy fantasy stílusú, digitális illusztrációkból álló sorozat, amit 2015 nyarának végén kezdtem el, és a mai napig dolgozom rajta.
-            Egy gyakorló projektnek indult, amihez az inspirációt <a href="http://noahbradley.com" class="t-article--sliding__a" target="blank">Noah Bradley: 
+            Egy gyakorló projektnek indult, amihez az inspirációt <a target="blank" href="http://noahbradley.com" class="t-article--sliding__a">Noah Bradley: 
             The Sin of Man</a> kollekciója adta. Az utóbbi évek alatt rengeteget  fejlődtem, és a projekt is sokat haladt előre, így az idő folyamán kiírtam 
             belőle festményeket, amikről úgy gondoltam, hogy kevésbé illenek az általam elképzelt világba. Ha érdekelnek, még megtalálod őket 
-            <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">a DeviantArt profilomon</a>.
+            <a target="blank" href="https://lorantart.deviantart.com/" class="t-article--sliding__a">a DeviantArt profilomon</a>.
             '''
         s-ds-about-p2:
             '''
             A Divided Soul nagyon közel áll a szívemhez, de nem tartom többnek egy hobbiprojektnél. Örülök, ha minél több emberhez eljut, de azon kívül, 
             hogy kiélem a kreativitásomat és lekötöm az álmodozásomat, nincs semmi különleges tervem vele. Éppen ezért, a teljes széria szabadon letölthető 
-            és <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">bizonyos korlátok közt felhasználható</a>.
+            és <a target="blank" href="https://lorantart.deviantart.com/" class="t-article--sliding__a">bizonyos korlátok közt felhasználható</a>.
             '''
         s-ds-about-p3:
             '''
             Nagyon sokat köszönhetek napjaink nyílt és segítőkész alkotói közösségének, és úgy gondolom, hogy ez mindenkinek megadja a lehetőséget, hogy 
             kellő elszántsággal beteljesítse álmait. Továbbá a 9GAG seregének, ahol a Divided Soul 
-            <a href="https://9gag.com/gag/a8MqeAd" class="t-article--sliding__a" target="blank">nagyon meleg fogadtatásban részesült</a>.
+            <a target="blank" href="https://9gag.com/gag/a8MqeAd" class="t-article--sliding__a">nagyon meleg fogadtatásban részesült</a>.
             '''
         s-ds-about-p4:
             '''
             Ha tetszenek a munkáim, az övékét is biztosan inspirálónak találod majd:
-            <a href="https://artstation.com/kimagu"        class="t-article--sliding__a" target="blank">Kimagu</a>,
-            <a href="https://morippin.deviantart.com"      class="t-article--sliding__a" target="blank">Morippin</a>,
-            <a href="https://artstation.com/danyiart"      class="t-article--sliding__a" target="blank">DanyiArt</a>,
-            <a href="https://artstation.com/markmolnar"    class="t-article--sliding__a" target="blank">Molnar Mark</a>,
-            <a href="https://artstation.com/jotto"         class="t-article--sliding__a" target="blank">Otto Szatmari</a>,
-            <a href="https://artstation.com/jordangrimmer" class="t-article--sliding__a" target="blank">Jordan Grimmer</a>,
-            <a href="https://artstation.com/noahbradley"   class="t-article--sliding__a" target="blank">Noah Bradley</a>.
+            <a target="blank" href="https://artstation.com/kimagu"        class="t-article--sliding__a">Kimagu</a>,
+            <a target="blank" href="https://morippin.deviantart.com"      class="t-article--sliding__a">Morippin</a>,
+            <a target="blank" href="https://artstation.com/danyiart"      class="t-article--sliding__a">DanyiArt</a>,
+            <a target="blank" href="https://artstation.com/markmolnar"    class="t-article--sliding__a">Molnar Mark</a>,
+            <a target="blank" href="https://artstation.com/jotto"         class="t-article--sliding__a">Otto Szatmari</a>,
+            <a target="blank" href="https://artstation.com/jordangrimmer" class="t-article--sliding__a">Jordan Grimmer</a>,
+            <a target="blank" href="https://artstation.com/noahbradley"   class="t-article--sliding__a">Noah Bradley</a>.
             '''
+
+        s-ds-13-title: Path of Destruction
+        s-ds-13-date: 2017 július
+
+        s-ds-12-title: Awakening
+        s-ds-12-date: 2017 november
+
+        s-ds-11-title: Born of a Magnificient Creature
+        s-ds-11-date: 2016 augusztus
+
+        s-ds-10-title: Neverland
+        s-ds-10-date: 2016 december
+
+        s-ds-09-title: Wisp Hunter
+        s-ds-09-date: 2016 november
+
+        s-ds-08-title: Master's Call
+        s-ds-08-date: 2016 március
+
+        s-ds-07-title: Still and Silent
+        s-ds-07-date: 2017 január
+
+        s-ds-06-title: Lost Shores
+        s-ds-06-date: 2016 július
+
+        s-ds-05-title: Worlds
+        s-ds-05-date: 2016 december
+
+        s-ds-04-title: Guardian of eternity
+        s-ds-04-date: 2016 április
+
+        s-ds-03-title: Heart of the Mountain
+        s-ds-03-date: 2016 augusztus
+
+        s-ds-02-title: Valley of Legends
+        s-ds-02-date: 2016 január
+
+        s-ds-01-title: Entrance of a New World
+        s-ds-01-date: 2016 május
 
         // 3.3 Portraitart
         s-td-about-p1:
@@ -193,22 +249,57 @@
             tűnik fel a hasonlóság, és természetesen emellett helytáll téma, kompozíció, anatómia és tónusozás terén. Ez nem könnyű feladat, és habár 
             szereztem némi gyakorlatot az utóbbi években, a mai napig küszködöm ezzel - annyira, hogy nagyjából minden tizedik rajzom éri el ezt a szintet.
             A többi a kellemes gyakorlás kategóriába esik, és a fiókom mélyén végzik, hogy soha senki ne lássa őket :)
-            <a href="https://instagram.com/lorantart" class="t-article--sliding__a" target="blank">(Na jó, talán Instagramra felkerül egy-egy közülük)</a>.
+            <a target="blank" href="https://instagram.com/lorantart" class="t-article--sliding__a">(Na jó, talán Instagramra felkerül egy-egy közülük)</a>.
             '''
         s-td-about-p3:
             '''
             Természetesen nem magamtól jöttem rá mindenre, amit most tudok. A következő művészek nagy hatással voltak rám, és nagyon sokat tanultam tőlük:
-            <a href="http://proko.com/"          class="t-article--sliding__a" target="blank">Stan Prokopenko</a>,
-            <a href="http://stevehustonart.com/" class="t-article--sliding__a" target="blank">Steve Huston</a>,
-            <a href="http://caseybaugh.com/"     class="t-article--sliding__a" target="blank">Casey Baugh</a>,
-            <a href="http://redrabbit7.com/"     class="t-article--sliding__a" target="blank">Jeremy Mann</a>,
-            <a href="http://alpayefe.com/"       class="t-article--sliding__a" target="blank">Alpay Efe</a>.
+            <a target="blank" href="http://proko.com/"          class="t-article--sliding__a">Stan Prokopenko</a>,
+            <a target="blank" href="http://stevehustonart.com/" class="t-article--sliding__a">Steve Huston</a>,
+            <a target="blank" href="http://caseybaugh.com/"     class="t-article--sliding__a">Casey Baugh</a>,
+            <a target="blank" href="http://redrabbit7.com/"     class="t-article--sliding__a">Jeremy Mann</a>,
+            <a target="blank" href="http://alpayefe.com/"       class="t-article--sliding__a">Alpay Efe</a>.
             '''
         s-td-about-p4:
             '''
-            A rajzoknak azt a címet adtam, amelyik számot készítésük közben leginkább hallgattam. EDM veszély, előre szólok.
+            A portrék arról a számról kapták a címüket, amit akkor éppen kifejezetten szerettem hallgatni.
             '''
 
+        s-td-12-title: Revolution
+        s-td-12-date: 2016 június
+
+        s-td-11-title: I'd Love to Change the World
+        s-td-11-date: 2016 június
+
+        s-td-10-title: Kings
+        s-td-10-date: 2015 október
+
+        s-td-09-title: Idfc
+        s-td-09-date: 2016 július
+
+        s-td-08-title: Woke the F*ck Up
+        s-td-08-date: 2016 július
+
+        s-td-07-title: The Calling
+        s-td-07-date: 2016 augusztus
+
+        s-td-06-title: Unity
+        s-td-06-date: 2016 augusztus
+
+        s-td-05-title: Monody
+        s-td-05-date: 2016 augusztus
+
+        s-td-04-title: Say It
+        s-td-04-date: 2016 szeptember
+
+        s-td-03-title: Rush Over Me
+        s-td-03-date: 2016 október
+
+        s-td-02-title: Afterlife
+        s-td-02-date: 2016 október
+
+        s-td-01-title: It's All On U
+        s-td-01-date: 2017 május
 
 
         // 4.  DESIGN
@@ -238,14 +329,13 @@
         s-emailform-title: Get notified about project updates!
         s-emailform-p: 
             '''
-            In my emails I write about the background story of my drawings and paintings. Subscribe if you'd like to get to 
-            know more about 'em!
+            If you'd like to be the first to get notified about my new uploads and you're curious about the story of them, be sure to subscribe to my mailing list!
+            I might send exclusive content occasionally.
             '''
         s-emailform-email: Gonna send it to this email
         s-emailform-nickname: That's how I'm gonna call you
         s-emailform-cta: Subscribe!
         s-emailform-hide: Hide this form
-        s-emailform-thankmsg: Thanks 4 the sub, brother!
         // 1.4 Articlepreview
         s-articlepreview-art-title: My drawings<br>and paintings
         s-articlepreview-design-title: Modular approaches<br>in product design
@@ -337,15 +427,15 @@
             '''
         s-dd-about-p2:
             '''
-            Egy gyenge minőségű Pinterest képpel kezdődött, de arra pont elég volt, hogy kiindulást adjon a koncepcióhoz. Az első festményt 3 nap alatt
+            Egy gyenge minőségű Pinterest képpel kezdődött, ami arra pont elég volt, hogy kiindulást adjon a koncepcióhoz. Az első festményt 3 nap alatt
             fejeztem be, reggeltől estig dolgoztam rajta. Annyira élveztem, hogy rá pár napra elkezdtem a következőt, és egy héttel később az is elkészült.
             A harmadik a Bad Karma volt, a széria ikonikus képe, amivel azóta számtalan helyen találkoztam.
             '''
         s-dd-about-p3:
             '''
             Azonban idővel elkezdtem eltávolodni az eredeti hangulattól, és nem jó irányba. A sorozat egyre színesebb lett, a koncepció pedig egyre
-            erőltetettebb. Emiatt pár festményt kivettem belőle, de egyelőre
-            <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">a DeviantArt oldalamon</a> fent vannak. Sajnos 
+            erőltetettebb. Emiatt pár festményt kivettem belőle, de egyelőre a
+            <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">DeviantArt oldalamon</a> fent vannak. Sajnos 
             már nem tudok ugyanazzal az intenzitással dolgozni rajta, amivel kezdtem, de ezt tartom a legeredetibb projektemnek, és azon dolgozok, hogy 
             visszatereljem abba az irányba, ahonnan indult.
             '''
@@ -419,8 +509,8 @@
         s-mdwds-title: Modular Design with Design Systems
         s-tcds-title: The Chameleon Design System
 
-        s-design-mdwds-description: The road of design to modular approaches. Component-based design theory and practice in modern software development. (Awaiting english translation)
-        s-design-tcds-description: Presentation of the rules, structure and creation process of the design system behind lorant.design. (Awaiting english translation)
+        s-design-mdwds-description: The road of design to modular approaches. Component-based design theory and practice in modern software development. (Awaiting English translation)
+        s-design-tcds-description: Presentation of the rules, structure and creation process of the design system behind lorant.design. (Awaiting English translation)
 
         s-design-proceedstudy: Continue to study
         s-design-proceedarticle: Continue to article
@@ -523,7 +613,7 @@
             '''
         s-mdwds-chapter-1-subchapter-2-hl1:
             '''
-            "Egy gyűjtemény kapcsolódó elemekből vagy eszközökből, amik együtt operálnak."
+            "Döntsd el, mely modulokra van szükséged és oszd fel a programot úgy, hogy az adatokat modulokba helyezed."
             '''
         s-mdwds-chapter-1-subchapter-2-p3:
             '''
@@ -532,7 +622,7 @@
         s-mdwds-chapter-1-subchapter-2-p4:
             '''
             Az internet elterjedésével egyre nagyobb szerepet kapott a front-end fejlesztés is, ahol szintén megjelent a moduláris kódtervezés. Különböző 
-            keretrendszerek (framework-ök) és könyvtárak jöttek létre annak érdekében, hogy segítsék a webfejlesztők munkáját előre megírt, újrafelhasználható 
+            keretrendszerek (frameworkök) és könyvtárak jöttek létre annak érdekében, hogy segítsék a webfejlesztők munkáját előre megírt, újrafelhasználható 
             kódokkal. Ilyen volt például a jQuery, amit a mai napig széles körben használnak, de manapság is jelennek meg JavaScript alapú keretrendszerek, 
             mint például a <a target="_blank" class="t-article__a" href="https://vuejs.org">Vue</a> vagy a  <a target="_blank" class="t-article__a" href="https://reactjs.org">React</a>, amik 
             másként használják ki a modularitás tulajdonságait.
@@ -544,12 +634,12 @@
             tartani a front-end fejlesztéssel. <a target="_blank" class="t-article__a" href="https://www.designbetter.co/design-systems-handbook/introducing-design-systems">
             A Design Systems Handbook első fejezetében</a> így nyilatkozik:
             '''
-        s-mdwds-chapter-1-subchapter-2-p6:
+        s-mdwds-chapter-1-subchapter-2-hl2:
             '''
             Most, 50 évvel később, hasonló kihívásokkal találjuk szemben magunkat, de ezúttal design téren. A design küszködik azzal, hogy skálázódjon az 
             applikációval, amit támogat, mert még mindig egyedi, testreszabott megoldásokat nyújt egyéni problémákra.
             '''
-        s-mdwds-chapter-1-subchapter-2-p7:
+        s-mdwds-chapter-1-subchapter-2-p6:
             '''
             A design egyedi problémákra keres megoldást, ami lassítja a tervezési folyamatot. Ennek oka, hogy egyedi problémára egyedi megoldást lehet csak 
             tervezni, ami design adósságok felhalmozódásához vezet. Design adósságnak azt nevezzük, amikor egy létező felületbe egy új elem kerül be, amit 
@@ -629,8 +719,8 @@
             '''
             A programozási nyelvek fejlődése nem csak az asztali alkalmazás fejlesztést és a játékipart lendítették meg, hanem a webfejlesztést is. 
             Lehetőség nyílt arra, hogy a weboldalak dinamikusan, valós időben frissülő tartalmat jelenítsenek meg a felhasználóknak. Az első webes 
-            alkalmazás, ami lényegesen túlszárnyalta azt, amit mindaddig a weboldalakról gondoltunk, a Gmail volt. Ez a Google online e-mail kliense, 
-            amit 2004-ben tettek elérhetővé, és a mai napig a legnépszerűbb e-mail kezelő. Amellett, hogy messze ez biztosította a legnagyobb ingyenes 
+            alkalmazás, ami lényegesen túlszárnyalta azt, amit mindaddig a weboldalakról gondoltunk, a Gmail volt. Ez a Google online email kliense, 
+            amit 2004-ben tettek elérhetővé, és a mai napig a legnépszerűbb email kezelő. Amellett, hogy messze ez biztosította a legnagyobb ingyenes 
             tárhelyet, innovációja abban rejlett, hogy kihasználta az AJAX webfejlesztési technika előnyét, hogy újratöltés nélkül frissítse az oldal 
             bizonyos részeit. Az AJAX ezáltal nagymértékben tudta javítani a felhasználói élményt, a Gmail pedig volt annyira népszerű már a 
             megjelenésekor is, hogy <a target="_blank" class="t-article__a" href="https://www.developer.com/design/article.php/3526681">inspirációt adott a fejlesztőknek,</a> 
@@ -695,7 +785,7 @@
             '''
             Az internet megjelenése után a webes front-end fejlesztés (már ha nem erős ez a kifejezés) nagyon egyszerű eszközökkel dolgozott, ezért nem 
             volt kérdéses, hogy hol voltak a határai. Olyan alapvető formázásokat tudott, mint például színek, hátterek, betűméretek és stílusok állítása 
-            (nem meglepő, hiszen célja hasonló volt, mint például a Word-nek, azzal a különbséggel, hogy a dokumentum célzottan webes feltöltésre készült). 
+            (nem meglepő, hiszen célja hasonló volt, mint például a Wordnek, azzal a különbséggel, hogy a dokumentum célzottan webes feltöltésre készült). 
             Ekkor még jóideig helytállt a mondás, hogy amit le lehet kódolni HTML-ben és CSS-ben, arra lehetett készíteni tervet Phtosohopban. Azonban, 
             ahogy egyre bővült a specifikációjuk, majd kiegészítette a képet a JavaScript, ez lassan kezdett megváltozni.
             A JavaScript 1995-ben jelent meg, habár nagyobb népszerűségre csak hosszú küzdelmek után, a 2000-es évek elején tett szert. Ennek okáról hosszas 
@@ -752,8 +842,8 @@
         s-mdwds-chapter-2-subchapter-4-p5:
             '''
             A flat megjelenése óta nem történt igazán nagy stílusbeli változás. A mai napig ez az általános trend, azonban sokat fejlődött az elmúlt 
-            években. A Google 2014-ben publikálta a <a target="_blank" class="t-article__a" href="https://material.io/">Material Design-t</a>, ami nagyon sok tekintetben 
-            hasonlít a flat-hez, azonban sokkal egyértelműbben van definiálva, hiszen a Google gondoskodott a részletekbe menő rendszer megtervezéséről. 
+            években. A Google 2014-ben publikálta a <a target="_blank" class="t-article__a" href="https://material.io/">Material Designt</a>, ami nagyon sok tekintetben 
+            hasonlít a flathez, azonban sokkal egyértelműbben van definiálva, hiszen a Google gondoskodott a részletekbe menő rendszer megtervezéséről. 
             A material egy univerzális nyelv <a target="_blank" class="t-article__a" href="https://youtu.be/rrT6v5sOwJg?t=6m28s">(legalábbis Matias Duarte, a Google 
             VP designere szerint)</a>, ami folyamatosan fejlődik a korral, ezzel kiküszöbölve az olyan durva, ugrásszerű stílusbeli 
             átalakulásokat, mint amik korábban voltak.
@@ -779,7 +869,7 @@
         s-mdwds-chapter-2-subchapter-5-p1:
             '''
             A webdesign gyökerei a képzőművészetben keresendők, azonban egy olyan területről van szó, ami alig 20 éve fejlődött ki (legfeljebb a 2000-es 
-            évektől van értelme szakmaként tekinteni a webdesign-ra), és igazán nagy hangsúlyt csak az utóbbi években szerzett. Ahogyan próbál 
+            évektől van értelme szakmaként tekinteni a webdesignra), és igazán nagy hangsúlyt csak az utóbbi években szerzett. Ahogyan próbál 
             alkalmazkodni egyszerre a felhasználók igényeihez és a fejlődő technológiai háttérhez, nem meglepő, hogy az állása ennyire bizonytalan. 
             Ráadásul a rendeltetése merőben eltér attól, amit a képzőművészetben megszoktunk - a képeket, festményeket, szobrokat vizuálisan értelmezzük, 
             első ránézésre kialakul bennünk egy érzés a látott mű kapcsán, azonban a weboldalak egyszerre építenek vizuális és szöveges tartalomra, amit 
@@ -869,9 +959,9 @@
             '''
         s-mdwds-chapter-2-subchapter-7-p2:
             '''
-            Egy másik gyakori kiváltó oka pedig az, hogy a felületi hierarchia kialakításának hajtóereje nem felhasználói élményen alapul, hanem üzleti 
-            érdekeken. "Legyen figyelemfelkeltőbb" – ezután a mondat után általában elkerülhetetlen az adósságmentes tervezés &mdash;és sajnos ez egy igen 
-            elterjedt kifejezés.
+            Egy másik gyakori kiváltó oka pedig az, amikor a felületi hierarchia kialakításának hajtóereje nem felhasználói élményen alapul, hanem üzleti 
+            érdekeken. "Legyen figyelemfelkeltőbb" &mdash; ezután a mondat után általában elkerülhetetlen az adósságmentes tervezés, és sajnos többször hallani,
+            mint kellene.
             '''
         s-mdwds-chapter-2-subchapter-7-p3:
             '''
@@ -882,21 +972,30 @@
             állapotba. Ilyenkor az a baj, hogy egy amúgy is régi terv kerül módosításra, amit még tovább kell zsúfolni, és nincs lehetőség arra, hogy 
             kisebb módosításokkal rendbetegyük a felületet, mint például a negatív terek újraállításával, vagy a betűk növelésével. Így sokkal nehezebb 
             komponensekben is gondolkodni, mivel nem tudjuk, hogy melyik elem hol jelenik meg a felületen, és hogyan alkalmazkodik a környezetéhez, tehát 
-            a megoldásunk nem lesz sem reszponzív, sem pedig skálázható. A felhasználói út szimulálása és a tesztelés is nehéz így, hiszen mindig csak a 
-            módosításokról lesznek tervek, amik a teljes felhasználói utat nem fedik le.
+            a megoldásunk nem lesz sem reszponzív, sem pedig skálázható (ezekről bővebben a 3. fejezetben). A felhasználói út szimulálása és a tesztelés 
+            is nehéz így, hiszen mindig csak a módosításokról lesznek tervek, amik a teljes felhasználói utat nem fedik le.
             '''
         // 5.2.8 MDWDS Chapter 2 Subchapter 8
         s-mdwds-chapter-2-subtitle-8: A design szoftverek lemaradtak a fejlődésben
         s-mdwds-chapter-2-subchapter-8-p1:
             '''
             Az általános design megközelítés sokáig egy helyben toporgott: ugyanazzal a technológiai háttérrel próbálta megoldani a szoftverfejlesztés 
-            által felvetett problémákat, mint amikor széleskörben elterjedtek a pixelgrafikus tervezőszoftverek, mint például a Photoshop. Évtizedek 
-            teltek el, és még a mai napig ez az egyik legnépszerűbb tervezőszoftver webes környezetben is, annak ellenére, hogy elsősorban 
+            által felvetett problémákat, mint amikor széleskörben elterjedtek a pixelgrafikus tervezőszoftverek, mint például a Photoshop.
+            '''
+            
+        s-mdwds-chapter-2-subchapter-8-p2:
+            '''
+            Évtizedek teltek el, és még a mai napig ez az egyik legnépszerűbb tervezőszoftver webes környezetben is, annak ellenére, hogy elsősorban 
             tervezőgrafikára hozták létre, és nagyon nehezen illeszthető modern szoftverfejlesztési környezetbe. Habár széles palettájának köszönhetően 
             a digitális grafika nagyon sok területén alkalmazható, és weboldalak látványterveit is viszonylag könnyen meg lehet benne tervezni, azonban 
             a moduláris tervezésre irányuló törekvéseknek gátat szab, hogy az elemeket csak egyedi objektumokként engedi kezelni, így nem ad lehetőséget 
             univerzális megoldások tervezésére mesterobjektumok létrehozásán keresztül. Ezért, ha frissíteni szeretnénk egy komponenst, azt az összes 
-            létező helyen meg kell tennünk. A moduláris tervezés középpontjában az előre meghatározott megoldások állnak, azonban csak a közelmúltban 
+            létező helyen meg kell tennünk.
+            '''
+
+        s-mdwds-chapter-2-subchapter-8-p3:
+            '''
+            A moduláris tervezés középpontjában az előre meghatározott megoldások állnak, azonban csak a közelmúltban 
             kezdtek el olyan szoftvereket készíteni, amiknek erőssége nem a széleskörű grafikai palettában rejlik, hanem a rendszerszintű megoldások 
             minél könnyebb definiálásában. Ilyen például a Sketch, a Gravit és az InVision Studio.
             '''
@@ -943,7 +1042,7 @@
             '''
         s-mdwds-chapter-3-subchapter-1-p3:
             '''
-            A design rendszerek ezzel szemben komponensalapú megközelítést használnak, amit Brad Frost atomic design-nak nevezett el. Habár előtte is 
+            A design rendszerek ezzel szemben komponensalapú megközelítést használnak, amit Brad Frost atomic designnak nevezett el. Habár előtte is 
             terveztek hasonlóan, ő volt az első, aki összefoglalta ennek a rendszernek a megfelelő előkészületeit, kialakítását, alkalmazását és 
             fenntartását. Az atom alapú tervezés lényege, hogy hasonlóan, mint ahogy a bútorok vagy az autók, egy weboldal arculata is felbontható 
             ismétlődő, újra felhasználható elemekre. Így gyakorlatilag még azelőtt meg tudjuk tervezni a design alapját, hogy tudnánk a pontos 
@@ -976,7 +1075,7 @@
         s-mdwds-chapter-3-subchapter-1-p7:
             '''
             Azonban itt fontos megjegyezni, hogy a design rendszer nem merül ki egy atom alapú komponensgyűjteményben. Brad Frost 
-            <a target="_blank" class="t-article__a" href="http://atomicdesign.bradfrost.com/table-of-contents/">Atomic Design-ja</a> nem csupán egy bottom-up tervezési 
+            <a target="_blank" class="t-article__a" href="http://atomicdesign.bradfrost.com/table-of-contents/">Atomic Designja</a> nem csupán egy bottom-up tervezési 
             modell, hanem egy modern terméktervezési megközelítés, ami a design folyamatok mellett számításba veszi az implementációt és a 
             szoftverfejlesztési- és menedzsment folyamatokban való közös együttműködést.
             '''
@@ -1026,7 +1125,7 @@
             nagy figyelmet csak 2012 körül kapott. Ekkor váltak ugyanis széleskörben elérhetővé az okostelefonok és tabletek. Egészen addig, mivel az 
             emberek többsége asztali gépről böngészett, külön oldalként kezelték a  mobil változatát egy felületnek, így teljesen más kód szolgálta ki, 
             mint az asztali weboldalt. Ez a gyakrolatban úgy néz ki, hogy amikor a felhasználó felmegy az oldalra mobilról, egy átirányítás történik a 
-            "www.domain.com"-ról a "www.m.domain.com"-ra.
+            "domain.com"-ról az "m.domain.com"-ra.
             '''
         s-mdwds-chapter-3-subchapter-3-p2:
             '''
@@ -1034,7 +1133,7 @@
             szélességét, és a stílusokat ez alapján rendeli a HTML elemekhez, így lehetővé téve dinamikus layout létrehozását. Az előző példával szemben 
             itt ugyanaz a kód szolgálja ki az összes nézetet, csak a kódnak bizonyos elemei felülíródnak kijelzőmérettől függően. Habár még mindig vannak 
             "M-dot" weboldalak, <a target="_blank" class="t-article__a" href="https://www.uxpin.com/studio/blog/m-dot-sites-are-dying-long-live-responsive-design/">a 
-            számuk drasztikusan csökkent,</a> hiszen a reszponzív tervezéssel ellentétben egy layout-ra épülnek, így a mobil és az asztali nézet közti 
+            számuk drasztikusan csökkent,</a> hiszen a reszponzív tervezéssel ellentétben egy layoutra épülnek, így a mobil és az asztali nézet közti 
             lehetőségekre továbbra sem lesz megfelelően optimalizálva a weboldal.
             '''
         s-mdwds-chapter-3-subchapter-3-p3:
@@ -1057,11 +1156,11 @@
             '''
         s-mdwds-chapter-3-subchapter-3-p5:
             '''
-            Nem olyan régen terveztem egy fejlécet, ahol ezt a fajta gondolkodást követtem. Ehhez először megterveztem a komponenst különböző 
-            töréspontokhoz, amiket a tartalomhoz igazítottam, így minimálisra sikerült szorítanom a számukat, és ezzel elértem azt is, hogy mindegy, 
-            milyen kijelzőn jelenik meg, biztosan megflelő felhasználói élményt fog nyújtani. Ha ki kellene egészíteni a fejlécet további menüpontokkal, 
-            akkor sem kellene sokat változtatnom rajta, csak annak a töréspontnak a minimum szélességét nagyobbra vennem, ami azért felelős, hogy a menü 
-            elemeit a lenyíló dobozba áthelyezze. Ezen az egyszerű példán jól látható, hogy mit jelent a skálázhatóság és a reszponzív tervezés.
+            A lorant.design fejlécét ennek megfelelően terveztem. Először elkészítettem a Sketch szimbólumot különböző töréspontokhoz, amiket a tartalomhoz 
+            igazítottam, így minimálisra sikerült szorítanom a számukat, és ezzel elértem azt is, hogy mindegy, milyen kijelzőn jelenik meg, biztosan megflelő 
+            felhasználói élményt fog nyújtani. Ha ki kellene egészíteni a fejlécet további menüpontokkal, akkor sem kellene sokat változtatnom rajta, csak 
+            annak a töréspontnak a minimum szélességét nagyobbra vennem, ami azért felelős, hogy a menü elemeit a lenyíló dobozba áthelyezze. Ezen az 
+            egyszerű példán jól látható, hogy mit jelent a skálázhatóság és a reszponzív tervezés.
             '''
         // 5.3.4 MDWDS Chapter 3 Subchapter 4
         s-mdwds-chapter-3-subtitle-4: Design folyamatok integrációja az agilis szoftverfejlesztésbe
@@ -1087,15 +1186,15 @@
             Azért is alkalmazzák előszeretettel, mert a szabályok elősegítik a gyors reagálást a változásokra, ezzel rugalmassá és piacközpontúvá téve 
             a tervezést. A kiáltvány egyik pontja például arról szól, hogy az agilis szoftverfejlesztés előnyben részesíti a működő szoftvert az átfogó 
             dokumentációval szemben. Ennek oka, hogy időigényes a dokumentációk megírása és folyamatos frissítése, és az a munka, amit ezzel töltenénk, 
-            nem viszi közelebb közvetlenül a csapatot a szoftver minél gyorsabb elkészítéséhez. Ez mind jogos és érthető, csak arra nem ad választ, hogy 
-            ez mégis milyen hatással van a designra? Attól lesz agilis a design folyamat, hogy a designer a termékfejlesztő csapattal együtt dolgozik? 
-            Hogy fejlesztői meetingekre jár?
+            nem viszi közelebb közvetlenül a csapatot a szoftver minél gyorsabb elkészítéséhez. A kiáltvány pontjai érthetőek és jogosak, azonban 
+            elsősorban fejlesztésről szólnak, így designerként maradtak bennem kérdések. Attól lesz agilis a design folyamat, hogy a designer a termékfejlesztő 
+            csapattal együtt dolgozik? Hogy fejlesztői meetingekre jár?
             '''
         s-mdwds-chapter-3-subchapter-4-p4:
             '''
             Paul Adams az Intercomtól azt mondja, hogy a termék szállítása a felhasználóknak náluk csak a kezdete a termék életének. Megpróbálják a lehető 
             leggyorsabban megtenni ezt, hogy minél előbb visszajelzéseket kapjanak azzal kapcsolatban, hogy a termékük valóban segíti a felhasználót. Azt 
-            is hozzáteszi, hogy az MVP-t (legkisebb életképes termék) a cégek gyakran teljesen félreértelmezik, és összedobnak valamit, amiről azt sem 
+            is hozzáteszi, hogy az MVP-t (legkisebb életképes terméket) a cégek gyakran teljesen félreértelmezik, és összedobnak valamit, amiről azt sem 
             tudják, hogy kelleni fog-e egyáltalán valakinek. Ezzel szemben, náluk egy prototípussal letesztelt termékként tekintenek rá, ami funkcionalitásban 
             még fejlődhet felhasználói igényektől függően, de létező problémákra nyújt egyszerű és átgondolt megoldást.
             '''
@@ -1190,8 +1289,8 @@
             A pattern (minta) egy felület ismétlődő eleme. Ha ezeket egy helyre összegyűjtjük, akkor egy olyan könyvtárat kapunk, ami tartalmazza azokat 
             az építőelemeket, amikből egy felület jelentős része leképezhető. Ahhoz, hogy igazán effektív legyen ez a könyvtár, meg kell határoznunk azt 
             a szabályrendszert is, ami segít bennünket abban, hogy arra és úgy használjuk fel ezeket a komponenseket, amire tervezve lettek. A pattern 
-            library-nek több szintje van. Egy kisebb vállalatnak lehet, hogy elég egy szerényebb gyűjteményt összeállítani, és ezt Sketch Library-ben 
-            kezelni, míg egy nagyobb vállalat, ahol több embernek kell együtt dolgoznia, és ahol igazán fontos a design elemek- és a kód 
+            library-nek több szintje van. Egy kisebb vállalatnak lehet, hogy elég egy szerényebb gyűjteményt összeállítani Sketch-ben és Zeplinben vagy 
+            InVisionben közzétenni, míg egy nagyobb vállalat, ahol több embernek kell együtt dolgoznia, és ahol igazán fontos a design elemek- és a kód 
             újrafelhasználhatósága, ott egy nagyon részletes könyvtárra van szükség, ami online elérhető, és a design patterneken kívül 
             kódrészleteket is tartalmaz.
             '''
@@ -1221,9 +1320,10 @@
             '''
         s-mdwds-chapter-4-subchapter-3-p4:
             '''
-            Ami érdekes, hogy ezzel szemben Brad Frost a style guide-ot a design rendszer megvalósult dokumentumának tekinti, majdhogynem megegyező 
-            fogalomként alkalmazza a kettőt. Természetesen nincs értelme kifejezéseken ugrálni, valójában csak az a fontos, hogy vállalaton belül 
-            legyenek ezek a fogalmak tisztázva a félreértések elkerülése végett.
+            Ami érdekes, hogy ezzel szemben <a target="_blank" class="t-article__a" href="http://bradfrost.github.io/style-guide-guide/">Brad Frost a 
+            style guide-ot a design rendszer megvalósult dokumentumának tekinti,</a> majdhogynem megegyező fogalomként alkalmazza a kettőt. Természetesen 
+            nincs értelme kifejezéseken ugrálni, valójában csak az a fontos, hogy vállalaton belül legyenek ezek a fogalmak tisztázva a félreértések 
+            elkerülése végett.
             '''
         // 5.4.4 MDWDS Chapter 4 Subchapter 4
         s-mdwds-chapter-4-subtitle-4: Design system (design rendszer)
@@ -1254,8 +1354,7 @@
             '''
         s-mdwds-chapter-4-subchapter-4-p4:
             '''
-            Nathan Curtis az Atlassian-tól így fogalmazta, meg, hogy mi az a design rendszer: "A design rendszer nem egy projekt. Ez egy termék, ami 
-            termékeket szolgál ki." - 
+            Nathan Curtis az Atlassiantól így vélekedik a design rendszerről: "A design rendszer nem egy projekt. Ez egy termék, ami termékeket szolgál ki." - 
             <a target="_blank" class="t-article__a" href="https://medium.com/eightshapes-llc/a-design-system-isn-t-a-project-it-s-a-product-serving-products-74dcfffef935">Medium 
             cikkjében írja,</a> hogy fontos, hogy mind a készítők, mind pedig a felhasználók tisztában legyenek azzal, hogy ez nem egy projekt, hanem egy 
             termék. Ez azt jelenti, hogy folyamatos erőforrást és költségvetést kell dedikálni a fenntartásához. Nem elég egyszer elkészíteni és 
@@ -1276,7 +1375,7 @@
             '''
         s-mdwds-chapter-4-subchapter-5-p2:
             '''
-            A Material Design-t ezzel szemben azonban kifejezetten azzal a céllal tervezte a Google, hogy univerzális szabályokat hozzon létre a 
+            A Material Designt ezzel szemben azonban kifejezetten azzal a céllal tervezte a Google, hogy univerzális szabályokat hozzon létre a 
             felhasználói élmény javítása érdekében. Nem kell túlragozni, hogy a Google-nek miért jó, ha mindenki az ő által megfogalmazott elveket 
             követi, azonban ami ennél fontosabb, hogy ez miért jó a felhasználó szervezeteknek, illetve az általuk létrehozott termékek felhasználóinak.
             '''
@@ -1289,7 +1388,7 @@
             '''
         s-mdwds-chapter-4-subchapter-5-p4:
             '''
-            A felhasználókat pedig úgy segíti, hogy ahol Material Design pattern-eken alapuló komponensekkel találkoznak, ott gyorsabban megtanulják a 
+            A felhasználókat pedig úgy segíti, hogy ahol Material Design patterneken alapuló komponensekkel találkoznak, ott gyorsabban megtanulják a 
             felületek használatát, mivel egészen biztosan találkoztak már hasonló megoldásokkal (ha máshol nem, a Google felületein biztosan, azokat 
             pedig nehéz elkerülni).
             '''
@@ -1372,9 +1471,9 @@
         A színcsaládok legalább két színből álltak, még akkor is, ha volt olyan, amit csak később, vagy esetleg még egyáltalán nem kellett felhasználnom. 
         Ez azért volt jó, mert amikor azonos színű, de más árnyalatú kiegészítőszínt kellett alkalmaznom, nem volt kérdés, hogy ez milyen legyen. Kisebb 
         rendszerek esetben jól működhet ez a megközelítés, hiszen általában 2-3 árnyalatnál nincs szükség többre egy színből (kivéve a szürkét). Nagyobb 
-        rendszereknél pedig jól alkalmazható a <a target="_blank" class="t-article__a" href="https://material.io/guidelines/style/color.html>Material Design-féle skála,</a>
-        amiben a színek százas értékeket kapnak. Annyit kell csak bevezetni egyszerre, amennyire valóban szükség van, de az elnevezésnek köszönhetően bármikor 
-        bővíthető a készlet.
+        rendszereknél pedig jól alkalmazható a <a target="_blank" class="t-article__a" href="https://material.io/guidelines/style/color.html>Material 
+        Design-féle skála,</a> amiben a színek százas értékeket kapnak. Annyit kell csak bevezetni egyszerre, amennyire valóban szükség van, de az elnevezésnek 
+        köszönhetően bármikor bővíthető a készlet.
         '''
         s-mdwds-chapter-4-subchapter-7-p6: 
         '''

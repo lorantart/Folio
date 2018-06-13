@@ -2471,7 +2471,13 @@ progress[value]::-webkit-progress-bar {
   flex-grow: 1; }
   .u-emailForm-wrapper .c-welcomeModule {
     display: none;
+    text-align: center;
+    padding: 0 1em;
     margin: 0 auto; }
+    .u-emailForm-wrapper .c-welcomeModule .t-feedback__a {
+      color: #2979FF; }
+    .u-emailForm-wrapper .c-welcomeModule .t-feedback__a:hover {
+      text-decoration: underline; }
   .u-emailForm-wrapper .o-emailForm {
     max-width: 800px;
     width: 100%;
