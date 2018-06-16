@@ -74,33 +74,32 @@
             '''
             Ahogy elkezdtem ismerkedni a product design szakmával, egyre nyilvánvalóbbá vált számomra, hogy megtaláltam a területemet. Régóta közel áll hozzám a webes 
             tervezés, de őszintén szólva a kódolás sosem volt az erősségem, és visszavett a lelkesedésemből, hogy a terveket nem tudtam úgy életre kelteni, ahogyan azokat 
-            megálmodtam. Ahogy elkezdtem product designerként dolgozni, ez a problémám megoldódott, hiszen a felület frontend fejlesztői gondoskodtak a terveim 
-            megvalósításáról.
+            megálmodtam. Ahogy elkezdtem product designerként dolgozni, ez a problémám megoldódott, hiszen a felület front-end fejlesztői gondoskodtak erről.
             '''
         s-mystory-p3:
             '''
-            Azonban rövidesen rájöttem, hogy ahhoz, hogy igazán jó és technológiailag is átgondolt terveket tudjak készíteni, elengedhetetlen a HTML, CSS és javascript 
+            Azonban rövidesen rájöttem, hogy ahhoz, hogy igazán kifinomult és technológiailag is átgondolt terveket tudjak készíteni, elengedhetetlen a HTML, CSS és JavaScript 
             alapszintű ismerete. Ennek két oka is van: tervezésnél fontos tekintettel lenni a design kódszintű implementálására, vagyis arra, hogy milyen módszerekkel 
             lesz megvalósítható az általam tervezett látványterv. Másrészt pedig annak ellenére, hogy egyre jobb prototípuskészítő alkalmazások jelennek meg a piacon, 
             még mindig nehézkes velük a reszponzív layoutok, valamint az interakciókon alapuló felületek prezentálása.
             '''
         s-mystory-p4:
             '''
-            Így kezdtem el jópár év kihagyás után ismét kódolni szabadidőmben. Még van hova fejlődnöm, azonban már most érzem, hogy mennyivel kifinomultabb megoldásokat 
-            tudok tervezni, miközben nagy figyelmet fordítok a design rendszerszintű megtervezésére. Ezt a UI fejlesztők is értékelni szokták, én pedig sokkal gyorsabban 
-            tudok ezáltal dolgozni, így mégtöbb izgalmas kihívás elé állítva őket : )
+            Így kezdtem el jópár év kihagyás után ismét kódolni szabadidőmben. Még van hova fejlődnöm, azonban már most érzem, hogy mennyivel egységesebb megoldásokat 
+            tudok tervezni, miközben nagy figyelmet fordítok a design rendszerszintű megtervezésére. Ezt a front-end fejlesztők is értékelni szokták, én pedig sokkal gyorsabban 
+            tudok ezáltal dolgozni, így mégtöbb izgalmas kihívás elé állítva őket :o
             '''
 
         s-mystory-caption-design:
         '''
-            Hamarosan végzek az egyetemmel, ahol szakdolgozatom témájának a moduláris tervezést választottam. Ha érdekel egy könnyed olvasmány nagyszerű forrásokkal 
+            Éppen végzem az egyetemen, ahol szakdolgozatom témájának a moduláris tervezést választottam. Ha érdekel egy könnyed olvasmány nagyszerű forrásokkal 
             arról, hogy hogyan tört be a modularitás a szoftverfejlesztésbe, majd a webes design folyamatokba, akkor ajánlom figyelmedbe.
         '''
 
         s-mystory-caption-art:
         '''
-            Ha pedig a rajzaim érdekelnek, amiket szabadidőmben szoktam firkálgatni (és a végtelenségig túlrészletezni), itt megtalálod őket, és ha szívesen 
-            használnád háttérképként valamelyiket, le is töltheted 4K felbontásban.
+            Ha pedig a rajzaim érdekelnek, amiket szabadidőmben szoktam firkálgatni, itt megtalálod őket, és ha szívesen használnád háttérképként valamelyiket, 
+            le is töltheted fullHD felbontásban.
         '''
 
         s-mystory-thanksforvisit: Nagyon örülök a látogatásodnak. Tartsuk a kapcsolatot!
@@ -116,7 +115,7 @@
         s-art-see-all: Mind a
         s-art-artworks: rajz megtekintése
 
-        s-art-daydreaming-description: Figurális festészeti projekt lányokkal, aranyos állatokkal és hangulatos fényekkel.
+        s-art-daydreaming-description: Figurális festészeti projekt aranyos állatokkal és hangulatos fényekkel.
         s-art-dividedsoul-description: Egy lenyűgöző, képzeletbeli világ bemutatása fantasy tájképeken keresztül.
         s-art-portraitart-description: Hagyományos, szabadkézi rajzok Pinterest portrékról a legjobb chillout számokkal.
 
@@ -144,6 +143,9 @@
             már nem tudok ugyanazzal az intenzitással dolgozni rajta, amivel kezdtem, de ezt tartom a legeredetibb projektemnek, és azon dolgozok, hogy 
             visszatereljem abba az irányba, ahonnan indult.
             '''
+
+        s-dd-07-title: In My Mind
+        s-dd-07-date: 2018 június
 
         s-dd-06-title: Bad Karma
         s-dd-06-date: 2016 augusztus
@@ -248,12 +250,12 @@
             Számomra egy rajz akkor sikerül jól, ha el tud rugaszkodni a referenciaképtől annyira, hogy ha nem egymás mellett látod a kettőt, akkor nem
             tűnik fel a hasonlóság, és természetesen emellett helytáll téma, kompozíció, anatómia és tónusozás terén. Ez nem könnyű feladat, és habár 
             szereztem némi gyakorlatot az utóbbi években, a mai napig küszködöm ezzel - annyira, hogy nagyjából minden tizedik rajzom éri el ezt a szintet.
-            A többi a kellemes gyakorlás kategóriába esik, és a fiókom mélyén végzik, hogy soha senki ne lássa őket :)
+            A többi a kellemes (de frusztráló) gyakorlás kategóriába esik, és a fiókom mélyén végzik, hogy soha senki ne lássa őket :)
             <a target="blank" href="https://instagram.com/lorantart" class="t-article--sliding__a">(Na jó, talán Instagramra felkerül egy-egy közülük)</a>.
             '''
         s-td-about-p3:
             '''
-            Természetesen nem magamtól jöttem rá mindenre, amit most tudok. A következő művészek nagy hatással voltak rám, és nagyon sokat tanultam tőlük:
+            A következő művészek nagy hatással voltak rám, és nagyon sokat tanultam tőlük:
             <a target="blank" href="http://proko.com/"          class="t-article--sliding__a">Stan Prokopenko</a>,
             <a target="blank" href="http://stevehustonart.com/" class="t-article--sliding__a">Steve Huston</a>,
             <a target="blank" href="http://caseybaugh.com/"     class="t-article--sliding__a">Casey Baugh</a>,
@@ -262,7 +264,7 @@
             '''
         s-td-about-p4:
             '''
-            A portrék arról a számról kapták a címüket, amit akkor éppen kifejezetten szerettem hallgatni.
+            A rajzok arról a számról kapták a címüket, amiket készítésük közben hallgattam.
             '''
 
         s-td-12-title: Revolution
@@ -358,47 +360,45 @@
 
 
         // 2.  MY STORY
-        s-mystory-title: Szia! Lóránt vagyok.
-        s-mystory-subtitle: Letisztult felhasználói felületeket tervezek online termékek számára.
+        s-mystory-title: Hey! I'm Lorant.
+        s-mystory-subtitle: I design clean user interfaces for online products.
         s-mystory-p1:
             '''
-            Habár ez nem volt mindig így. Néhány éve még concept artist szerettem volna lenni, hogy menő filmeken és játékokon dolgozhassak. Nagyon szeretek rajzolni, 
-            de az utóbbi években rájöttem, hogy nem szeretném hivatásként űzni.
+            Although this was not always the case. A few years ago I wanted to be a concept artist to work on cool movies and games. I like to draw very much, but in 
+            recent years I've come to realize that I wouldn’t like it to be my profession.
             '''
         s-mystory-p2:
             '''
-            Ahogy elkezdtem ismerkedni a product design szakmával, egyre nyilvánvalóbbá vált számomra, hogy megtaláltam a területemet. Régóta közel áll hozzám a webes 
-            tervezés, de őszintén szólva a kódolás sosem volt az erősségem, és visszavett a lelkesedésemből, hogy a terveket nem tudtam úgy életre kelteni, ahogyan azokat 
-            megálmodtam. Ahogy elkezdtem product designerként dolgozni, ez a problémám megoldódott, hiszen a felület frontend fejlesztői gondoskodtak a terveim 
-            megvalósításáról.
+            As I began to get acquainted with product design, it became obvious to me that I found my craft. Web design has long been close to me, but frankly, coding 
+            has never been my strength, and I have lost my enthusiasm as I couldn’t bring my designs to life as I had imagined them. As I started working as a product 
+            designer, my problem were solved, as the front-end developers of the interfaces took care of this part.
             '''
         s-mystory-p3:
             '''
-            Azonban rövidesen rájöttem, hogy ahhoz, hogy igazán jó és technológiailag is átgondolt terveket tudjak készíteni, elengedhetetlen a HTML, CSS és javascript 
-            alapszintű ismerete. Ennek két oka is van: tervezésnél fontos tekintettel lenni a design kódszintű implementálására, vagyis arra, hogy milyen módszerekkel 
-            lesz megvalósítható az általam tervezett látványterv. Másrészt pedig annak ellenére, hogy egyre jobb prototípuskészítő alkalmazások jelennek meg a piacon, 
-            még mindig nehézkes velük a reszponzív layout-ok, valamint az interakciókon alapuló felületek prezentálása.
+            However, I soon realized that in order to create sophisticated and technologically thought-out plans, basic knowledge of HTML, CSS and JavaScript is essential. 
+            There are two reasons for this: in design, it's really important to be aware of how it's going to be implemented. Secondly, despite the fact that more and 
+            more prototype apps are emerging on the market, they hardly can represent responsive layouts and interactive interfaces.
             '''
         s-mystory-p4:
             '''
-            Így kezdtem el jópár év kihagyás után ismét kódolni szabadidőmben. Még van hova fejlődnöm, azonban már most érzem, hogy mennyivel kifinomultabb megoldásokat 
-            tudok tervezni, miközben nagy figyelmet fordítok a design rendszerszintű megtervezésére. Ezt a UI fejlesztők is értékelni szokták, én pedig sokkal gyorsabban 
-            tudok ezáltal dolgozni, így mégtöbb izgalmas kihívás elé állítva őket : )
+            So I started writing code in my free time after a couple of years again. There’s still room for development, but now I can see how much more sophisticated 
+            solutions I make while paying close attention to the systematic approach of the design structure. This is also appreciated by front-end developers, and I 
+            can work much quicker, saving up time to bring them even more challenges :o
             '''
 
         s-mystory-caption-design:
         '''
-            Hamarosan végzek az egyetemmel, ahol szakdolgozatom témájának a moduláris tervezést választottam. Ha érdekel egy könnyed olvasmány nagyszerű forrásokkal 
-            arról, hogy hogyan tört be a modularitás a szoftverfejlesztésbe, majd a webes design folyamatokba, akkor ajánlom figyelmedbe.
+            I’m graduating at university, where I wrote my essay about the importance of modular approaches in design. If you are interested in a light reading with great 
+            resources about how modularity became a standard in software development, then in web design, I highly recommend it.
         '''
 
         s-mystory-caption-art:
         '''
-            Ha pedig a rajzaim érdekelnek, amiket szabadidőmben szoktam firkálgatni (és a végtelenségig túlrészletezni), itt megtalálod őket, és ha szívesen 
-            használnád háttérképként valamelyiket, le is töltheted 4K felbontásban.
+            And if you're interested in my drawings, which I'm scribbling in my free time, you can find them here, and if you'd like to use one as wallpaper, you can download 
+            it in fullHD.
         '''
 
-        s-mystory-thanksforvisit: Nagyon örülök a látogatásodnak. Tartsuk a kapcsolatot!
+        s-mystory-thanksforvisit: It's great to see you here. Let's stay in touch!
 
 
 
@@ -411,7 +411,7 @@
         s-art-see-all: See all
         s-art-artworks: artworks
 
-        s-art-daydreaming-description: Figurative painting project with girls, cute pets and moody lights.
+        s-art-daydreaming-description: Figurative painting project with cute pets and moody lights.
         s-art-dividedsoul-description: Fantasy landscape art project showcasing scenes from a breathtaking imaginary world.
         s-art-portraitart-description: Traditional drawings of Pinterest portraits featuring the best chillout tracks.
 
@@ -421,77 +421,136 @@
         // 3.1 Daydreaming
         s-dd-about-p1:
             '''
-            A Daydreaming egy spontán kísérletezés eredményeként jött létre. Nem projektnek terveztem, hanem egyedülálló rajznak. 2016 nyarán kezdődött:
-            sok időm volt napközben, és le akartam foglalni magamat. Nagyon szeretem a Divided Soul színes világát, de ekkor kezdett egy kicsit sok lenni.
-            Ki akartam próbálni valami újat, ami mozgalmasabb, emberközelibb.
+            Daydreaming is the result of a spontaneous experiment. It wasn’t indended to be a project, but a single painting. It was the summer of 2016: I 
+            had plenty of spare time through the days, and wanted to occupy myself. I really love the colorful world of the Divided Soul, but it started to 
+            become a bit too much. I wanted to try something new, something more dynamic and human-oriented.
             '''
         s-dd-about-p2:
             '''
-            Egy gyenge minőségű Pinterest képpel kezdődött, ami arra pont elég volt, hogy kiindulást adjon a koncepcióhoz. Az első festményt 3 nap alatt
-            fejeztem be, reggeltől estig dolgoztam rajta. Annyira élveztem, hogy rá pár napra elkezdtem a következőt, és egy héttel később az is elkészült.
-            A harmadik a Bad Karma volt, a széria ikonikus képe, amivel azóta számtalan helyen találkoztam.
+            It all started with a low resolution Pinterest image, although it was enough to provide inspiration for the concept. I finished the first painting 
+            in 3 days, I worked from morning to night. I liked the whole process so much that I started the next painting in the next days, and I finished that 
+            one in a week. The third one was Bad Karma, the iconic painting of the series, which came across my sight a handful of times already.
             '''
         s-dd-about-p3:
             '''
-            Azonban idővel elkezdtem eltávolodni az eredeti hangulattól, és nem jó irányba. A sorozat egyre színesebb lett, a koncepció pedig egyre
-            erőltetettebb. Emiatt pár festményt kivettem belőle, de egyelőre a
-            <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">DeviantArt oldalamon</a> fent vannak. Sajnos 
-            már nem tudok ugyanazzal az intenzitással dolgozni rajta, amivel kezdtem, de ezt tartom a legeredetibb projektemnek, és azon dolgozok, hogy 
-            visszatereljem abba az irányba, ahonnan indult.
+            However, as time passed, I started to move away from the original mood in a wrong direction. The series became more colorful, and the concept 
+            more strained. Because of that I have already removed a bunch of paintings from the collection, although they still can be found on 
+            <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">my DeviantArt profile.</a> 
+            Unfortunately I can’t continue the work with the same intensity as I used to, but I consider this my most original project and continuously 
+            working to return into the early direction.
             '''
+
+        s-dd-07-title: In My Mind
+        s-dd-07-date: June 2018
+        
+        s-dd-06-title: Bad Karma
+        s-dd-06-date: August 2016
+
+        s-dd-05-title: Daydreaming
+        s-dd-05-date: July 2016
+
+        s-dd-04-title: Daydream
+        s-dd-04-date: July 2016
+
+        s-dd-03-title: Stressed Out
+        s-dd-03-date: October 2016
+
+        s-dd-02-title: Light of Hope
+        s-dd-02-date: December 2016
+
+        s-dd-01-title: Catch and Release
+        s-dd-01-date: February 2017
 
         // 3.2 Dividedsoul
         s-ds-about-p1:
             '''
-            A Divided Soul egy fantasy stílusú, digitális illusztrációkból álló sorozat, amit 2015 nyarának végén kezdtem el, és a mai napig dolgozom rajta.
-            Egy gyakorló projektnek indult, amihez az inspirációt <a href="http://noahbradley.com" class="t-article--sliding__a" target="blank">Noah Bradley: 
-            The Sin of Man</a> kollekciója adta. Az utóbbi évek alatt rengeteget  fejlődtem, és a projekt is sokat haladt előre, így az idő folyamán kiírtam 
-            belőle festményeket, amikről úgy gondoltam, hogy kevésbé illenek az általam elképzelt világba. Ha érdekelnek, még megtalálod őket 
-            <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">a DeviantArt profilomon</a>.
+            The Divided Soul is a fantasy series of digital illustrations that I started at the end of the summer of 2015, and I’m still working on it to this 
+            day. It started as a practice project inspired by <a href="http://noahbradley.com" class="t-article--sliding__a" target="blank">Noah Bradley’s The 
+            Sin of Man.</a> Over the last few years, I've been developing a lot and the project has gone a long way too, so lately I started writing out paintings 
+            that I thought were less suited to the world I imagined. If you're interested, you'll still find them on my 
+            <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">DeviantArt profile.</a>
             '''
         s-ds-about-p2:
             '''
-            A Divided Soul nagyon közel áll a szívemhez, de nem tartom többnek egy hobbiprojektnél. Örülök, ha minél több emberhez eljut, de azon kívül, 
-            hogy kiélem a kreativitásomat és lekötöm az álmodozásomat, nincs semmi különleges tervem vele. Éppen ezért, a teljes széria szabadon letölthető 
-            és <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">bizonyos korlátok közt felhasználható</a>.
+            The Divided Soul is very close to my heart, although I don’t consider it more than a hobby project. I’m glad to see it reaching wider audiences, 
+            but apart from fulfilling my creativity and daydreams I don’t have any plans with it. Therefore, the entire series can be freely downloaded and used 
+            <a href="#" class="t-article--sliding__a">within certain limits.</a>
             '''
         s-ds-about-p3:
             '''
-            Nagyon sokat köszönhetek napjaink nyílt és segítőkész alkotói közösségének, és úgy gondolom, hogy ez mindenkinek megadja a lehetőséget, hogy 
-            kellő elszántsággal beteljesítse álmait. Továbbá a 9GAG seregének, ahol a Divided Soul 
-            <a href="https://9gag.com/gag/a8MqeAd" class="t-article--sliding__a" target="blank">nagyon meleg fogadtatásban részesült</a>.
+            I thank so much for today's open and helpful creative community as I think it gives everyone the opportunity to fulfill their dreams with the utmost 
+            determination. In addition to the 9GAG army where the Divided Soul received a 
+            <a href="https://9gag.com/gag/a8MqeAd" class="t-article--sliding__a" target="blank">very warm welcome.</a>
             '''
         s-ds-about-p4:
             '''
-            Ha tetszenek a munkáim, az övékét is biztosan inspirálónak találod majd:
+            If you like my works, you’ll certainly dig their too:
+            <a href="https://artstation.com/jordangrimmer" class="t-article--sliding__a" target="blank">Jordan Grimmer</a>,
+            <a href="https://artstation.com/noahbradley"   class="t-article--sliding__a" target="blank">Noah Bradley</a>,
             <a href="https://artstation.com/kimagu"        class="t-article--sliding__a" target="blank">Kimagu</a>,
             <a href="https://morippin.deviantart.com"      class="t-article--sliding__a" target="blank">Morippin</a>,
             <a href="https://artstation.com/danyiart"      class="t-article--sliding__a" target="blank">DanyiArt</a>,
             <a href="https://artstation.com/markmolnar"    class="t-article--sliding__a" target="blank">Molnar Mark</a>,
-            <a href="https://artstation.com/jotto"         class="t-article--sliding__a" target="blank">Otto Szatmari</a>,
-            <a href="https://artstation.com/jordangrimmer" class="t-article--sliding__a" target="blank">Jordan Grimmer</a>,
-            <a href="https://artstation.com/noahbradley"   class="t-article--sliding__a" target="blank">Noah Bradley</a>.
+            <a href="https://artstation.com/jotto"         class="t-article--sliding__a" target="blank">Otto Szatmari</a>.
             '''
+
+        s-ds-13-title: Path of Destruction
+        s-ds-13-date: July 2017
+
+        s-ds-12-title: Awakening
+        s-ds-12-date: November 2017
+
+        s-ds-11-title: Born of a Magnificient Creature
+        s-ds-11-date: August 2016
+
+        s-ds-10-title: Neverland
+        s-ds-10-date: December 2016
+
+        s-ds-09-title: Wisp Hunter
+        s-ds-09-date: November 2016
+
+        s-ds-08-title: Master's Call
+        s-ds-08-date: March 2016
+
+        s-ds-07-title: Still and Silent
+        s-ds-07-date: January 2017
+
+        s-ds-06-title: Lost Shores
+        s-ds-06-date: July 2016
+
+        s-ds-05-title: Worlds
+        s-ds-05-date: December 2016
+
+        s-ds-04-title: Guardian of eternity
+        s-ds-04-date: April 2016
+
+        s-ds-03-title: Heart of the Mountain
+        s-ds-03-date: August 2016
+
+        s-ds-02-title: Valley of Legends
+        s-ds-02-date: January 2016
+
+        s-ds-01-title: Entrance of a New World
+        s-ds-01-date: May 2016
 
         // 3.3 Portraitart
         s-td-about-p1:
             '''
-            Az utóbbi pár év alatt legalább száz portrét rajzoltam grafittal. Emlékszem, mennyire nehezen kezdődött - szinte mindent rosszul csináltam.
-            Majd az egyik egészen jól sikerült, úgyhogy megálltam egy percre, és elgondolkodtam, hogy mit csináltam másképp, mint korábban. Ekkor jöttem rá,
-            hogy a rajz nem fénykép, ezért nem is szabad úgy tekinteni rá. Mindig is használtam referenciaképeket, de túlzottan ragaszkodtam a látvány
-            megörökítéséhez.
+            During the last couple of years I have drawn at least a hundred graphite portraits. I remember how hard it started - I did almost everything wrong. 
+            Then one went quite well, so I stopped for a minute to analyze what I was doing differently than before. That's when I realized that drawings are not 
+            photographs, so I shouldn’t treat them like they were. I've always used reference pictures, but I was too attached to capturing them precisely.
             '''
         s-td-about-p2:
             '''
-            Számomra egy rajz akkor sikerül jól, ha el tud rugaszkodni a referenciaképtől annyira, hogy ha nem egymás mellett látod a kettőt, akkor nem
-            tűnik fel a hasonlóság, és természetesen emellett helytáll téma, kompozíció, anatómia és tónusozás terén. Ez nem könnyű feladat, és habár 
-            szereztem némi gyakorlatot az utóbbi években, a mai napig küszködöm ezzel - annyira, hogy nagyjából minden tizedik rajzom éri el ezt a szintet.
-            A többi a kellemes gyakorlás kategóriába esik, és a fiókom mélyén végzik, hogy soha senki ne lássa őket :)
-            <a href="https://instagram.com/lorantart" class="t-article--sliding__a" target="blank">(Na jó, talán Instagramra felkerül egy-egy közülük)</a>.
+            For me, a drawing succeeds well if it stays distant from the reference, so that if you don't see the two side by side, then you don't recognize
+            the similarities, and of course, along this, it does well on the choice of subject, composition, anatomy, and values. This is not an easy task, and 
+            although I have been practicing for years now, I still struggle with this - so much that I'd say maybe every tenth drawings of mine reach this level. 
+            The rest fall into the category of pleasant (but frustrating) practice and finishes in the depths of my drawer so nobody will ever see them :) 
+            <a target="blank" href="https://instagram.com/lorantart" class="t-article--sliding__a"> (Well, perhaps one or two might end up on my Instagram).</a>
             '''
         s-td-about-p3:
             '''
-            Természetesen nem magamtól jöttem rá mindenre, amit most tudok. A következő művészek nagy hatással voltak rám, és nagyon sokat tanultam tőlük:
+            The following artists had a great impact on me and I learned a lot from them:
             <a href="http://proko.com/"          class="t-article--sliding__a" target="blank">Stan Prokopenko</a>,
             <a href="http://stevehustonart.com/" class="t-article--sliding__a" target="blank">Steve Huston</a>,
             <a href="http://caseybaugh.com/"     class="t-article--sliding__a" target="blank">Casey Baugh</a>,
@@ -500,8 +559,44 @@
             '''
         s-td-about-p4:
             '''
-            A rajzoknak azt a címet adtam, amelyik számot készítésük közben leginkább hallgattam. EDM veszély, előre szólok.
+            The drawings have been given the title of the song that I listened to during their making. (Psst! EDM danger...)
             '''
+
+        s-td-12-title: Revolution
+        s-td-12-date: June 2016
+
+        s-td-11-title: I'd Love to Change the World
+        s-td-11-date: June 2016
+
+        s-td-10-title: Kings
+        s-td-10-date: October 2015
+
+        s-td-09-title: Idfc
+        s-td-09-date: July 2016
+
+        s-td-08-title: Woke the F*ck Up
+        s-td-08-date: July 2016
+
+        s-td-07-title: The Calling
+        s-td-07-date: August 2016
+
+        s-td-06-title: Unity
+        s-td-06-date: August 2016
+
+        s-td-05-title: Monody
+        s-td-05-date: August 2016
+
+        s-td-04-title: Say It
+        s-td-04-date: September 2016
+
+        s-td-03-title: Rush Over Me
+        s-td-03-date: October 2016
+
+        s-td-02-title: Afterlife
+        s-td-02-date: October 2016
+
+        s-td-01-title: It's All On U
+        s-td-01-date: May 2017
 
 
 

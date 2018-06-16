@@ -2,7 +2,7 @@
     <div class="o-cookieBar">
         <div class="u-cookieExplain-wrapper">
             <p data-i18n="s-cookiebar-content"></p>
-            <a href="help.html" target="_blank" class="mx-2" data-i18n="s-cookiebar-details"></a>
+            <!--<a href="help.html" target="_blank" class="mx-2" data-i18n="s-cookiebar-details"></a>-->
         </div>
         <a class="u-hide__cookieBar t-cookieAccept__a" data-i18n="s-cookiebar-accept"></a>
     </div>
