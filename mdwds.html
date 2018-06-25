@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NK7H8FR');</script>
+        <!-- End Google Tag Manager -->
+
+        <title>The Design and Art of Lorant Toth</title>
+            
+        <meta charset="UTF-8">
+        <meta name="viewport"             content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <meta name="author"               content="Lorant Toth">
+        <meta name="description"          content="A 25 minutes read about the importance of modular design in the modern software development process">
+        <meta name="keywords"             content="art, design, painting, writing, blog, portfolio, lorant, drawing, ux">
+
+        <meta property="og:url"           content="http://www.lorant.design/site/modular-design-with-design-systems.html"/>
+        <meta property="og:type"          content="website"/>
+        <meta property="og:title"         content="Modular Design with Design Systems by Lorant"/>
+        <meta property="og:description"   content="A 25 minutes read about the importance of modular design in the modern software development process"/>
+        <meta property="og:image"         content="../assets/img/component/og-mdwds.jpg"/>
+        
+        <link rel="icon" type="image/png" href="../assets/icon/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="../assets/icon/favicon-32x32.png" sizes="32x32">
+        
+        <link rel="stylesheet"            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+        <link rel="stylesheet"            href="../css/main.css" type="text/css">
+        
+        <script     src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script     src="../js/vendor/riot/riot+compiler.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NK7H8FR"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <div class="u-overFlowX-wrapper">
+
+            <o-cookiebar></o-cookiebar>
+            <o-header></o-header>
+
+            <main>
+                
+
+
+            </main>
+
+            <o-footer style="z-index: 1"></o-footer>
+        </div>
+
+        <!-- import Riot tags -->
+        <script type="riot/tag" src="site/components/o-cookiebar.tag"     ></script>
+        <script type="riot/tag" src="site/components/o-header.tag"        ></script>
+        <script type="riot/tag" src="site/components/o-footer.tag"        ></script>
+
+        <!-- mount Riot tags -->
+        <script>
+            riot.mount('o-cookiebar')
+
+            riot.mount('o-header',
+            {
+                overflow:  '', //m-overflow--hidden
+                color:     'm-header--white',
+                maskColor: 'm-header__mask--white'
+            })
+
+            riot.mount('o-footer',
+            {
+                color: 'm-footer--white',
+            })
+        </script>
+
+        <!-- Regular JS -->
+        <script src="../js/cookie.js"                    ></script>
+        <script src="js/lang-redir/redirect-tcds.js"     ></script>
+
+    </body>
+</html>

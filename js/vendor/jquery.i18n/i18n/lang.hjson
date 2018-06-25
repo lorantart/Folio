@@ -125,7 +125,7 @@
         // 3.1 Daydreaming
         s-dd-about-p1:
             '''
-            A Daydreaming egy spontán kísérletezés eredményeként jött létre. Nem projektnek terveztem, hanem egyedülálló rajznak. 2016 nyarán kezdődött:
+            A Daydreaming egy spontán kísérletezés eredményeként jött létre. Nem projektnek terveztem, hanem egyedülálló rajznak. 2016 nyarán kezdődött;
             sok időm volt napközben, és le akartam foglalni magamat. Nagyon szeretem a Divided Soul színes világát, de ekkor kezdett egy kicsit sok lenni.
             Ki akartam próbálni valami újat, ami mozgalmasabb, emberközelibb.
             '''
@@ -267,6 +267,9 @@
             A rajzok arról a számról kapták a címüket, amiket készítésük közben hallgattam.
             '''
 
+        s-td-13-title: Miami 2 Ibiza
+        s-td-13-date: 2018 április
+
         s-td-12-title: Revolution
         s-td-12-date: 2016 június
 
@@ -370,32 +373,32 @@
         s-mystory-p2:
             '''
             As I began to get acquainted with product design, it became obvious to me that I found my craft. Web design has long been close to me, but frankly, coding 
-            has never been my strength, and I have lost my enthusiasm as I couldn’t bring my designs to life as I had imagined them. As I started working as a product 
-            designer, my problem were solved, as the front-end developers of the interfaces took care of this part.
+            has never been my strength, and I have lost my enthusiasm as I couldn’t bring my designs to life. As I started working as a product designer, my problem 
+            vanished, as the front-end developers took care of this part.
             '''
         s-mystory-p3:
             '''
-            However, I soon realized that in order to create sophisticated and technologically thought-out plans, basic knowledge of HTML, CSS and JavaScript is essential. 
+            However, I soon realized that in order to create beautiful and technologically deliberate plans, basic knowledge of HTML, CSS and JavaScript is essential. 
             There are two reasons for this: in design, it's really important to be aware of how it's going to be implemented. Secondly, despite the fact that more and 
-            more prototype apps are emerging on the market, they hardly can represent responsive layouts and interactive interfaces.
+            more prototype apps are emerging on the market, I often feel they struggle to represent responsive layouts and interactive interfaces.
             '''
         s-mystory-p4:
             '''
-            So I started writing code in my free time after a couple of years again. There’s still room for development, but now I can see how much more sophisticated 
-            solutions I make while paying close attention to the systematic approach of the design structure. This is also appreciated by front-end developers, and I 
-            can work much quicker, saving up time to bring them even more challenges :o
+            So I started writing code in my free time after a couple of years again. There’s still room for improvement, but now I can see how my designs and solutions 
+            became more and more sophisticated while paying close attention to the systematic approach of the design structure. This is also appreciated by front-end 
+            developers, as my improved velocity means more challenge for them as well. :o
             '''
 
         s-mystory-caption-design:
         '''
-            I’m graduating at university, where I wrote my essay about the importance of modular approaches in design. If you are interested in a light reading with great 
-            resources about how modularity became a standard in software development, then in web design, I highly recommend it.
+            I wrote my university thesis about the importance of modular approach in design. If you are interested in a light reading with great resources about how 
+            modularity became a standard in software development, eventually in web design, I highly recommend it.
         '''
 
         s-mystory-caption-art:
         '''
-            And if you're interested in my drawings, which I'm scribbling in my free time, you can find them here, and if you'd like to use one as wallpaper, you can download 
-            it in fullHD.
+            Lastly, if you're interested in my drawings, which I'm scribbling in my free time, you can find them here; and feel free to use them as wallpapers, 
+            they are available for download in 1080p.
         '''
 
         s-mystory-thanksforvisit: It's great to see you here. Let's stay in touch!
@@ -421,8 +424,8 @@
         // 3.1 Daydreaming
         s-dd-about-p1:
             '''
-            Daydreaming is the result of a spontaneous experiment. It wasn’t indended to be a project, but a single painting. It was the summer of 2016: I 
-            had plenty of spare time through the days, and wanted to occupy myself. I really love the colorful world of the Divided Soul, but it started to 
+            Daydreaming is the result of a spontaneous experiment. It wasn’t indended to be a project, but a single piece. It was the summer of 2016; I 
+            had plenty of spare time through the days, and wanted to keep myself busy. I really love the colorful world of the Divided Soul, but it started to 
             become a bit too much. I wanted to try something new, something more dynamic and human-oriented.
             '''
         s-dd-about-p2:
@@ -466,21 +469,20 @@
             '''
             The Divided Soul is a fantasy series of digital illustrations that I started at the end of the summer of 2015, and I’m still working on it to this 
             day. It started as a practice project inspired by <a href="http://noahbradley.com" class="t-article--sliding__a" target="blank">Noah Bradley’s The 
-            Sin of Man.</a> Over the last few years, I've been developing a lot and the project has gone a long way too, so lately I started writing out paintings 
+            Sin of Man.</a> Over the last few years, I've improved a lot and the project has gone a long way too, so lately I started removing paintings 
             that I thought were less suited to the world I imagined. If you're interested, you'll still find them on my 
             <a href="https://lorantart.deviantart.com/" class="t-article--sliding__a" target="blank">DeviantArt profile.</a>
             '''
         s-ds-about-p2:
             '''
-            The Divided Soul is very close to my heart, although I don’t consider it more than a hobby project. I’m glad to see it reaching wider audiences, 
+            The Divided Soul is very close to my heart, although I still consider it a hobby project. I’m glad to see it is reaching wide audiences, 
             but apart from fulfilling my creativity and daydreams I don’t have any plans with it. Therefore, the entire series can be freely downloaded and used 
-            <a href="#" class="t-article--sliding__a">within certain limits.</a>
+            <a href="#" class="t-article--sliding__a">within certain terms.</a>
             '''
         s-ds-about-p3:
             '''
-            I thank so much for today's open and helpful creative community as I think it gives everyone the opportunity to fulfill their dreams with the utmost 
-            determination. In addition to the 9GAG army where the Divided Soul received a 
-            <a href="https://9gag.com/gag/a8MqeAd" class="t-article--sliding__a" target="blank">very warm welcome.</a>
+            I'm thankful for today's open and helpful creative community &mdash;as I think it inspires everyone to fulfill their dreams. And also for 9GAG, 
+            where the Divided Soul received a <a href="https://9gag.com/gag/a8MqeAd" class="t-article--sliding__a" target="blank">warm welcome.</a>
             '''
         s-ds-about-p4:
             '''
@@ -536,21 +538,22 @@
         // 3.3 Portraitart
         s-td-about-p1:
             '''
-            During the last couple of years I have drawn at least a hundred graphite portraits. I remember how hard it started - I did almost everything wrong. 
-            Then one went quite well, so I stopped for a minute to analyze what I was doing differently than before. That's when I realized that drawings are not 
-            photographs, so I shouldn’t treat them like they were. I've always used reference pictures, but I was too attached to capturing them precisely.
+            During the last couple of years I have drawn at least a hundred graphite portraits. I remember how hard it was the beginning &mdash;I did almost everything 
+            wrong. Then one went quite well, so I stopped for a minute to analyze what I was doing differently than before. That's when I realized that drawings are not 
+            photographs, so I shouldn’t treat them like they were. I've always used reference pictures, but I was trying to make an exact copy, instead of my 
+            interpretation of the image.
             '''
         s-td-about-p2:
             '''
-            For me, a drawing succeeds well if it stays distant from the reference, so that if you don't see the two side by side, then you don't recognize
-            the similarities, and of course, along this, it does well on the choice of subject, composition, anatomy, and values. This is not an easy task, and 
-            although I have been practicing for years now, I still struggle with this - so much that I'd say maybe every tenth drawings of mine reach this level. 
-            The rest fall into the category of pleasant (but frustrating) practice and finishes in the depths of my drawer so nobody will ever see them :) 
+            For me, the recipe of a successful drawing is making it distinct from the reference image, to a level where if you are not comparing them side by side, the 
+            similarity is not obvious. Along this, it does well on the choice of subject, composition, anatomy, and values. This is not an easy task, and 
+            although I have been practicing for years now, I still struggle with this &mdash;so much that only one of every ten drawings do I consider to be a success. 
+            The rest fall into the category of entertainment and practice and finish in the depths of my drawer so nobody will ever see them :) 
             <a target="blank" href="https://instagram.com/lorantart" class="t-article--sliding__a"> (Well, perhaps one or two might end up on my Instagram).</a>
             '''
         s-td-about-p3:
             '''
-            The following artists had a great impact on me and I learned a lot from them:
+            The following artists were most inspiring for me and I learned a lot from them:
             <a href="http://proko.com/"          class="t-article--sliding__a" target="blank">Stan Prokopenko</a>,
             <a href="http://stevehustonart.com/" class="t-article--sliding__a" target="blank">Steve Huston</a>,
             <a href="http://caseybaugh.com/"     class="t-article--sliding__a" target="blank">Casey Baugh</a>,
@@ -559,8 +562,11 @@
             '''
         s-td-about-p4:
             '''
-            The drawings have been given the title of the song that I listened to during their making. (Psst! EDM danger...)
+            I gave the drawings the song title I listened to while I was making it. (Psst! EDM danger...)
             '''
+
+        s-td-13-title: Miami 2 Ibiza
+        s-td-13-date: April 2018
 
         s-td-12-title: Revolution
         s-td-12-date: June 2016
@@ -619,26 +625,39 @@
         s-mdwds-prologue-title: Prologue
         s-mdwds-prologue-p1:
             '''
-            Habár soha nem állt tőlem távol a digitális grafika, alig több, mint egy éve foglalkozom webes tervezéssel. Ezidő alatt törekedtem arra, hogy minél kifinomultabb, 
-            érthetőbb és szebb felületeket tervezzek. Tudtam, hogy ahhoz, hogy ez sikerüljön, a legjobbaktól kell tanulnom, így számtalan könyvet és cikket olvastam a témában.
+            Az utóbbi időben product designt érintő körökben a design rendszerek talán a legnépszerűbb témának számítanak. Olyannyira, hogy nem csak az óriás technológiai 
+            cégek érzik szükségét elkészítésének és fenntartásának, de még a szigorúan fizikai, kézzel fogható terméket értékesítő vállalatok is, mint például a Royal Canin, 
+            vagy az Audi.
             '''
         s-mdwds-prologue-p2:
             '''
-            Azt tapasztalom, hogy a tervezési folyamataim egyre gyorsabbak és rugalmasabbak, az általam tervezett felületek pedig konzisztensebbek és érthetőbbek, azonban 
-            legjobban az mutatja, hogy mennyi mindent kell még tanulnom, hogy az elmúlt időben nem készítettem olyan tervet, amit ma ne csinálnék másképp - egyszerűbben, 
-            érthetőbben, szebben.
+            Mivel egy ennyire forró témáról van szó, nem csoda, hogy olyan sokan leírták már, hogy hogyan kell létrehozni őket, mint például Brad Frost az Atomic Design 
+            című könyvében, vagy Alla Kholmatova a Design Systems-ben. Ezek a könyvek nagyszerűen végigmennek a működésük- és elkészítésük módján, viszont arról csak 
+            röviden beszélnek, hogy milyen szakmai hajtóerő állt a szisztematikus tervezés elterjedése mögött, és milyen problémákat kíván megoldani. Elsősorban a 
+            "hogyan"-ra fókusználnak, nem pedig a "miért"-re. Szakdolgozatomban én a „miért”-re helyeztem a hangsúlyt, és kutatásokkal alátámasztva felépítettem egy 
+            listát azokból a tényezőkből, amik a design válság kialakulásához hozzájárultak. Ehhez gyakran éveket, néha évtizedeket kellett visszamenni az időben, és 
+            olyan - ma már idejétmúltnak számító - forrásokat keresni, amik alátámasztják a meglátásaimat.
             '''
         s-mdwds-prologue-p3:
             '''
-            Ez a tanulmány az egyetemi szakdolgozatom. Már akkor tudtam, hogy nem állok még készen ennek a megírására, amikor elkezdtem. Ettől függetlenül örülök, hogy 
-            rákényszerültem, mivel mégjobban tudatosította bennem a hiányosságaimat, és azt, hogy a jövőben milyen területekre kell jobban fókuszálnom.
+            Szakdolgozatom második felében arról írok, hogy a design rendszer mellett milyen megoldások születtek még a feltárt problémákra, majd részletesebben 
+            megfogalmazom, hogy mit jelent design rendszerben tervezni.
             '''
         s-mdwds-prologue-p4:
             '''
-            A design rendszerekről már sokan írtak: hogyan épülnek fel, hogyan kell létrehozni őket, mit eredményeznek - a legtöbb írás ezeket a kérdéseket feszegeti. 
-            Hogy ne írjak egy századik checklistet is, próbáltam egy kicsit más oldalról megközelíteni, miközben összegyűjtöttem a számomra leghasznosabbnak bizonyult 
-            tartalmakat.
+            Azért döntöttem úgy, hogy elsősorban nem a design rendszerek felépítésére helyezem a hangsúlyt, mert ebben a megközelítésben már nagyon sokan feldolgozták a 
+            témát. Számomra legalább annyira izgalmas azt vizsgálni, hogy egy szakterület milyen tényezők hatására jutott el odáig, ahol éppen tart, mint az aktuális 
+            szokásait és bevett gyakorlatait. Így a szakma fejlődése nem fog folyamatos meglepetéseket okozni, hiszen ha tudjuk, hogy honnan indult, jobb rálátásunk van 
+            arra is, hogy milyen irányba tart.
             '''
+        s-mdwds-prologue-p5:
+            '''
+            Szakdolgozatom írása közben számtalan hasznos visszajelzést kaptam, amik segítettek engem abban, hogy minél több nézőpontból tudjam ezt a témát megvizsgálni és 
+            kifejteni. Kifejezetten köszönöm Nikázy Gusztávnak, egyetemi tanáromnak, aki a sok hasznos meglátása mellett ösztönzött engem arra, hogy minél objektívebben
+            álljak írásnak, valamint nagyon sokat segített a Chameleon front-end technológiai hátterének megválasztásában is. Továbbá testvéremnek, Tóth Bálintnak, aki
+            a végeláthatatlan hosszúságú JavaScript fájljaimat rekordidő alatt tömörítette bele pár sorba.
+            '''
+
         // 5.1 MDWDS Chapter 1
         s-mdwds-chapter-1-title: Modularity: the basis of systems
         s-mdwds-chapter-1-p1:

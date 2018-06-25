@@ -14,7 +14,7 @@
         <meta charset="UTF-8">
         <meta name="viewport"             content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
         <meta name="author"               content="Lorant Toth">
-        <meta name="description"          content=":The visual and language system behind lorant.design">
+        <meta name="description"          content="The visual and language system behind lorant.design">
         <meta name="keywords"             content="design, writing, ux, blog, portfolio, lorant">
 
         <meta property="og:url"           content="http://www.lorant.design/site/the-chameleon-design-system.html"/>
@@ -66,9 +66,11 @@
         <div class="u-overFlowX-wrapper">   
             <main>
                 <div class="u-cover__wrapper js-coverHeight">
-                    
-                    <div class="js-coverAnimation">
+
+                    <div class="o-cover-wrapper js-coverAnimation">
                         <div class="u-cover__layer u-cover__background--tcds"></div>
+                        <div class="u-cover__layer u-cover__midground--tcds js-mouseMoveTransform"></div>
+                        <div class="u-cover__layer u-cover__foreground--tcds js-mouseMoveTransform js-mouseMoveRecolor"></div>
                         <div class="u-cover__layer u-cover__mask"></div>
                     </div>
 
@@ -120,6 +122,15 @@
                             a fejlesztésbe, itt azonban én találtam ki az egész projekt felépítését, a design impelemtáció módját, és magamnak kellett megterveznem a 
                             fejlesztés menetét is, vagyis priorizálni a feladatokat, időt szakítani a tesztelésre és javítani a hibákat.
                         </p>
+                    </section>
+
+
+                    <section class="o-article--chapter">
+                        <c-chapter-title
+                            chapter_number  ="02"
+                            chapter_title   ="Betekintés a Chameleon Design Rendszerbe"
+                            chapter_id      ="chapter-2">
+                        </c-chapter-title>
 
                         <p class="t-chapter__p">
                             Én úgy gondolom, hogy átfogó design rendszert csak a fejlesztéssel párhuzamosan érdemes kialakítani, és ez jelen esetben is így működött. 
@@ -149,9 +160,9 @@
 
                     <section class="o-article--chapter">
                         <c-chapter-title
-                            chapter_number  ="02"
-                            chapter_title   ="A komponenskezelő"
-                            chapter_id      ="chapter-2">
+                            chapter_number  ="03"
+                            chapter_title   ="A komponenskezelő működése"
+                            chapter_id      ="chapter-3">
                         </c-chapter-title>
 
                         <p class="t-chapter__p">
@@ -302,7 +313,6 @@
                     <o-articlepreview
                         title       ="s-articlepreview-mdwds-title"
                         background  ="m-articlePreview--design-mdwds"
-                        
                         cta         ="s-articlepreview-project-cta"
                         link        ="modular-design-with-design-systems.html">
                     </o-articlepreview>
@@ -341,16 +351,18 @@
             riot.mount('c-section-navigator',
             {
                 toc_items: [
-                    { chapter_id: '#chapter-1',   chapter_title: 'A Chameleon története'                     },
-                    { chapter_id: '#chapter-2',   chapter_title: 'A design válság'                        }
+                    { chapter_id: '#chapter-1', chapter_title: 'A Chameleon története'                    },
+                    { chapter_id: '#chapter-2', chapter_title: 'Betekintés a Chameleon Design Rendszerbe' },
+                    { chapter_id: '#chapter-3', chapter_title: 'A komponenskezelő működése'               }
                 ]
             })
 
             riot.mount('c-cover-toc',
             {
                 toc_items: [
-                    { chapter_id: '#chapter-1',   chapter_number: '01',   chapter_title: 'A Chameleon története'                     },
-                    { chapter_id: '#chapter-2',   chapter_number: '02',   chapter_title: 'A design válság'                        }
+                    { chapter_id: '#chapter-1',   chapter_number: '01',   chapter_title: 'A Chameleon története'                    },
+                    { chapter_id: '#chapter-2',   chapter_number: '02',   chapter_title: 'Betekintés a Chameleon Design Rendszerbe' },
+                    { chapter_id: '#chapter-3',   chapter_number: '03',   chapter_title: 'A komponenskezelő működése'               }
                 ]
             })
             
@@ -380,6 +392,7 @@
         <script src="../js/chrome-vhfix.js"                                ></script>
         <script src="../js/cover-animation.js"                             ></script>
         <script src="../js/tcds-recolorcomponent.js"                       ></script>
+        <script src="../js/tcds-recolorcover.js"                           ></script>
         
         <script src="../js/vendor/jquery.i18n/CLDRPluralRuleParser.js"     ></script>
         <script src="../js/vendor/jquery.i18n/jquery.i18n.js"              ></script>

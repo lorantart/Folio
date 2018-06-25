@@ -2551,31 +2551,38 @@ progress[value]::-webkit-progress-bar {
   min-height: 100vh;
   width: 100%;
   margin-bottom: 6em; }
-  .u-cover__wrapper .js-coverAnimation {
+  .u-cover__wrapper .o-cover-wrapper {
     width: 100%;
     height: 100%;
     position: absolute; }
-    .u-cover__wrapper .js-coverAnimation .u-cover__layer {
+    .u-cover__wrapper .o-cover-wrapper .u-cover__layer {
       height: 100vh;
       width: 100%;
       position: absolute;
       top: 0;
       left: 0;
       background-size: cover !important; }
-    .u-cover__wrapper .js-coverAnimation .u-cover__background--mdwds {
-      background: url(../assets/img/design/modular-design-with-design-systems/cover/illustration.jpg) center center;
-      z-index: -1; }
-    .u-cover__wrapper .js-coverAnimation .u-cover__foreground--mdwds {
-      background: url(../assets/img/design/modular-design-with-design-systems/cover/illustration-foreground.png) center center;
-      z-index: 0; }
-    .u-cover__wrapper .js-coverAnimation .u-cover__mask {
-      background: url(../assets/img/design/modular-design-with-design-systems/cover/illustration-mask.png) center center;
+    .u-cover__wrapper .o-cover-wrapper .u-cover__mask {
+      background: url(../assets/img/design/modular-design-with-design-systems/cover/cover__mask.png) center center;
       z-index: 1; }
-    .u-cover__wrapper .js-coverAnimation .u-cover__background--tcds {
-      background: url(../assets/img/design/the-chameleon-design-system/cover/illustration.jpg) center center;
+    .u-cover__wrapper .o-cover-wrapper .u-cover__foreground--mdwds {
+      background: url(../assets/img/design/modular-design-with-design-systems/cover/mdwds-cover__layer-1.png) center center;
+      z-index: 0; }
+    .u-cover__wrapper .o-cover-wrapper .u-cover__background--mdwds {
+      background: url(../assets/img/design/modular-design-with-design-systems/cover/mdwds-cover__layer-2.png) center center;
+      z-index: -1; }
+    .u-cover__wrapper .o-cover-wrapper .u-cover__foreground--tcds {
+      background: url(../assets/img/design/the-chameleon-design-system/cover/tcds-cover__layer-1.png) center center;
+      z-index: 0; }
+    .u-cover__wrapper .o-cover-wrapper .u-cover__midground--tcds {
+      background: url(../assets/img/design/the-chameleon-design-system/cover/tcds-cover__layer-2.png) center center;
+      z-index: 0; }
+    .u-cover__wrapper .o-cover-wrapper .u-cover__background--tcds {
+      background: url(../assets/img/design/the-chameleon-design-system/cover/tcds-cover__layer-3.png) center center;
       z-index: -1; }
   .u-cover__wrapper .t-cover__h1 {
     color: #ffffff;
+    position: relative;
     margin: 1.5rem 0 3rem 7.5rem; }
   .u-cover__wrapper .c-cover__table-of-content {
     max-width: 38em;
@@ -2629,7 +2636,7 @@ progress[value]::-webkit-progress-bar {
   .u-cover__wrapper {
     min-height: 50vh;
     margin-bottom: 3em; }
-    .u-cover__wrapper .js-coverAnimation .u-cover__layer {
+    .u-cover__wrapper .o-cover-wrapper .u-cover__layer {
       height: 50vh; }
     .u-cover__wrapper .t-cover__h1 {
       text-align: center;
@@ -2641,13 +2648,13 @@ progress[value]::-webkit-progress-bar {
         margin: 0; } }
 
 @media all and (max-width: 600px) {
-  .js-coverAnimation .u-cover__mask {
+  .o-cover-wrapper .u-cover__mask {
     display: none; } }
 
 @media all and (max-width: 456px) {
   .u-cover__wrapper {
     min-height: 45vh; }
-    .u-cover__wrapper .js-coverAnimation .u-cover__layer {
+    .u-cover__wrapper .o-cover-wrapper .u-cover__layer {
       height: 45vh; }
     .u-cover__wrapper .t-cover__h1 {
       font-size: 2.25em;

@@ -27,39 +27,34 @@
     </figure>
 
     <script>
-        //fade in images on scroll
-        $(document).ready(function(){
-            var scrollAmount = $('.c-display__img').scrollWidth / 2;
+        $(window).scroll(function() {
+            //fade in images on scroll
+            $('.js-displayFadein').each( function(i){
+                var bottom_of_object = $(this).offset().top + 200;
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                if( bottom_of_window > bottom_of_object ){
+                    $(this).animate({'opacity':'1'}, 400 );
+                }
+            });
+
+            
         });
 
         $(document).ready(function() {
-            $(window).scroll( function(){
-                $('.js-displayFadein').each( function(i){
-                    var bottom_of_object = $(this).offset().top + 200;
-                    var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-                    if( bottom_of_window > bottom_of_object ){
-                        $(this).animate({'opacity':'1'}, 400 );
-                    }
-                });
-
-                $('.u-display__img-wrapper').each( function(i){
-                    var bottom_of_object = $(this).offset().top + 200;
-                    var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-                    if( bottom_of_window > bottom_of_object ){
-                        $(this).animate({ scrollLeft: 200 }, 1600);
-                    }
-                });
-            });
-
-            $(function() {
-                $('.u-display-wrapper').hover(function() {
-                    $('.c-display__fbShare').fadeIn(200);
-                }, function() {
-                    $('.c-display__fbShare').fadeOut(200);
-                });
-            });
+            $('.u-display-wrapper').hover(function() {
+                $('.c-display__fbShare').fadeIn(200);
+            }, function() {
+                $('.c-display__fbShare').fadeOut(200);
+            });    
         });
+
+        /*
+        $(window).on('load',function () 
+        {
+            //scroll images horizontally
+            $('.u-display__img-wrapper').animate( { scrollLeft: '200' }, 1600)
+        })
+        */
     </script>
 </c-artworkdisplay>
