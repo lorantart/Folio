@@ -14,14 +14,14 @@
         <meta charset="UTF-8">
         <meta name="viewport"             content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
         <meta name="author"               content="Lorant Toth">
-        <meta name="description"          content="Terméktervezés, rajzolás és festészet, média design portfólióm">
+        <meta name="description"          content="The Requested page couldn't be found :(">
         <meta name="keywords"             content="art, design, painting, writing, blog, portfolio, lorantart">
 
-        <meta property="og:url"           content="http://www.lorant.design/site/dd.html"/>
+        <meta property="og:url"           content="http://www.lorant.design/site/404.html"/>
         <meta property="og:type"          content="website"/>
-        <meta property="og:title"         content="Portfólióm - Tóth Lóránt"/>
-        <meta property="og:description"   content="Grafit- és szénrajzaim a közelmúltból"/>
-        <meta property="og:image"         content="../assets/img/component/art-daydreaming.jpg"/>
+        <meta property="og:title"         content="The requested page couldn't be found :("/>
+        <meta property="og:description"   content="Something went wrong, but my highly educated Chamaleon doing its best to resolve it"/>
+        <meta property="og:image"         content="../assets/img/component/404.jpg"/>
         
         <link rel="icon" type="image/png" href="../assets/icon/favicon-16x16.png" sizes="16x16">
         <link rel="icon" type="image/png" href="../assets/icon/favicon-32x32.png" sizes="32x32">
@@ -31,16 +31,6 @@
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="js/vendor/riot/riot+compiler.min.js"></script>
-
-        <script src="js/vendor/jquery.i18n/CLDRPluralRuleParser.js"></script>
-        <script src="js/vendor/jquery.i18n/jquery.i18n.js"></script>
-        <script src="js/vendor/jquery.i18n/jquery.i18n.messagestore.js"></script>
-        <script src="js/vendor/jquery.i18n/jquery.i18n.fallbacks.js"></script>
-        <script src="js/vendor/jquery.i18n/jquery.i18n.language.js"></script>
-        <script src="js/vendor/jquery.i18n/jquery.i18n.parser.js"></script>
-        <script src="js/vendor/jquery.i18n/jquery.i18n.emitter.js"></script>
-        <script src="js/vendor/jquery.i18n/jquery.i18n.emitter.bidi.js"></script>
-        <script src="js/vendor/jquery.i18n/global.js"></script>
     </head>
 
     <body>
@@ -55,8 +45,8 @@
             <o-header></o-header>
 
             <main>
-                <p class="t-pageError__p">Hoppá!</p>
-                <h1 class="t-pageError__h1">Ez elkeveredhetett valahova : o</h1>
+                <p class="t-pageError__p" data-i18n="s-oops"></p>
+                <h1 class="t-pageError__h1" data-i18n="s-404"></h1>
                 <img class="c-pageError__illustration" src="assets/illustration/404/404.svg">
             </main>
 
@@ -86,7 +76,18 @@
         </script>
 
         <!-- Regular JS -->
-        <script src="../js/cookie.js"></script>
+        <script src="js/cookie.js"                                         ></script>
+        <script src="js/lang-redir/redirect-404.js"                        ></script>
+
+        <script src="../js/vendor/jquery.i18n/CLDRPluralRuleParser.js"     ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.js"              ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.messagestore.js" ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.fallbacks.js"    ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.language.js"     ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.parser.js"       ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.emitter.js"      ></script>
+        <script src="../js/vendor/jquery.i18n/jquery.i18n.emitter.bidi.js" ></script>
+        <script src="../js/vendor/jquery.i18n/global.js"                   ></script>
 
     </body>
 </html>

@@ -1,3 +1,5 @@
+// 0.  404
+
 // 1.  COMPONENTS
 // 1.1 header + footer
 // 1.2 Cookiebar
@@ -14,11 +16,47 @@
 // 3.2 Dividedsoul
 // 3.3 Portraitart
 
-// 5. MDWDS
+// 4.  DESIGN
+
+// 5.  MDWDS
+// 5.0 MDWDS Prologue
+// 5.1 MDWDS Chapter 1
+// 5.1.1 MDWDS Chapter 1 Subchapter 1
+// 5.1.1 MDWDS Chapter 1 Subchapter 2
+// 5.2 MDWDS Chapter 2
+// 5.2.1 MDWDS Chapter 2 Subchapter 1
+// 5.2.2 MDWDS Chapter 2 Subchapter 2
+// 5.2.3 MDWDS Chapter 2 Subchapter 3
+// 5.2.4 MDWDS Chapter 2 Subchapter 4
+// 5.2.5 MDWDS Chapter 2 Subchapter 5
+// 5.2.6 MDWDS Chapter 2 Subchapter 6
+// 5.2.7 MDWDS Chapter 2 Subchapter 7
+// 5.2.8 MDWDS Chapter 2 Subchapter 8
+// 5.3 MDWDS Chapter 3
+// 5.3.1 MDWDS Chapter 3 Subchapter 1
+// 5.3.2 MDWDS Chapter 3 Subchapter 2
+// 5.3.3 MDWDS Chapter 3 Subchapter 3
+// 5.3.4 MDWDS Chapter 3 Subchapter 4
+// 5.4 MDWDS Chapter 4
+// 5.4.1 MDWDS Chapter 4 Subchapter 1
+// 5.4.2 MDWDS Chapter 4 Subchapter 2
+// 5.4.3 MDWDS Chapter 4 Subchapter 3
+// 5.4.4 MDWDS Chapter 4 Subchapter 4
+// 5.4.5 MDWDS Chapter 4 Subchapter 5
+// 5.4.6 MDWDS Chapter 4 Subchapter 6
+// 5.4.7 MDWDS Chapter 4 Subchapter 7
+
+
+
+
 
 
 {
     hu: {
+        // 0.  404
+        s-oops: Hoppá!
+        s-404: Ez elkeveredhetett valahova : o
+        
         // 1.  COMPONENTS
         // 1.1 header + footer
 		s-navigation-name: Toth Lorant
@@ -267,6 +305,9 @@
             A rajzok arról a számról kapták a címüket, amiket készítésük közben hallgattam.
             '''
 
+        s-td-14-title: Let Me Down Slowly
+        s-td-14-date: 2018 június
+
         s-td-13-title: Miami 2 Ibiza
         s-td-13-date: 2018 április
 
@@ -316,6 +357,1003 @@
 
         s-design-proceedstudy: Tovább a tanulmányhoz
         s-design-proceedarticle: Tovább a bejegyzéshez
+
+
+
+        // 5.  MDWDS
+        s-mdwds-cover-h1: Moduláris Tervezés<br> Design Rendszerekkel
+        // 5.0 MDWDS Prologue
+        s-mdwds-prologue-title: Előszó
+        s-mdwds-prologue-p1:
+            '''
+            Az utóbbi időben product designt érintő körökben a design rendszerek talán a legnépszerűbb témának számítanak. Olyannyira, hogy nem csak az óriás technológiai 
+            cégek érzik szükségét elkészítésének és fenntartásának, de még a szigorúan fizikai, kézzel fogható terméket értékesítő vállalatok is, mint például a Royal Canin, 
+            vagy az Audi.
+            '''
+        s-mdwds-prologue-p2:
+            '''
+            Mivel egy ennyire forró témáról van szó, nem csoda, hogy olyan sokan leírták már, hogy hogyan kell létrehozni őket, mint például Brad Frost az Atomic Design 
+            című könyvében, vagy Alla Kholmatova a Design Systems-ben. Ezek a könyvek nagyszerűen végigmennek a működésük- és elkészítésük módján, viszont arról csak 
+            röviden beszélnek, hogy milyen szakmai hajtóerő állt a szisztematikus tervezés elterjedése mögött, és milyen problémákat kíván megoldani. Elsősorban a 
+            "hogyan"-ra fókusználnak, nem pedig a "miért"-re. Szakdolgozatomban én a "miért"-re helyeztem a hangsúlyt, és kutatásokkal alátámasztva felépítettem egy 
+            listát azokból a tényezőkből, amik a design válság kialakulásához hozzájárultak. Ehhez gyakran éveket, néha évtizedeket kellett visszamenni az időben, és 
+            olyan - ma már idejétmúltnak számító - forrásokat keresni, amik alátámasztják a meglátásaimat.
+            '''
+        s-mdwds-prologue-p3:
+            '''
+            Szakdolgozatom második felében arról írok, hogy a design rendszer mellett milyen megoldások születtek még a feltárt problémákra, majd részletesebben 
+            megfogalmazom, hogy mit jelent design rendszerben tervezni.
+            '''
+        s-mdwds-prologue-p4:
+            '''
+            Azért döntöttem úgy, hogy elsősorban nem a design rendszerek felépítésére helyezem a hangsúlyt, mert ebben a megközelítésben már nagyon sokan feldolgozták a 
+            témát. Számomra legalább annyira izgalmas azt vizsgálni, hogy egy szakterület milyen tényezők hatására jutott el odáig, ahol éppen tart, mint az aktuális 
+            szokásait és bevett gyakorlatait. Így a szakma fejlődése nem fog folyamatos meglepetéseket okozni, hiszen ha tudjuk, hogy honnan indult, jobb rálátásunk van 
+            arra is, hogy milyen irányba tart.
+            '''
+        s-mdwds-prologue-p5:
+            '''
+            Szakdolgozatom írása közben számtalan hasznos visszajelzést kaptam, amik segítettek engem abban, hogy minél több nézőpontból tudjam ezt a témát megvizsgálni és 
+            kifejteni. Kifejezetten köszönöm Nikázy Gusztávnak, egyetemi tanáromnak, aki a sok hasznos meglátása mellett ösztönzött engem arra, hogy minél objektívebben
+            álljak írásnak, valamint nagyon sokat segített a Chameleon front-end technológiai hátterének megválasztásában is. Továbbá testvéremnek, Tóth Bálintnak, aki
+            a végeláthatatlan hosszúságú JavaScript fájljaimat rekordidő alatt tömörítette bele pár sorba.
+            '''
+
+        // 5.1 MDWDS Chapter 1
+        s-mdwds-chapter-1-title: Modularitás: a rendszerek alapja
+        s-mdwds-chapter-1-p1:
+            '''
+            &mdash;Így fogalmazza meg a "rendszer" jelentését a Cambridge értelmező szótára. Ez egy elég tág magyarázat, azonban egyértelműen azt sugallja, hogy ahhoz, hogy 
+            egymással együtt tudjanak működni az elemek, speciális módon kell őket megtervezni. Ez a speciális mód pedig a modularitás.
+            '''
+        s-mdwds-chapter-1-p2:
+            '''
+            A modularitásnak több megközelítése is van, és meghatározása alkalmazási területenként eltérhet. Alapvetően az a lényege, hogy egy adott rendszert úgy terveznek 
+            meg, hogy <a target="_blank" class="t-article__a" href=" https://www.cleverism.com/lexicon/modular-design">egymáshoz illeszkedő részegységekből felépíthető legyen.</a>
+            Bizonyos esetekben különböző elemek helyettesíthetik egymást, így a rendszer több, különböző formát is ölthet. A moduláris tervezést előszeretettel alkalmazzák 
+            különböző iparágakban (mint például bútorgyártás, építőipar, autógyártás, terméktervezés), mert ennek hatására leegyszerűsödnek és gyorsulnak a tervezési 
+            folyamatok, olcsóbb lesz a gyártás és javítás, valamint könnyebb lesz a csomagolás és szállítás.
+            '''
+        s-mdwds-chapter-1-p3:
+            '''
+            Erre épül például az IKEA tervezési módszere, aminek lényege, hogy a bútort előregyártott elemekből, szétszerelve csomagolják és árulják, a 
+            vevőnek kell otthon összeépítenie a hozzá tartozó útmutató szerint. Az IKEA nagyon sok különböző bútort gyárt, viszont ha ezekre nem egészként 
+            tekintünk, hanem alkotóelemenként, akkor azt figyelhetjük meg, hogy hasonló egységekből állnak: a polcok eltérhetnek hosszúságban, szélességben, 
+            színben, de ugyanúgy vannak megmunkálva, hasonlóan vannak előfúrva, és ugyanazokkal az elemekkel kell őket rögzíteni a befoglaló egységhez. 
+            Ez megkönnyíti a tervezést, hiszen sokkal könnyebben létrehozhatók ezek a variációk, mintha minden elem egyedi lenne, valamint a gyártást is, 
+            mert ugyanazokkal a gépekkel el lehet őket készíteni. A legyártott elemek csomagolása is lényegesen könnyebb így, hogy a lehető legkisebb 
+            egységekre vannak bontva, mivel ilyen módon foglalják a legkevesebb helyet, és lapra szerelve kevésbé sérülékenyek.
+            '''
+        s-mdwds-chapter-1-p4:
+            '''
+            A példa jól mutatja, hogy hogyan forradalmasította ez a tervezési elv a bútorgyártást, azonban, mint korábban említettem, nem ez az egyetlen 
+            terület, ahol nagy népszerűségre tett szert. A moduláris tervezésnél érdemes két területet megkülönböztetni: a fizikai- és az elméleti 
+            felhasználást.
+            '''
+        // 5.1.1 MDWDS Chapter 1 Subchapter 1
+        s-mdwds-chapter-1-subtitle-1: A modularitás felhasználása fizikai környezetben
+        s-mdwds-chapter-1-subchapter-1-img1:
+            '''
+            A moduláris tervezés lehetővé teszi a sorozatgyártást, így a modelleket nem egymás után, egyedileg készítik el, hanem egyszerre, 
+            párhuzamosan dolgoznak rajtuk.
+            '''
+        s-mdwds-chapter-1-subchapter-1-p1:
+            '''
+            Az iparban nem újdonság a moduláris tervezés. Az egyik leglátványosabb eredményt nem is olyan régen az autógyártásban érte el, 
+            <a target="_blank" class="t-article__a" href="https://us5.campaign-archive.com/?u=7e093c5cf4&id=ead8a72012&e=ecb25a3f93">ahol 20 éve egy új modell piacra 
+            vezetése a tervezéstől kezdve 5 év volt, viszont a moduláris tervezés bevezetésének köszönhetően ez napjainkra egy évre  csökkent.</a> A 
+            modularitásnak sok előnye van, és a különböző iparágak különbözőképpen használják ezt ki. Hídépítésnél például könnyebb az egységeket szállítani, 
+            majd ezeket a helyszínen összeszerelni, míg hajógyártásnál nagymértékben javítja a skálázhatóságot, lehetőséget biztosítva sokkal nagyobb méretű 
+            hajók építésére.
+            '''
+        // 5.1.1 MDWDS Chapter 1 Subchapter 2
+        s-mdwds-chapter-1-subtitle-2: A modularitás felhasználása elméleti környezetben
+        s-mdwds-chapter-1-subchapter-2-p1:
+            '''
+            Nagyon sok szabályrendszer alapul modularitáson. Elég extrém példának tűnhet, de akár a fizetési eszközök is egy moduláris rendszer részét képzik, 
+            ahol különböző címletekből különböző összegeket lehet többféleképpen kirakni. Ha eltekintünk a kényelmi szempontoktól, mint például attól, hogy 
+            kevesen örülnének annak, ha fizetésüket aprópénzben kapnák, akkor valójában a végeredmény tekintetében mindegy, hogy az milyen címletekből adódik 
+            össze.
+            '''
+        s-mdwds-chapter-1-subchapter-2-p2:
+            '''
+            Egy kevésbé elvont alkalmazása a számítástechnikai programkódok felépítése, 
+            <a target="_blank" class="t-article__a" href="https://msdn.microsoft.com/en-us/library/ff921069(v=pandp.20)#why-choose-a-modular-design">aminél ma már sztenderd lett 
+            a modularitás</a>, ugyanúgy, mint az autógyártásban. Azonban ez nem volt mindig így: az 1960-as évek végén egy válsághelyzet alakult ki, mivel a gépek 
+            hardver téren rohamos ütemben fejlődtek, <a target="_blank" class="t-article__a" href="https://www.fastcodesign.com/90152743/software-design-is-in-crisis">és ezzel a szoftverek 
+            nem tudtak lépést tartani.</a> Az 1968-as <a target="_blank" class="t-article__a" href="http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF">NATO 
+            szoftverfejlesztési konferencián</a> alkalmazták először a "szoftverválság" szót, és itt merült fel a megoldás is a problémára, mégpedig az objektumorientált 
+            programozás. Ez egy olyan módszertan, aminek középpontjában a kód újrafelhasználhatósága áll. A megközelítés ennek érdekében a hangsúlyt az eljárások 
+            felől az adatszervezés irányába mozdítja.
+            '''
+        s-mdwds-chapter-1-subchapter-2-hl1:
+            '''
+            "Döntsd el, mely modulokra van szükséged és oszd fel a programot úgy, hogy az adatokat modulokba helyezed."
+            '''
+        s-mdwds-chapter-1-subchapter-2-p3:
+            '''
+            &mdash;Írja Bjarne Stroustrup könyvében a moduláris programozásról, azonban később látni fogjuk, hogy ez a tanács nem csak a kódírást könnyíti meg.
+            '''
+        s-mdwds-chapter-1-subchapter-2-p4:
+            '''
+            Az internet elterjedésével egyre nagyobb szerepet kapott a front-end fejlesztés is, ahol szintén megjelent a moduláris kódtervezés. Különböző 
+            keretrendszerek (frameworkök) és könyvtárak jöttek létre annak érdekében, hogy segítsék a webfejlesztők munkáját előre megírt, újrafelhasználható 
+            kódokkal. Ilyen volt például a jQuery, amit a mai napig széles körben használnak, de manapság is jelennek meg JavaScript alapú keretrendszerek, 
+            mint például a <a target="_blank" class="t-article__a" href="https://vuejs.org">Vue</a> vagy a  <a target="_blank" class="t-article__a" href="https://reactjs.org">React</a>, amik 
+            másként használják ki a modularitás tulajdonságait.
+            '''
+        s-mdwds-chapter-1-subchapter-2-p5:
+            '''
+            Azonban van egy területe a szoftverfejlesztésnek, ahova csak az utóbbi időben kezdte betenni a lábát a moduláris megközelítés, ez pedig a design. 
+            Marco Suarez, az InVision design systems csapatának vezetője szerint ennek oka hasonló, mint a szoftverválság esetében: a design nem tud lépést 
+            tartani a front-end fejlesztéssel. <a target="_blank" class="t-article__a" href="https://www.designbetter.co/design-systems-handbook/introducing-design-systems">
+            A Design Systems Handbook első fejezetében</a> így nyilatkozik:
+            '''
+        s-mdwds-chapter-1-subchapter-2-hl2:
+            '''
+            Most, 50 évvel később, hasonló kihívásokkal találjuk szemben magunkat, de ezúttal design téren. A design küszködik azzal, hogy skálázódjon az 
+            applikációval, amit támogat, mert még mindig egyedi, testreszabott megoldásokat nyújt egyéni problémákra.
+            '''
+        s-mdwds-chapter-1-subchapter-2-p6:
+            '''
+            A design egyedi problémákra keres megoldást, ami lassítja a tervezési folyamatot. Ennek oka, hogy egyedi problémára egyedi megoldást lehet csak 
+            tervezni, ami design adósságok felhalmozódásához vezet. Design adósságnak azt nevezzük, amikor egy létező felületbe egy új elem kerül be, amit 
+            kizárólag abba a környezetbe terveznek bele, figyelmen kívül hagyva az újrafelhasználhatóságot. Erről a következő fejezet végén írok 
+            részletesebben.
+            '''
+        // 5.2 MDWDS Chapter 2
+        s-mdwds-chapter-2-title: A design válsághoz vezető út
+        s-mdwds-chapter-2-p1:
+            '''
+            A nagyobb cégek közül sokan tapasztalták, hogy a design részleg gyarapítása nem oldja meg azt a problémát, amire sokáig erőforráshiányként 
+            tekintettek: a designerek toborzása által nem lettek gyorsabbak a design folyamatok, azonban nőtt a felületek közti inkonzisztencia. Mindennek 
+            az az oka, hogy a designerek egy idő után különböző megoldásokat gyártottak az egy forrásra visszavezethető problémákra, ezzel fölösleges 
+            munkát végezve, valamint növelve a komplexitást. Az Airbnb <a target="_blank" class="t-article__a" href="https://airbnb.design/building-a-visual-language/">
+            design blogján említi,</a> hogy felfedezték ezt a szervezeti problémát maguknál, és úgy gondolják, hogy ez nem csak őket érinti, hanem az 
+            egész szoftverfejlesztési ipart:
+            '''
+        s-mdwds-chapter-2-hl1:
+            '''
+            "Nyilvánvalóvá vált számunkra, hogy szisztematikusabb megoldásokra van szükségünk, amik vezetik és befolyásolják a kollektív 
+            erőfeszítéseinket. Míg észleltük ezeket a kihívásokat a vállalaton belül, úgy gondolom, hogy ezek egy nagyobb szoftveripari problémának 
+            a tünetei."
+            '''
+        s-mdwds-chapter-2-p2:
+            '''
+            Valójában nagyon hasonló ez a megállapítás, mint amire Marco Suarez és az InVision is jutott. Másként fogalmazzák meg a problémát, de a 
+            szisztematikus megközelítés többek között a design adósságok kiszorításában segít.
+            '''
+        s-mdwds-chapter-2-p3:
+            '''
+            Hogy megértsük, hogy a design folyamatok milyen irányba fejlődnek, fontos, hogy tisztában legyünk azokkal a problémákkal, amikre megoldást 
+            keres. Nézzük, hogy mi változott az elmúlt évtizedekben a webes tervezés-, tartalomkezelés-, és tartalomfogyasztás terén, és ez milyen 
+            hatással volt a designra!
+            '''
+        // 5.2.1 MDWDS Chapter 2 Subchapter 1
+        s-mdwds-chapter-2-subtitle-1: A tartalomközpontúság elterjedése
+        s-mdwds-chapter-2-subchapter-1-img1:
+            '''
+            A Youtube "Zenék" oldala, ahol az éppen népszerű klipek jelennek meg. Az oldal készítői csak keretet adnak a tartalom 
+            közvetítéséhez, ami a felhasználóktól származik.
+            '''
+        s-mdwds-chapter-2-subchapter-1-p1:
+            '''
+            A HTML közel 30 éve jelent meg azzal a céllal, hogy alternatívaként szolgáljon írott tartalmak online közzétételére, ami mindaddig nyomtatott 
+            módon történt. Ez a leírónyelv azóta webes szabvánnyá vált a <a target="_blank" class="t-article__a" href="https://www.w3.org/">W3C</a> támogatásával (a W3C 
+            egy nemzetközi közösség, ami fejlesztéseivel az internet hosszútávú fejlődésén dolgozik).
+            '''
+        s-mdwds-chapter-2-subchapter-1-p2:
+            '''
+            A digitális, hálózaton keresztül elérhető forma nagyon sok előnyt is biztosít a tárolás mellett: egyrészt egyszerűbben és rugalmasabban 
+            frissíthető a tartalom, másrészt pedig könnyebb elérni is, így sokkal nagyobb közönséghez juthat el.
+            '''
+        s-mdwds-chapter-2-subchapter-1-p3:
+            '''
+            A weboldalak kezdeti célja tehát nem a dinamikus tartalomkezelés és megjelenítés volt, mint amihez napjainkban már hozzászoktunk, hanem 
+            egyszerűen az, hogy statikus oldalakon információkat tároljanak, és ezeket az oldalakat linkek segítségével, hierarchikus felépítés nélkül 
+            összekapcsolják, elérhetővé tegyék, így egyfajta virtuális könyvtárat létrehozva.
+            '''
+        s-mdwds-chapter-2-subchapter-1-p4:
+            '''
+            1996-ot írtunk, mikor Bill Gates közzétett egy cikket a Microsoft oldalán 
+            <a target="_blank" class="t-article__a" href="https://medium.com/@HeathEvans/content-is-king-essay-by-bill-gates-1996-df74552f80d9">"Content is King"</a> 
+            címmel. Ez az írás akkoriban jóval megelőzte a korát, hiszen az internet még gyerekcipőben járt, és messze nem számított elsődleges 
+            információforrásnak. Azonban Bill Gates már látta, hogy jó esély van arra, hogy hamarosan azzá váljon.
+            '''
+        s-mdwds-chapter-2-subchapter-1-hl1:
+            '''
+            "Ha azzal számolunk, hogy az emberek bekapcsolják a számítógépet a képernyő olvasásához, mélyreható és rendkívül naprakész 
+            információkat kell kapniuk, amelyeket tetszés szerint felfedezhetnek. Hanggal, esetleg videóval is kell rendelkezniük."
+            '''
+        s-mdwds-chapter-2-subchapter-1-p5:
+            '''
+            Ahhoz, hogy egy felhasználó aktívan és rendszeresen használjon egy oldalt, fontos, hogy folyamatosan új és naprakész tartalommal találkozzon. 
+            Olyannal, amit az offline világ hírforrásai nem tudnak nyújtani.
+            '''
+        s-mdwds-chapter-2-subchapter-1-p6:
+            '''
+            A programozási nyelvek fejlődése nem csak az asztali alkalmazás fejlesztést és a játékipart lendítették meg, hanem a webfejlesztést is. 
+            Lehetőség nyílt arra, hogy a weboldalak dinamikusan, valós időben frissülő tartalmat jelenítsenek meg a felhasználóknak. Az első webes 
+            alkalmazás, ami lényegesen túlszárnyalta azt, amit mindaddig a weboldalakról gondoltunk, a Gmail volt. Ez a Google online email kliense, 
+            amit 2004-ben tettek elérhetővé, és a mai napig a legnépszerűbb email kezelő. Amellett, hogy messze ez biztosította a legnagyobb ingyenes 
+            tárhelyet, innovációja abban rejlett, hogy kihasználta az AJAX webfejlesztési technika előnyét, hogy újratöltés nélkül frissítse az oldal 
+            bizonyos részeit. Az AJAX ezáltal nagymértékben tudta javítani a felhasználói élményt, a Gmail pedig volt annyira népszerű már a 
+            megjelenésekor is, hogy <a target="_blank" class="t-article__a" href="https://www.developer.com/design/article.php/3526681">inspirációt adott a fejlesztőknek,</a> 
+            hogy a webfejlesztés akkori technológiai hátterével milyen komplexitású felületeket lehet fejleszteni.
+            '''
+        s-mdwds-chapter-2-subchapter-1-p7:
+            '''
+            Egyre népszerűbbé váltak a tartalom aggregátor oldalak, amik lényegében csak felületet biztosítottak a felhasználóknak tartalommegosztás 
+            céljából, majd egy jól megírt algoritmussal a feltöltött tartalmat megjelenítették azoknak a keresőknek, akiknek feltehetően relevánsnak 
+            bizonyult. Ilyen oldal például a Youtube, a Facebook, a Pinterest, az Amazon vagy a Deviantart, de a legnépszerűbb és az egyik legkorábbi, 
+            a Google kereső is. A tartalmat nem az oldal készítői generálják, hanem a felhasználók, és ez olyan mértékű, és annyira változatos, hogy 
+            bárki megtalálja azt, ami őt érdekli.
+            '''
+        s-mdwds-chapter-2-subchapter-1-p8:
+            '''
+            Ahogy az alkalmazásokat egyre többen fejlesztik, több funkcióval egészülnek ki, úgy egyre bonyolultabbá és szerteágazóbbá válnak. A túl 
+            sok funkció vissza tud ütni, ha a felhasználót összezavarja, mivel így pont az ellenkezőjét éri el, mint ami miatt tervezik: az 
+            elköteleződést nem növelni, hanem csökkenteni fogja.
+            '''
+        s-mdwds-chapter-2-subchapter-1-p9:
+            '''
+            Marcin Treder Web Design Book of Trends (<a target="_blank" class="t-article__a" href="https://www.uxpin.com/studio/ebooks/web-design-book-of-trends-2013-2014/">@UXPin</a>)
+            című könyvét a tartalom fontosságának részletezésével kezdi. "A felhasználók nem a szép design miatt jönnek az oldalra, hanem hogy elérjék céljaikat" 
+            - írja, és folytatja azzal, hogy a célhoz a tartalmon keresztül vezet az út. Ez a tartalom pedig folyamatosan változik, frissül, cserélődik - tehát 
+            dinamikus.
+            '''
+        s-mdwds-chapter-2-subchapter-1-p10:
+            '''
+            Az az elv, ami design területen egykor működött, hogy a grafikus megtervezi az adott tartalomhoz az oldalt, már nem működik. Gondoljunk 
+            csak a Facebook hírfolyamára: itt találkozhatunk írásos posztokkal, élő videókkal, cikkekkel, különböző oldalakról beágyazott megosztásokkal, 
+            de még ismerőseink interakcióival is, mint például a kedvelés, megosztás vagy hozzászólás. Hogyan is tudnánk megtervezni a különböző oldalakat, 
+            ha mindenkinek másképpen jelennek meg? Még a felhasználói felület sem fog egyezni, ugyanis az is alkalmazkodik az egyén beállításaihoz, 
+            jogosultságaihoz és preferenciáihoz. Megtehetjük, hogy készítünk különböző variációkat, de nem fogjuk tudni lefedni az összes lehetőséget, 
+            ellenben hihetetlen mennyiségű képernyőtervünk lesz, ami nem fogja hitelesen reprezentálni az oldal megjelenését és működését.
+            '''
+        // 5.2.2 MDWDS Chapter 2 Subchapter 2
+        s-mdwds-chapter-2-subtitle-2: A számítástechnikai eszközök rohamos fejlődése
+        s-mdwds-chapter-2-subchapter-2-img1:
+            '''
+            Nem könnyű eldönteni, hogy mekkora vásznat hozzunk létre a weboldal látványterveinek megtervezéséhez.
+            '''
+        s-mdwds-chapter-2-subchapter-2-p1:
+            '''
+            A technológiák fejlődése által egyre nagyobb teljesítményt sikerült egyre kisebb készülékekbe sűríteni, ráadásul az érintőkijelző megjelenésével 
+            és elterjedésével a készülékek felületének jelentős része aktív, használható területté vált. Mire azon kaptuk magunkat, hogy felbontásban, 
+            méretben, képarányban és képmegjelenítési techológiában különböző kijelzők végtelen kombinációjával kerültünk szembe, fel kellett ismernünk, 
+            hogy a tervezési megközelítéseink messze le vannak maradva attól, hogy ezekre látványterveket tudjunk készíteni. A felhasználó hasonló 
+            funkcionalitással és működéssel szeretne találkozni a 27 colos monitorján, a 13’-os ultrabookján és a 4.7’-os telefonján, hogy a feladatait 
+            készüléktől függetlenül el tudja végezni.
+            '''
+        s-mdwds-chapter-2-subchapter-2-p2:
+            '''
+            Most nézzük a problémát tervezési oldalról: a designerben már az első lépésnél, a dokumentum létrehozásánál felmerül a kézenfekvő kérdés: 
+            mekkora méretű legyen? A CSS jó megoldásokat biztosít kijelzőhöz alkalmazkodó layout tervezésére: ilyen például 
+            <a target="_blank" class="t-article__a" href="http://www.liquidapsive.com/">az adaptív, a fluid vagy a reszponzív tervezési megközelítés</a>, ami arányokkal 
+            és képernyőszélességhez kapcsolódó tulajdonságokkal operál, azonban a népszerű tervezőszofverekben egyelőre nincs meg az a dinamika, 
+            hogy lehetőséget adjanak hasonló tervezésre.
+            '''
+        // 5.2.3 MDWDS Chapter 2 Subchapter 3
+        s-mdwds-chapter-2-subtitle-3: A számítástechnikai eszközök rohamos fejlődése
+        s-mdwds-chapter-2-subchapter-3-p1:
+            '''
+            Az internet megjelenése után a webes front-end fejlesztés (már ha nem erős ez a kifejezés) nagyon egyszerű eszközökkel dolgozott, ezért nem 
+            volt kérdéses, hogy hol voltak a határai. Olyan alapvető formázásokat tudott, mint például színek, hátterek, betűméretek és stílusok állítása 
+            (nem meglepő, hiszen célja hasonló volt, mint például a Wordnek, azzal a különbséggel, hogy a dokumentum célzottan webes feltöltésre készült). 
+            Ekkor még jóideig helytállt a mondás, hogy amit le lehet kódolni HTML-ben és CSS-ben, arra lehetett készíteni tervet Phtosohopban. Azonban, 
+            ahogy egyre bővült a specifikációjuk, majd kiegészítette a képet a JavaScript, ez lassan kezdett megváltozni.
+            A JavaScript 1995-ben jelent meg, habár nagyobb népszerűségre csak hosszú küzdelmek után, a 2000-es évek elején tett szert. Ennek okáról hosszas 
+            érveléseket lehet találni, viszont egy dolog biztosan közrejátszott: 2004 és 2005 között a Google két nagyobb alkalmazásához is használta, a 
+            Maps-hez és a Gmail-hez.
+            '''
+        s-mdwds-chapter-2-subchapter-3-p2:
+            '''
+            A front-end technológiák egyre összetettebb, dinamikusan változó látvány megjelenítését tették lehetővé, azonban a design szoftverek azóta is 
+            statikusan működnek. Ma már a designnak nem különálló képernyőállapotok látványtervezéséről kellene szólniuk, hanem felhasználói interakción 
+            alapuló, folyamatos visszacsatolások dinamikus megjelenítéséről. Ez egyrészt szükséges a fejlesztést megelőző felhasználói teszteléshez, 
+            valamint magához a fejlesztéshez is, hiszen sokkal nehezebb elmagyarázni például a layout működését, mint megmutatni élő példán. Hasonló a 
+            helyzet az áttűnésekkel és az animációkkal is.
+            '''
+        // 5.2.4 MDWDS Chapter 2 Subchapter 4
+        s-mdwds-chapter-2-subtitle-4: A számítástechnikai eszközök rohamos fejlődése
+        s-mdwds-chapter-2-subchapter-4-img1:
+            '''
+            Az Apple 1998-as weboldala. Lehet, hogy mai szemmel design téren lehetne kifinomultabb, de egyértelmű, hogy mik az interaktív elemek rajta.
+            '''
+        s-mdwds-chapter-2-subchapter-4-img2:
+            '''
+            A web 2.0 design a színes, egyedi grafikai megoldásokról szólt. A UI elemeket sokszor kellett emiatt képként beilleszteni.
+            '''
+        s-mdwds-chapter-2-subchapter-4-img3:
+            '''
+            A kép jól illusztrálja a különbséget a skeuomorph, a flat és a material között.
+            '''
+        s-mdwds-chapter-2-subchapter-4-p1:
+            '''
+            Az internet kezdeti éveiben (1995–2000) kevés lehetőség volt az egyediség kibontakoztatására az alacsony sávszélesség és a kezdetleges és 
+            erősen korlátozott fejlesztési technológiák miatt. Bár ma már megmosolyogjuk a Yahhoo vagy az Apple első weboldalát, kétségtelen, hogy nagyon 
+            sok fontos konvenció létrejötte ehhez a korszakhoz köthető, mint például a kék színű linkek, vagy a gombok eltérő állapotai.
+            '''
+        s-mdwds-chapter-2-subchapter-4-p2:
+            '''
+            Ezután, a 2000-es évek eleje körül terjedt el a web 2.0, ami a felhasználói interakción alapuló weboldalakat takarta, és ezzel párhuzamosan 
+            terjedt el egy új design stílus, amit szintén web 2.0 néven emlegetnek. Ekkor vált igazán népszerű tervezőszoftverré a Photoshop – elég megnézni 
+            azokat a szép, fényes gombokat, vagy az erős drop shadow- illetve egyéb blending options tulajdonságokkal erősen terhelt grafikai elemeket a 
+            weboldalakon ebből az időből. Egyre népszerűbbek lettek a nagy képek, és ami igazán fontos, a "call to action"-ök – nagy, színes, 
+            figyelemfelkeltő gombok, amiket a konverzió javítása érdekében kezdtek el használni (és használnak a mai napig).
+            '''
+        s-mdwds-chapter-2-subchapter-4-p3:
+            '''
+            Majd szép lassan teret nyert a skeuomorphic design, ami valós tárgyak és felületek stilizált megjelenését állította középpontba. Legnépszerűbb 
+            képviselője az Apple volt, ami az iOS7-nél szakadt el ettől a stílustól 2013-ban.
+            '''
+        s-mdwds-chapter-2-subchapter-4-p4:
+            '''
+            Az igazán nagy revolúciót a flat design hozta meg, amit a Windows már 2010-től használt, az Apple az iOS7 megjelenésétől, és rövidesen a 
+            Google is beállt a sorba. Ez a stílus a minimalizmust képviselte, és a letisztult, egyszerű, geometrikus megjelenésről szólt. Akkora hatással 
+            volt a design fejlődésére, hogy szakmai sztenderd lett hirtelen, és vállalatok sorra cserélték le az oldalaikat.
+            '''
+        s-mdwds-chapter-2-subchapter-4-p5:
+            '''
+            A flat megjelenése óta nem történt igazán nagy stílusbeli változás. A mai napig ez az általános trend, azonban sokat fejlődött az elmúlt 
+            években. A Google 2014-ben publikálta a <a target="_blank" class="t-article__a" href="https://material.io/">Material Designt</a>, ami nagyon sok tekintetben 
+            hasonlít a flathez, azonban sokkal egyértelműbben van definiálva, hiszen a Google gondoskodott a részletekbe menő rendszer megtervezéséről. 
+            A material egy univerzális nyelv <a target="_blank" class="t-article__a" href="https://youtu.be/rrT6v5sOwJg?t=6m28s">(legalábbis Matias Duarte, a Google 
+            VP designere szerint)</a>, ami folyamatosan fejlődik a korral, ezzel kiküszöbölve az olyan durva, ugrásszerű stílusbeli 
+            átalakulásokat, mint amik korábban voltak.
+            '''
+        s-mdwds-chapter-2-subchapter-4-p6:
+            '''
+            Láthatjuk, hogy mennyire változatos és egymástól eltérő stílusok váltották egymást a webdesign eddigi rövid történelme alatt, mire elérkeztünk 
+            egy olyan állapothoz, ahol azt mondhatjuk, hogy a lényeges tulajdonságokban nem történik egyik napról a másikra radikális változás, inkább 
+            csak folyamatos, irányított fejlődés. Ennek az az oka, hogy elsősorban a digitális termékeket fejlesztő cégek, akiknek fontos, hogy naprakész 
+            webes megjelenésük legyen, rájöttek, hogy túl nagy erőforrást igényel egyben lecserélni a teljes megjelenésüket, ráadásul erre az erőforrásra 
+            csak adott időközönként, a designváltás alatt van szükség. Valamint van egy másik probléma, ami talán ennél is fontosabb, mégpedig az, hogy 
+            felhasználói szempontból nagyon frusztráló egy megszokott szolgáltatást teljesen új köntösben látni, és újrakezdeni a tanulási folyamatot a 
+            teljes felületen.
+            '''
+        s-mdwds-chapter-2-subchapter-4-p7:
+            '''
+            Ezért is volt igazán fontos annak a mentalitásnak a kialakítása, hogy a designt egy folyamatosan fejlődő és változó rendszerként kell kezelni, 
+            amiben a változások nem lehetnek önkényesek és szubjektívek. Ez nagyon fontos, hiszen így érvényesül igazán a felhasználóközpontúság, mivel 
+            visszajelzésekre támaszkodva alakítjuk a felületeket.
+            '''
+        // 5.2.5 MDWDS Chapter 2 Subchapter 5
+        s-mdwds-chapter-2-subtitle-5: A webdesign szakma útkeresése
+        s-mdwds-chapter-2-subchapter-5-p1:
+            '''
+            A webdesign gyökerei a képzőművészetben keresendők, azonban egy olyan területről van szó, ami alig 20 éve fejlődött ki (legfeljebb a 2000-es 
+            évektől van értelme szakmaként tekinteni a webdesignra), és igazán nagy hangsúlyt csak az utóbbi években szerzett. Ahogyan próbál 
+            alkalmazkodni egyszerre a felhasználók igényeihez és a fejlődő technológiai háttérhez, nem meglepő, hogy az állása ennyire bizonytalan. 
+            Ráadásul a rendeltetése merőben eltér attól, amit a képzőművészetben megszoktunk - a képeket, festményeket, szobrokat vizuálisan értelmezzük, 
+            első ránézésre kialakul bennünk egy érzés a látott mű kapcsán, azonban a weboldalak egyszerre építenek vizuális és szöveges tartalomra, amit 
+            az is nehezít, hogy mindez egy interaktív kezelőfelületen keresztül érhető el. A felhasználónak rá kell jönnie tehát, hogy bizonyos funkciókat 
+            hol tud elérni az oldalon, amik alapállapotban lehet, hogy nem is látszódnak (mint például egy dropdown menü elemei, amik csak kattintás után 
+            jelennek meg).
+            '''
+        s-mdwds-chapter-2-subchapter-5-p2:
+            '''
+            Rune Madsen, a Programming Design Systems szerzője szerint a probléma az, hogy 
+            <a target="_blank" class="t-article__a" href="https://programmingdesignsystems.com/introduction/">sok helyen a mai napig rossz szemlélet uralkodik a design 
+            oktatásban</a>, hiszen a legtöbb művészeti képzésben nem tanítanak rendszerszintű tervezést, csupán kreatív ötletek létrehozását. A designer 
+            szigorúan csak statikus állapotokat tervez, amit a vízesésmodellel lehet integrálni a szoftverfejlesztésbe, mivel erős határ képződik látvány 
+            (design) és működés (programkód) között.
+            '''
+        s-mdwds-chapter-2-subchapter-5-p3:
+            '''
+            A vízesés-modell egy lineáris, szekvenciális tervezési megközelítés, ami a szoftverfejlesztésben rugalmatlan, az agilishoz képest sokkal 
+            kevésbé flexibilis folyamat. Míg az ipar számos területén működik, addig az informatikában kevésbé, mivel a digitális világban rendkívül 
+            gyors az iteráció, és az egyes területek el tudnak kezdeni dolgozni párhuzamosan, sőt, a kérdések tisztázása érdekében nagyon is érdemes 
+            nekik.
+            '''
+        s-mdwds-chapter-2-subchapter-5-p4:
+            '''
+            Napjainkra a webdesign két irányba ágazott el: az egyik a felhasználói felület vizuális megjelenésével foglalkozik, másik pedig a felhasználói 
+            élmény megtervezésével. Kisebb termékeknél összemosódhat ez a kettő (ők a product designerek), azonban nagyobb felületeknél külön kellett 
+            választani őket, mert teljesen más munkafolyamatokról van szó.
+            '''
+        s-mdwds-chapter-2-subchapter-5-p5:
+            '''
+            A UI designerek, akik a felületeket tervezik, valójában a modern tervezési folyamatban nem is felületeket terveznek, hanem komponenseket, 
+            mint a design rendszert fenntartó csapat tagjai. Feladatkörük sokkal több annál, hogy "szép dolgokat rajzolnak", mint ahogy sokan írnák le 
+            a munkájukat. Reszponzív, skálázható és újrafelhasználható komponenskönyvtárat készítenek.
+            '''
+        s-mdwds-chapter-2-subchapter-5-p6:
+            '''
+            A UX designerek pedig amellett, hogy elemzések és kutatások eredményei alapján felhasználói utakat terveznek, a végleges prototípust is 
+            összeállítják, a végleges UI elemekkel. Tehát a UX designer végső célja nem az, hogy drótvázat készítsen, még ha a tervezési folyamatának 
+            része is, hanem az, hogy kész terveket (prototípusokat) adjon tovább fejlesztésre.
+            '''
+        s-mdwds-chapter-2-subchapter-5-p7:
+            '''
+            Ez a két út csak a két legalapvetőbb irány, ez nagyobb vállalatoknál kiegészül interakciótervezéssel (IxD) és információs architektúratervezéssel 
+            (IA). Kisebbeknél beépülnek a UX illetve UI szerepkörbe. Sok évnek kellett eltelnie, mire kialakultak ezek a - külső szemmel talán értelmetlen 
+            &mdash; design specializációk abból, hogy egykor volt a webdesigner, aki a grafikákat készítette.
+            <a target="_blank" class="t-article__a" href="https://uxplanet.org/ux-vs-ui-vs-ia-vs-ixd-4-confusing-digital-design-terms-defined-1ae2f82418c7">Ezekről itt 
+            olvashatsz bővvebben.</a>
+            '''
+        // 5.2.6 MDWDS Chapter 2 Subchapter 6
+        s-mdwds-chapter-2-subtitle-6: Egyre több designernek kell közösen dolgoznia
+        s-mdwds-chapter-2-subchapter-6-p1:
+            '''
+            Korábban egy példában már érintőlegesen említettem az Airbnb tapasztalatát azzal kapcsolatban, hogy a design részleg bővítése nem érte el a 
+            kívánt eredményt a folyamatok hatásosabbá tétele érdekében, most pedig elérkeztünk oda, hogy megvizsgáljuk ennek lehetséges okait.
+            '''
+        s-mdwds-chapter-2-subchapter-6-p2:
+            '''
+            Először is, mindegy, hogy hány embernek kell közösen terveznie, nem hanyagolható el az emberi tényező: mindenki máshogy gondolkodik, máshogy 
+            közelíti meg a szembejövő problémákat, így egységes nyelvrendszer hiányában eltérő választ fognak adni rá.
+            '''
+        s-mdwds-chapter-2-subchapter-6-p3:
+            '''
+            Manapság egyre jobban előtérbe kerül a kollaboráció elősegítése a tervezőprogramokban, azonban ez csak az utóbbi évek trendje. Túl későn 
+            épültek be a felhőszolgáltatások ezekbe az alkalmazásokba, és még mindig érződik, hogy nem annyira stabil és kifinomult a funkcionalitásuk. 
+            Célszoftverek helyett még mindig gyakran arra szorulunk, hogy általános felhőszolgáltatásokat alkalmazzunk, mint például a Google Drive. Ez 
+            alapvetően nem akkora probléma, azonban sok előnye lehetne, ha a megosztás a tervezőszoftveren belül történne (például megbízhatóság, gyorsaság, 
+            verziókövetés tekitetében). Arról nem is beszélve, hogy gyorsan el tud fajulni egy Drive fájlstruktúra, ahogy egyre többen használják különböző 
+            célokra egy cégen belül, így egyre több nehézséget okoz a közös munka, és nő a hibázás esélye is.
+            '''
+        // 5.2.7 MDWDS Chapter 2 Subchapter 7
+        s-mdwds-chapter-2-subtitle-7: Felhalmozódik a design adósság
+        s-mdwds-chapter-2-subchapter-7-img1:
+            '''
+            A design adósságot a piros nyolcszög ábrázolja, ami semmilyen módon nem kapcsolódik a felület többi egységéhez, így megbontja a rendet és a 
+            vizuális hierarchiát.
+            '''
+        s-mdwds-chapter-2-subchapter-7-p1:
+            '''
+            Design adósság <a target="_blank" class="t-article__a" href="https://www.invisionapp.com/blog/tackle-design-debt/">akkor jön létre, amikor egy új, egyedi 
+            elem kerül az oldalra, amivel eredetileg nem számoltak tervezésnél.</a> Mivel egy adott 
+            problémának a megoldására tervezték, nem lehet más felületeken újra felhasználni, így általában nem készül belőle sem design (mint például 
+            Sketch szimbólum), sem pedig front-end komponens. Amellett, hogy megbontja a design rendjét, a front-end kód komplexitását is növeli, hiszen 
+            ezzel gyarapodik az egyedi osztályok és a hozzájuk tartozó paraméterek mennyisége. A design adósság leginkább nagyobb felületeknél jelent 
+            problémát, ahol bővíti a design elemek listáját, így nehezítve és inkonzisztensé téve a design folyamatokat, valamint ahol masszív CSS 
+            kódokkal operál az oldal, hiszen növeli a kódok hosszúságát, ezzel nehezítve az átláthatóságot és növeli a fájlok méretét, ezzel lassítva 
+            a betöltési sebességet.
+            '''
+        s-mdwds-chapter-2-subchapter-7-p2:
+            '''
+            Egy másik gyakori kiváltó oka pedig az, amikor a felületi hierarchia kialakításának hajtóereje nem felhasználói élményen alapul, hanem üzleti 
+            érdekeken. "Legyen figyelemfelkeltőbb" &mdash; ezután a mondat után általában elkerülhetetlen az adósságmentes tervezés, és sajnos többször hallani,
+            mint kellene.
+            '''
+        s-mdwds-chapter-2-subchapter-7-p3:
+            '''
+            A harmadik, legsúlyosabb probléma pedig a forrásfájlok hiánya. Ahogy jelennek meg és cserélődnek sorra az újabb és újabb tervezőszoftverek, 
+            vándorolnak a designer kollégák, a fejlesztésnek pedig folyamatos ütemben kell haladnia, nem meglepő, hogy időnként elvesznek a forrásfájlok 
+            (elvégre ki akarna valaki másnak a strukturálatlan, mappaszerkezet és rétegnév nélküli forrásfájljaiból dolgozni?). Ilyenkor a legegyszerűbb 
+            megoldás képernyőképeket készíteni, és erre dolgozni, hiszen sokkal több idő újra megrajzolni egy felületet, mint belemaszatolni az aktuális 
+            állapotba. Ilyenkor az a baj, hogy egy amúgy is régi terv kerül módosításra, amit még tovább kell zsúfolni, és nincs lehetőség arra, hogy 
+            kisebb módosításokkal rendbetegyük a felületet, mint például a negatív terek újraállításával, vagy a betűk növelésével. Így sokkal nehezebb 
+            komponensekben is gondolkodni, mivel nem tudjuk, hogy melyik elem hol jelenik meg a felületen, és hogyan alkalmazkodik a környezetéhez, tehát 
+            a megoldásunk nem lesz sem reszponzív, sem pedig skálázható (ezekről bővebben a 3. fejezetben). A felhasználói út szimulálása és a tesztelés 
+            is nehéz így, hiszen mindig csak a módosításokról lesznek tervek, amik a teljes felhasználói utat nem fedik le.
+            '''
+        // 5.2.8 MDWDS Chapter 2 Subchapter 8
+        s-mdwds-chapter-2-subtitle-8: A design szoftverek lemaradtak a fejlődésben
+        s-mdwds-chapter-2-subchapter-8-p1:
+            '''
+            Az általános design megközelítés sokáig egy helyben toporgott: ugyanazzal a technológiai háttérrel próbálta megoldani a szoftverfejlesztés 
+            által felvetett problémákat, mint amikor széleskörben elterjedtek a pixelgrafikus tervezőszoftverek, mint például a Photoshop.
+            '''
+            
+        s-mdwds-chapter-2-subchapter-8-p2:
+            '''
+            Évtizedek teltek el, és még a mai napig ez az egyik legnépszerűbb tervezőszoftver webes környezetben is, annak ellenére, hogy elsősorban 
+            tervezőgrafikára hozták létre, és nagyon nehezen illeszthető modern szoftverfejlesztési környezetbe. Habár széles palettájának köszönhetően 
+            a digitális grafika nagyon sok területén alkalmazható, és weboldalak látványterveit is viszonylag könnyen meg lehet benne tervezni, azonban 
+            a moduláris tervezésre irányuló törekvéseknek gátat szab, hogy az elemeket csak egyedi objektumokként engedi kezelni, így nem ad lehetőséget 
+            univerzális megoldások tervezésére mesterobjektumok létrehozásán keresztül. Ezért, ha frissíteni szeretnénk egy komponenst, azt az összes 
+            létező helyen meg kell tennünk.
+            '''
+
+        s-mdwds-chapter-2-subchapter-8-p3:
+            '''
+            A moduláris tervezés középpontjában az előre meghatározott megoldások állnak, azonban csak a közelmúltban 
+            kezdtek el olyan szoftvereket készíteni, amiknek erőssége nem a széleskörű grafikai palettában rejlik, hanem a rendszerszintű megoldások 
+            minél könnyebb definiálásában. Ilyen például a Sketch, a Gravit és az InVision Studio.
+            '''
+        // 5.3 MDWDS Chapter 3
+        s-mdwds-chapter-3-title: Megoldáskeresés a design válságban
+        s-mdwds-chapter-3-p1:
+            '''
+            A nagyobb vállalatok rövidesen rájöttek, hogy a design fenntarthatósága a cél mind a felhasználó, mind pedig a cég szempontjából. A felhasználó 
+            nem akar folyamatosan új felületekkel megismerkedni, a cégnek pedig olcsóbb, gyorsabb és hatékonyabb a tervezés és fejlesztés, ha a problémák 
+            megoldását kis lépésekben szállítja a felhasználónak. Nézzük, hogy milyen megoldások segítik elő a design fenntarthatóságát napjainkban!
+            '''
+        // 5.3.1 MDWDS Chapter 3 Subchapter 1
+        s-mdwds-chapter-3-subtitle-1: Atom alapú design rendszer
+        s-mdwds-chapter-3-subchapter-1-img1:
+            '''
+            A design rendszerek komponens alapú megközelítésében előre definiált elemekből tudunk építkezni, amiknek egyedi paramétereit felülírhatjuk 
+            (mint például a szövegmezőben lévő kitöltő szöveget).
+            '''
+        s-mdwds-chapter-3-subchapter-1-img2:
+            '''
+            Brad Frost így illusztrálja az atom alapú megközelítés folyamatát.
+            '''
+        s-mdwds-chapter-3-subchapter-1-img3:
+            '''
+            A Chameleon design rendszerben így néz ki a cikkekhez tartozó Sketch template. Csak fel kell tölteni képekkel és tartalommal az előre definiált 
+            komponenseket.
+            '''
+        s-mdwds-chapter-3-subchapter-1-p1:
+            '''
+            A design rendszerek megjelenéséig a tervezés általános menete az volt, hogy a designerek megtervezték az egyik legdominánsabb oldalt &mdash;a 
+            főoldalt, vagy profiloldalt, majd ennek mintájára képezték le az összes többit. Logikusnak tűnik a megközelítés, mivel feltételezhető, hogy 
+            azok a stílusok, amik harmóniában vannak mondjuk a főoldalon, azok az egyéb aloldalakon is jól mutatnak. Azonban ebben a megközelítésben nem 
+            alakul ki egy egységes nyelvrendszer a teljes oldalra nézve, amiben olyan elemek is szerepet kapnak, amik a főoldalon mondjuk nincsenek jelen. 
+            Gondoljunk egy egyszerű komponensre, a lapozóra: a főoldalon ritkán találkozunk több oldalra osztott listával, azonban egy nagyobb felületnél 
+            egészen biztos, hogy egy ponton szükség lesz rá. Feltehetően nem is csak egy helyen. És benne van a pakliban, hogy nem ugyanaz a designer 
+            fogja tervezni az összes felületet, ahol kelleni fog - így előre megtervezett komponens hiányában két különböző stílusú lapozó is létrejön. 
+            Ez pedig az egységes megjelenés ellen játszik, és design adósságot von maga után.
+            '''
+        s-mdwds-chapter-3-subchapter-1-p2:
+            '''
+            Egy másik jelentős probléma azzal, hogy oldalakban gondolkodunk, hogy a reszponzivitás háttérbe szorul. Először elkészül az asztali változat, 
+            majd utána a tablet, végül pedig a mobil - a lefejlesztett felület több helyen is törni fog, hiszen csak a fontosabb kijelzőméretekre 
+            készítettünk oldaltervet, és azzal nem foglalkoztunk, hogy közöttük hogyan viselkedik majd az oldal.
+            '''
+        s-mdwds-chapter-3-subchapter-1-p3:
+            '''
+            A design rendszerek ezzel szemben komponensalapú megközelítést használnak, amit Brad Frost atomic designnak nevezett el. Habár előtte is 
+            terveztek hasonlóan, ő volt az első, aki összefoglalta ennek a rendszernek a megfelelő előkészületeit, kialakítását, alkalmazását és 
+            fenntartását. Az atom alapú tervezés lényege, hogy hasonlóan, mint ahogy a bútorok vagy az autók, egy weboldal arculata is felbontható 
+            ismétlődő, újra felhasználható elemekre. Így gyakorlatilag még azelőtt meg tudjuk tervezni a design alapját, hogy tudnánk a pontos 
+            oldalstruktúrát és hierarchiát. Még tervezés előtt összegyűjthetjük, hogy mik azok az elemek, ami nélkül nem lehet weboldalt tervezni, 
+            és ezt szükség szerint folyamatosan frissíthetjük újabb és újabb elemekkel.
+            '''
+        s-mdwds-chapter-3-subchapter-1-p4:
+            '''
+            Brad Frost részletesen taglalja az atom alapú tervezés menetét, ami a komponensek létrehozásával kezdődik. Természetesen célja a minél 
+            magasabb szintű modularitás, tehát a tervezés a legkisebb egységektől indul, amiket atomoknak nevez. Ezeket kombinálva (mondjuk egy 
+            beviteli mezőt gombbal párosítva) molekulákat hozhatunk létre, molekulákból és atomokból pedig organizmusokat, mint mondjuk fejléc vagy 
+            lábléc (a fejléc például áll logóból, keresőből, linkekből, stb. - ezek az atomok és molekulák). Mindezek kombinálásával pedig templateket 
+            kapunk, vagyis tartalom nélküli, különböző variációjú oldalstruktúrákat felhasználói kezelőfelülettel. Ez is az egységesítés miatt fontos, 
+            ugyanis ha előre definiálunk lehetséges oldalstruktúrákat, akkor egy új aloldal tervezésénél ezeket elővehetjük, és ezáltal minimálisra 
+            tudjuk szorítani az eltérő elrendezésű oldalvariációk számát, így időt, energiát és komplexitást takarítva meg mind design, mind pedig 
+            fejlesztési oldalról.
+            '''
+        s-mdwds-chapter-3-subchapter-1-p5:
+            '''
+            Egy jól kialakított rendszer jelentősen meggyorsítja a munkát, hiszen egy felületnek nagyon sok ismétlődő eleme van, amire megéri komponenst 
+            készíteni. Így szinte teljesen különválasztható a UI tervezése a felületi tervezéstől, ami azért jó, mert így nagyobb hangsúlyt kaphat a 
+            user flow és a layouttervezés.
+            '''
+        s-mdwds-chapter-3-subchapter-1-p6:
+            '''
+            Egy design rendszer segít a fehér papír effektus elkerülésében is: számos elemet el tudunk helyezni a tervezés kezdetén az üres vásznon 
+            különösebb gondolkodás nélkül, mint például a fejlécet és a láblécet. Máris megvan az oldal kerete, ráadásul ezek jó esetben már reszponzívan 
+            működnek, szóval jó támpontot adnak a további tervezéshez.
+            '''
+        s-mdwds-chapter-3-subchapter-1-p7:
+            '''
+            Azonban itt fontos megjegyezni, hogy a design rendszer nem merül ki egy atom alapú komponensgyűjteményben. Brad Frost 
+            <a target="_blank" class="t-article__a" href="http://atomicdesign.bradfrost.com/table-of-contents/">Atomic Designja</a> nem csupán egy bottom-up tervezési 
+            modell, hanem egy modern terméktervezési megközelítés, ami a design folyamatok mellett számításba veszi az implementációt és a 
+            szoftverfejlesztési- és menedzsment folyamatokban való közös együttműködést.
+            '''
+        // 5.3.2 MDWDS Chapter 3 Subchapter 2
+        s-mdwds-chapter-3-subtitle-2: A skálázható tervezés előtérbe helyezése
+        s-mdwds-chapter-3-subchapter-2-img1:
+        '''
+        Skálázható megoldás egy admin felületen. Habár elég nagy fejlesztői erőforrást igényelhet egy ilyen működés elkészítése, de cserébe hosszútávú, 
+        igényes megoldást nyújt.
+        '''
+        s-mdwds-chapter-3-subchapter-2-p1:
+            '''
+            Gyakori probléma új felület tervezésénél, hogy a brief tartalmaz egy leírást arról, hogy minek kell helyet kapnia az oldalon, azonban arról 
+            nem esik szó, hogy ez a jövőben hogyan módosulhat. Hosszútávon például problémát okozhat, ha egy menü tervezésénél nem vesszük figyelembe, 
+            hogy idővel további elemekkel bővülhet. Ilyenkor merülhet fel megoldásként a betűméret vagy a negatív terek csökkentése, ami a legolcsóbb 
+            megoldásnak tűnhet.
+            '''
+        s-mdwds-chapter-3-subchapter-2-p2:
+            '''
+            Azonban amellett, hogy esztétikailag nyilvánvalóan rossz megközelítés, használhatósági gondokat is okozhat egy ilyen "javítás". Éppen ezért 
+            fontos, hogy ne csak az aktuális tartalmat tartsuk szem előtt, hanem számoljunk azzal is, hogy ez hogyan bővülhet a későbbiekben.
+            '''
+        s-mdwds-chapter-3-subchapter-2-p3:
+            '''
+            A skálázhatóság alapja, hogy olyan megoldásokat kell tervezni, ami sokkal több elem megjelenítését teszi lehetővé, mint amivel számolunk (vagy 
+            amit lehetségesnek tartunk). Bizonyos esetekben ez akár végtelen is lehet - gondoljunk csak a Facebook hírfolyamára. Amikor az oldal aljára 
+            érünk, újabb elemeket tölt be, így a végtelenségig (vagyis addig, amíg engedi a tartalom, illetve a böngésző kapacitása) nézhetjük a 
+            feltöltéseket.
+            '''
+        s-mdwds-chapter-3-subchapter-2-p4:
+            '''
+            Mint korábban írtam, a terv készítésekor pontosan tudjuk, hogy minek kell helyet kapnia az oldalon, így a tervezési időt kezdetben növelni fogja, 
+            hogy jelenleg nem létező állapotokat is számításba veszünk munkánk során. Ennek az irányelvnek a betartása tehát hosszútávon térül meg, ahogy 
+            egyre több funkcióval bővül a termék. Ilyenkor ahelyett, hogy megpróbáljuk beleerőszakolni a plusz elemeket a meglévő felületi egységekbe, vagy 
+            megpróbáljuk kijavítani és részben (vagy teljesen) újratervezni és újrakódolni a komponenst, egyszerűen kibővíthetjük, ugyanis előrelátóan 
+            gondoltunk erre az eshetőségre.
+            '''
+        // 5.3.3 MDWDS Chapter 3 Subchapter 3
+        s-mdwds-chapter-3-subtitle-3: A reszponzivitás előtérbe helyezése
+        s-mdwds-chapter-3-subchapter-3-img1:
+            '''
+            Mouláris, skálázható, reszponzív megközelítés a fejléctervre a Chameleonban
+            '''
+        s-mdwds-chapter-3-subchapter-3-p1:
+            '''
+            Habár már a 2000-es évek közepe táján jelentek meg mobileszközök, amik alkalmasak voltak weboldalak megjelenítésére, a reszponzivitás igazán 
+            nagy figyelmet csak 2012 körül kapott. Ekkor váltak ugyanis széleskörben elérhetővé az okostelefonok és tabletek. Egészen addig, mivel az 
+            emberek többsége asztali gépről böngészett, külön oldalként kezelték a  mobil változatát egy felületnek, így teljesen más kód szolgálta ki, 
+            mint az asztali weboldalt. Ez a gyakrolatban úgy néz ki, hogy amikor a felhasználó felmegy az oldalra mobilról, egy átirányítás történik a 
+            "domain.com"-ról az "m.domain.com"-ra.
+            '''
+        s-mdwds-chapter-3-subchapter-3-p2:
+            '''
+            A reszponzív tervezés ezzel szemben úgy működik, hogy a weboldal CSS kódja úgynevezett "media-query"-k segítségével megvizsgálja a készülék 
+            szélességét, és a stílusokat ez alapján rendeli a HTML elemekhez, így lehetővé téve dinamikus layout létrehozását. Az előző példával szemben 
+            itt ugyanaz a kód szolgálja ki az összes nézetet, csak a kódnak bizonyos elemei felülíródnak kijelzőmérettől függően. Habár még mindig vannak 
+            "M-dot" weboldalak, <a target="_blank" class="t-article__a" href="https://www.uxpin.com/studio/blog/m-dot-sites-are-dying-long-live-responsive-design/">a 
+            számuk drasztikusan csökkent,</a> hiszen a reszponzív tervezéssel ellentétben egy layoutra épülnek, így a mobil és az asztali nézet közti 
+            lehetőségekre továbbra sem lesz megfelelően optimalizálva a weboldal.
+            '''
+        s-mdwds-chapter-3-subchapter-3-p3:
+            '''
+            Optimális esetben a komponensek tervezése elkülönül a layouttevezéstől, mivel az a cél, hogy a komponensek minél függetlenebbek legyenek a 
+            környezettől. Mikor az oldalstruktúrára készítünk drótvázakat, kézenfekvőnek tűnik a reszponzív viselkedés számításba vétele, azonban a 
+            komponenseknél már gyakran megfeledkezünk arról, hogy mindenekelőtt azt találjuk ki, hogy melyik kijelzőn mit- és hogyan szeretnénk mutatni. 
+            Ehelyett elkészítjük az asztali változatot, majd utána megpróbáljuk összezsúfolni a varázslatos 320 pixeles szélességig (a ma népszerű 
+            okostelefonok alsó határa), és hogy reszponzívnak mondható legyen, beiktatunk még egy 600-800 pixeles tablet nézetet.
+            '''
+        s-mdwds-chapter-3-subchapter-3-p4:
+            '''
+            A komponens alapú gondolkodás ezzel szemben segít bennünket abban, hogy
+            <a target="_blank" class="t-article__a" href="https://adamsilver.io/articles/stop-using-device-breakpoints/">reszponzív egységek összességeként tekintsünk 
+            a felületünkre,</a> hiszen egy elem csak akkor kerülhet be a közös könyvtárba, ha meg van tervezve, hogy hogyan fog különböző kijelzőméretekhez 
+            alkalmazkodni. Valamint segít abban is, hogy figyelmen kívül hagyjuk a népszerű kijelzőméreteket, és elszakadjunk az eszköz alapú megközelítéstől, 
+            és tartalomhoz igazítva állapítsuk meg a törésponjait a komponenseknek. Míg régebben még többé-kevésbé működött ez a megközelítés, ma már 
+            annyira különböző a kijelzők felbontása, hogy nem lehet kiválasztani a legnépszerűbbeket és kizárólag azokra tervezni, mert csak a töredékét 
+            fogják lefedni annak a nagy halmaznak, amilyen eszközökről a látogatók nézni fogják az oldalunkat.
+            '''
+        s-mdwds-chapter-3-subchapter-3-p5:
+            '''
+            A lorant.design fejlécét ennek megfelelően terveztem. Először elkészítettem a Sketch szimbólumot különböző töréspontokhoz, amiket a tartalomhoz 
+            igazítottam, így minimálisra sikerült szorítanom a számukat, és ezzel elértem azt is, hogy mindegy, milyen kijelzőn jelenik meg, biztosan megflelő 
+            felhasználói élményt fog nyújtani. Ha ki kellene egészíteni a fejlécet további menüpontokkal, akkor sem kellene sokat változtatnom rajta, csak 
+            annak a töréspontnak a minimum szélességét nagyobbra vennem, ami azért felelős, hogy a menü elemeit a lenyíló dobozba áthelyezze. Ezen az 
+            egyszerű példán jól látható, hogy mit jelent a skálázhatóság és a reszponzív tervezés.
+            '''
+        // 5.3.4 MDWDS Chapter 3 Subchapter 4
+        s-mdwds-chapter-3-subtitle-4: Design folyamatok integrációja az agilis szoftverfejlesztésbe
+        s-mdwds-chapter-3-subchapter-4-p1:
+            '''
+            A fentebbi pontok segítenek minket abban, hogy korszerű megközelítéssel álljunk munkának, hiszen a tervezés elsőszámú prioritásának a 
+            modularitást vesszük - az elkészülő komponensek reszponzivitásuknak és skálázhatóságuknak köszönhetően könnyen beépíthetők lesznek különböző 
+            adottságú felületekbe. Az pedig a fejlesztőknek is kedvez, hogy feltehetően nem kell folyamatosan drasztikus módosításokat végezni a lekódolt 
+            komponenseken, mert hosszútávra készülnek. Szóval, már tudjuk, hogy hogyan kell tervezni, a kérdés már csak az, hogy mit? A product designerek 
+            feladata az üzleti igények átültetése működőképes termékbe, amit a felhasználók elkötelezetten fognak használni.
+            '''
+        s-mdwds-chapter-3-subchapter-4-p2:
+            '''
+            Ahhoz, hogy megértsük, hogy modern környezetben milyen módon történik a haladás, vissza kell mennünk az időben egészen 2001-ig. Ekkor ugyanis 
+            egy fejlesztőkből álló csoport összegyűlt, hogy megoldást keressen a szervezeteknél általánosan fellépő, elsősorban szervezési problémákra. 
+            A megoldás az <a target="_blank" class="t-article__a" href="http://agilemanifesto.org/iso/hu/manifesto.html">Agilis kiáltvány</a> lett, aminek célja, hogy 
+            hatékonyabb és gyorsabb legyen a tervezés, és több idő maradjon a tényleges fejlesztésre, ami valós értékkel bír a felhasználók számára. 
+            A kiáltvány 12 elvre és 5 értékre épül, amik többnyire elég szabadon alkalmazhatóak, nem nyújtanak konkrét megoldásokat a szoftverfejlesztés 
+            menetére, csupán támpontokat adnak, hogy a folyamatok minél gördülékenyebben történjenek.
+            '''
+        s-mdwds-chapter-3-subchapter-4-p3:
+            '''
+            Azért is alkalmazzák előszeretettel, mert a szabályok elősegítik a gyors reagálást a változásokra, ezzel rugalmassá és piacközpontúvá téve 
+            a tervezést. A kiáltvány egyik pontja például arról szól, hogy az agilis szoftverfejlesztés előnyben részesíti a működő szoftvert az átfogó 
+            dokumentációval szemben. Ennek oka, hogy időigényes a dokumentációk megírása és folyamatos frissítése, és az a munka, amit ezzel töltenénk, 
+            nem viszi közelebb közvetlenül a csapatot a szoftver minél gyorsabb elkészítéséhez. A kiáltvány pontjai érthetőek és jogosak, azonban 
+            elsősorban fejlesztésről szólnak, így designerként maradtak bennem kérdések. Attól lesz agilis a design folyamat, hogy a designer a termékfejlesztő 
+            csapattal együtt dolgozik? Hogy fejlesztői meetingekre jár?
+            '''
+        s-mdwds-chapter-3-subchapter-4-p4:
+            '''
+            Paul Adams az Intercomtól azt mondja, hogy a termék szállítása a felhasználóknak náluk csak a kezdete a termék életének. Megpróbálják a lehető 
+            leggyorsabban megtenni ezt, hogy minél előbb visszajelzéseket kapjanak azzal kapcsolatban, hogy a termékük valóban segíti a felhasználót. Azt 
+            is hozzáteszi, hogy az MVP-t (legkisebb életképes terméket) a cégek gyakran teljesen félreértelmezik, és összedobnak valamit, amiről azt sem 
+            tudják, hogy kelleni fog-e egyáltalán valakinek. Ezzel szemben, náluk egy prototípussal letesztelt termékként tekintenek rá, ami funkcionalitásban 
+            még fejlődhet felhasználói igényektől függően, de létező problémákra nyújt egyszerű és átgondolt megoldást.
+            '''
+        s-mdwds-chapter-3-subchapter-4-p5:
+            '''
+            A prototípussal való tesztelés az első lépés a folyamatos iteráció felé. Addig, amíg nincs mit tesztelni, és amíg nincsenek visszajelzések, 
+            nincs min módosítani. Nem elég tudni, hogy rosszul teljesít a termék, azt is tudni kell, hogy miért. És mivel a prototípus sokkal 
+            költséghatékonyabb a fejlesztésnél, ezért nagy felelőssége van a design folyamatoknak abban, hogy megfelelő irányba tereljék a termék 
+            fejlődését. Ekkor értettem meg, hogy az agilitás nem abban rejlik, hogy a designer a fejlesztőkkel ül, vagy hogy ott van a meetingeken, 
+            hanem abban, hogy a csapattól megkapja azt a támogatást, ami szükséges ahhoz, hogy validálni tudja a kitalált fejlesztési irányokat, és 
+            megoldási javaslatokat tudjon készíteni rájuk.
+            '''
+        s-mdwds-chapter-3-subchapter-4-p6:
+            '''
+            Ebben segíthet például a folyamatos kapcsolattartás a UI fejlesztőkkel és a termékmenedzserrel. Saját tapasztalat volt, mikor átkerülve a 
+            fejlesztő csapathoz, rövidesen azt figyeltem meg, hogy a rendszeres egyeztetések hatására nem kész megoldásokat kapok, amiket elvárják tőlem, 
+            hogy megvalósítsak, hanem problémákat, amikre a megoldást is nekem kell megtalálni. Ez egy sokkal iteratívabb és rugalmasabb folyamathoz 
+            vezetett, ami lehetővé tette, hogy több megoldási javaslatot nyújtsak, amiből aszerint került kiválasztásra a végleges irány, hogy 
+            egyensúlyban legyen az üzleti érték, a felhasználói igény és a fejlesztői erőforrás. Az iteratív megközelítés azért kifejezetten fontos, 
+            mert elsőre nagyon nehéz megfelelően, hibátlanul megtervezni és kivitelezni egy terméket vagy funkciót. Sőt, általában mindig lesz valami, 
+            amin lehet még javítani, és ezeket a pontokat mérésekkel meg lehet állapítani.
+            '''
+        s-mdwds-chapter-3-subchapter-4-p7:
+            '''
+            Azonban, mint említettem, a designereknek nem feltétlenül kell a fejlesztési csapattal együtt dolgozniuk ahhoz, hogy agilisan tudjanak 
+            működni. Van egy centralizált megoldás is, ahol a designerek közösen ülnek és ötletelnek. Természetesen ennek is számtalan előnye lehet, 
+            mint például az, hogy sokkal több lehetőségük van visszajelzést adniuk egymás munkájára, hiszen jobban rálátnak, mintha egymástól külön 
+            dolgoznának. Ugyanez miatt könnyebb az egységes tervezés is, valamint az információ gyorsabb áramlása miatt gyorsan kijön, ha hasonló 
+            megoldást kell két különböző felületre tervezni, ilyenkor megspórolva az extra munkát és az inkonzisztencia kockázatát.
+            '''
+        s-mdwds-chapter-3-subchapter-4-p8:
+            '''
+            A sok előny ellenére mégis ritkán működik jól a centralizált modell. Lehet, hogy a tervek jobb minőségűek, a prototípusok kifinomultabbak, 
+            a megoldások igényesebbek, azonban mit sem ér egy szép termék, ha nincs rá szükség. Mit sem ér egy szép prototípus, ha a lefejlesztett 
+            termék nem úgy néz ki. Egy design rendszer megoldja azokat a problémákat, amik felmerülhetnek abban az esetben, amikor a designerek nem 
+            közös csapatban dolgoznak.
+            '''
+        s-mdwds-chapter-3-subchapter-4-p9:
+            '''
+            Azonban van egy eset, amikor elkerülhetetlen a centralizált megközelítés, ez pedig egy teljesen új termék kitalálásának az esete. Ilyenkor 
+            a tervezés ideális esetben <a target="_blank" class="t-article__a" href="http://www.gv.com/sprint/">design sprinttel</a> kezdődik. A design sprint egy 5 
+            napos ötletelés és tervezés, ami egy működő prototípus tesztelésével zárul. Alapja a lean és a design thinking mószertana, a sprint lényegében 
+            ennek a gyakorlati kivitelezése. Hosszúsága úgy van megtervezve, hogy egy teljes iteráció menjen alatta végbe: ez az ötleteléssel kezdődik az 
+            első napon, ami üzleti vezetés és fejlesztés képviseletében történik. A következő két nap szól a tényleges tervezésről, ami egyénileg történik, 
+            hogy minél több és minél változatosabb megoldások szülessenek a problémára, amik közül közösen választanak a résztvevők egyet, és ezt az utolsó 
+            napon letesztelik.
+            '''
+        // 5.4 MDWDS Chapter 4
+        s-mdwds-chapter-4-title: Design rendszerek létrehozása
+        s-mdwds-chapter-4-p1:
+            '''
+            A design rendszerekhez számos fogalom kötődik, amikre valójában nincs egységes definíció. Minden vállalat másként építette be ezeket a 
+            tervezési megközelítéseket a munkafolyamataiba, így némileg mást jelentenek számukra. Mivel a design rendszerek nagyon forró témának 
+            számítanak product design körökben, nagyon sok vállalat design csapata publikálja saját elveit, gondolatait és megközelítését, így alakítva 
+            az általános képet arról, hogy mit jelentenek az ehhez kapcsolódó fogalmak.
+            '''
+        // 5.4.1 MDWDS Chapter 4 Subchapter 1
+        s-mdwds-chapter-4-subtitle-1: Principles (Szabályok)
+        s-mdwds-chapter-4-subchapter-1-p1:
+            '''
+            Ahhoz, hogy a tervezés egységesen, egy adott irányba történjen, meg kell határozni az alapvető szabályokat, amik kísérni fogják. Ez szükséges 
+            feltétele egy jól működő rendszernek. Fontos, hogy a szabályok ne legyenek túl általánosak (szép, harmonikus, stb.), mivel ezek nem segítik a 
+            tervezést. Mindenki úgy ül neki a feladatnak, hogy tervez valami szépet. Helyette legyenek általános érvényűek, de elég konkrétak is. 
+            <a target="_blank" class="t-article__a" href="https://developers.google.com/actions/design/principles">A Google egyik szabálya például:</a>
+            '''
+        s-mdwds-chapter-4-subchapter-1-hl1:
+            '''
+            Foglald le a kezdőket, és vonzd be a szakértőket. A sok emberre való tervezés nem egyenlő a legkisebb közös többszörösre való 
+            tervezéssel.
+            '''
+        s-mdwds-chapter-4-subchapter-1-p2:
+            '''
+            Ez a szabály például segít abban, hogy a széles célcsoportra való tervezés ne menjen a funkcionalitás rovására. Elősegíti olyan felületek 
+            tervezését, amiket alapszinten könnyű megtanulni használni, azonban mellette elég összetettek ahhoz, hogy a jártasabb felhasználók igényeit 
+            is kielégítse.
+            '''
+        s-mdwds-chapter-4-subchapter-1-p3:
+            '''
+            A design szabályok eltérhetnek egy vállalat csapatain belül. Egy admin felület tervezésénél például más szabályokat kell alkalmaznunk, mint 
+            egy értékesítő oldalnál. Lehet, hogy az egyiknél jól működne mondjuk a szellős struktúra nagy, kihasználatlan helyekkel, a másiknál viszont 
+            nem. Attól, hogy a rendeltetéshez igazítjuk a szabályokat, még lehet hasonló az arculata a két különböző oldalnak.
+            '''
+        // 5.4.2 MDWDS Chapter 4 Subchapter 2
+        s-mdwds-chapter-4-subtitle-2: Pattern Library (minta könyvtár)
+        s-mdwds-chapter-4-subchapter-2-img1:
+            '''
+            Részlet a Chameleon pattern library-jéből. Bizonyos elemeknek, mint például a fejléc és lábléc, több variációjuk is van. Ezek mint helyet 
+            kapnak a könyvtárban.
+            '''
+        s-mdwds-chapter-4-subchapter-2-p1:
+            '''
+            A pattern (minta) egy felület ismétlődő eleme. Ha ezeket egy helyre összegyűjtjük, akkor egy olyan könyvtárat kapunk, ami tartalmazza azokat 
+            az építőelemeket, amikből egy felület jelentős része leképezhető. Ahhoz, hogy igazán effektív legyen ez a könyvtár, meg kell határoznunk azt 
+            a szabályrendszert is, ami segít bennünket abban, hogy arra és úgy használjuk fel ezeket a komponenseket, amire tervezve lettek. A pattern 
+            library-nek több szintje van. Egy kisebb vállalatnak lehet, hogy elég egy szerényebb gyűjteményt összeállítani Sketch-ben és Zeplinben vagy 
+            InVisionben közzétenni, míg egy nagyobb vállalat, ahol több embernek kell együtt dolgoznia, és ahol igazán fontos a design elemek- és a kód 
+            újrafelhasználhatósága, ott egy nagyon részletes könyvtárra van szükség, ami online elérhető, és a design patterneken kívül 
+            kódrészleteket is tartalmaz.
+            '''
+        // 5.4.3 MDWDS Chapter 4 Subchapter 3
+        s-mdwds-chapter-4-subtitle-3: Style Guide (stílusszabályzat)
+        s-mdwds-chapter-4-subchapter-3-p1:
+            '''
+            A style guide a vállalat kevésbé konkretizálható vizuális- és verbális egységeinek alkalmazására ad útmutatást, mint például színek, 
+            tipográfia, illusztrációk- és ikonok stílusa, kommunikáció stílusa. Ezeket nem lehet olyan pontos szabályok közé szorítani, mint például 
+            egy gombot, aminek az összes tulajdonsága CSS-sel leírható. A style guide és a pattern library kiegészítik egymást és együttesen alkalmazhatók 
+            igazán hatékonyan a tervezés folyamán.
+            '''
+        s-mdwds-chapter-4-subchapter-3-p2:
+            '''
+            A style guide a legfontosabb állomás az egységes megjelenés kialakításában. Tegyük fel, hogy design folyamatainkban nem használunk 
+            komponenseket. Ez némi inkonzisztenciát fog eredményezni, de koránt sem akkorát, mintha nem lennének egyezményesen meghatározva az alapvető 
+            stílusok, mint például a színek. Vagy ha a szöveges tartalmakat nézzük, gondoljunk csak bele, hogy mennyire furcsa felhasználói élményhez 
+            vezet, ha az egyik oldalon tegezzük a felhasználót, egy másikon pedig magázzuk.
+        '''
+        s-mdwds-chapter-4-subchapter-3-p3:
+            '''
+            A UXPin a style guide-ot úgy határozza meg,
+            <a target="_blank" class="t-article__a" href="https://www.uxpin.com/studio/blog/design-systems-vs-pattern-libraries-vs-style-guides-whats-difference/">mint 
+            egy olyan egységet, ami összefogja a stílusokat, patterneket és szabályokat.</a> Így nézve a style guide a rendszerben nem egy különálló 
+            fejezet, hanem az összes fejezetnek egy kiegészítő eleme. Egy színpaletta önmagában nem írja le a stílust, ehhez ki kell egészíteni szöveges 
+            magyarázattal.
+            '''
+        s-mdwds-chapter-4-subchapter-3-p4:
+            '''
+            Ami érdekes, hogy ezzel szemben <a target="_blank" class="t-article__a" href="http://bradfrost.github.io/style-guide-guide/">Brad Frost a 
+            style guide-ot a design rendszer megvalósult dokumentumának tekinti,</a> majdhogynem megegyező fogalomként alkalmazza a kettőt. Természetesen 
+            nincs értelme kifejezéseken ugrálni, valójában csak az a fontos, hogy vállalaton belül legyenek ezek a fogalmak tisztázva a félreértések 
+            elkerülése végett.
+            '''
+        // 5.4.4 MDWDS Chapter 4 Subchapter 4
+        s-mdwds-chapter-4-subtitle-4: Design system (design rendszer)
+        s-mdwds-chapter-4-subchapter-4-img1:
+        '''
+        A Trello design rendszere egy nyilvánosan elérhető weboldal, ami tartalmazza a brand irányelveit, stílusait, komponenseit és a munkához 
+        szükséges letölthető anyagokat.
+        '''
+        s-mdwds-chapter-4-subchapter-4-p1:
+            '''
+            A design rendszer a fentebb megfogalmazott részegységekből épül fel azzal a céllal, hogy előtérbe hozza az egységesítést, ami kiterjed 
+            a vizuális és írott kommunikációs tartalomra.
+            '''
+        s-mdwds-chapter-4-subchapter-4-p2:
+            '''
+            Ahány design rendszer, annyi megvalósítás, hiszen minden terméknek különbözik a célja, célcsoportja, fókusza, stb. Egy autómárka, mint 
+            például az Audi, nem fog akkora figyelmet fordítani a webes megjelenésére, mint egy olyan márka, aminek elsődleges terméke digitális alapú. 
+            A lényeg csak annyi, hogy segítse a különböző területen dolgozó embereket a kollaboratív tervezésben.
+            '''
+        s-mdwds-chapter-4-subchapter-4-p3:
+            '''
+            Itt azonban felmerül kérdés, hogy milyen formában fog eljutni ez a sok információ a rendszer felhasználóihoz? A pattern library-nál már 
+            felmerült az a megoldás, amit nagyobb cégek előszeretettel alkalmaznak, hogy egy erre a célra dedikált oldalon megtekinthető az összes 
+            komponens demó verziója, az implementációs kódjával együtt. És ha már itt tartunk, miért ne kerülhetne fel ide az összes stílus, szabály 
+            és felhasználási javaslat is? Fontos könnyen elérhetővé tenni a rendszert, ha azt szeretnénk, hogy minél többen és minél többet használják. 
+            Ha strukturálatlan  Drive mappák mélyéről kell kibányászni a szanaszét tartott dokumentumokat, akkor azzal nem csak nehezítjük a fejlesztését 
+            és karbantartását, de el is vesszük a felhasználók kedvét a használatától.
+            '''
+        s-mdwds-chapter-4-subchapter-4-p4:
+            '''
+            Nathan Curtis az Atlassiantól így vélekedik a design rendszerről: "A design rendszer nem egy projekt. Ez egy termék, ami termékeket szolgál ki." - 
+            <a target="_blank" class="t-article__a" href="https://medium.com/eightshapes-llc/a-design-system-isn-t-a-project-it-s-a-product-serving-products-74dcfffef935">Medium 
+            cikkjében írja,</a> hogy fontos, hogy mind a készítők, mind pedig a felhasználók tisztában legyenek azzal, hogy ez nem egy projekt, hanem egy 
+            termék. Ez azt jelenti, hogy folyamatos erőforrást és költségvetést kell dedikálni a fenntartásához. Nem elég egyszer elkészíteni és 
+            elégedetten hátradőlni, mivel a termékek, amiket a rendszer szolgál, folyamatosan változni fognak. Ha a rendszer nem változik velük együtt, 
+            akkor el fog avulni. Sőt, a változásnak a rendszertől kell indulnia, és a termékeknek kell reagálniuk rá, nem pedig fordítva. Hasonló 
+            gondolatokat fogalmaz meg Brad Frost is <a target="_blank" class="t-article__a" href="http://atomicdesign.bradfrost.com/chapter-5/>az Atomic Design utolsó 
+            fejezetében,</a> amiben a design rendszerek fenntarthatóságáról ír.
+            '''
+        // 5.4.5 MDWDS Chapter 4 Subchapter 5
+        s-mdwds-chapter-4-subtitle-5: Design language (design nyelv)
+        s-mdwds-chapter-4-subchapter-5-p1:
+            '''
+            A design nyelv valójában nem sokban különbözik a design rendszerektől, így nehéz megfogni, hogy mikor lép ki a határukból. Szerintem ez 
+            akkor történik meg, amikor nagyobb felhasználói közönségre tervezik a rendszert, mint maga a szervezet (habár 
+            <a target="_blank" class="t-article__a" href="https://airbnb.design/the-way-we-build/>az Airbnb</a> és
+            <a target="_blank" class="t-article__a" href="https://www.ibm.com/design/language/>az IBM</a> is language-nek nevezi a saját rendszerét, pedig nekik nem 
+            céljuk a szervezeten kívüli terjesztés. Ez alapján egy másik olvasatban a két kifejezés szinonímaként is értelmezhető).
+            '''
+        s-mdwds-chapter-4-subchapter-5-p2:
+            '''
+            A Material Designt ezzel szemben azonban kifejezetten azzal a céllal tervezte a Google, hogy univerzális szabályokat hozzon létre a 
+            felhasználói élmény javítása érdekében. Nem kell túlragozni, hogy a Google-nek miért jó, ha mindenki az ő által megfogalmazott elveket 
+            követi, azonban ami ennél fontosabb, hogy ez miért jó a felhasználó szervezeteknek, illetve az általuk létrehozott termékek felhasználóinak.
+            '''
+        s-mdwds-chapter-4-subchapter-5-p3:
+            '''
+            Szervezeti szinten a legnagyobb előnye talán az, hogy biztosít egy alapot a saját rendszer felépítéséhez. Nehéz vitatkozni a komponens alapú 
+            tervezés előnyeivel és hatásosságával, azonban tény, hogy idő és erőforrás megfelelően kialakítani. A Material Design annyira bonyolult és 
+            összetett, hogy ezt a részletességet a Google-ön kívül senki nem tudja kihasználni, azonban rengeteg pattern előre meg van benne tervezve, 
+            amik feltehetően átfogó kutatások eredményeként jöttek létre, ezért célszerű építkezni ezekre, hogy felgyorsítsuk a tervezést.
+            '''
+        s-mdwds-chapter-4-subchapter-5-p4:
+            '''
+            A felhasználókat pedig úgy segíti, hogy ahol Material Design patterneken alapuló komponensekkel találkoznak, ott gyorsabban megtanulják a 
+            felületek használatát, mivel egészen biztosan találkoztak már hasonló megoldásokkal (ha máshol nem, a Google felületein biztosan, azokat 
+            pedig nehéz elkerülni).
+            '''
+        // 5.4.6 MDWDS Chapter 4 Subchapter 6
+        s-mdwds-chapter-4-subtitle-6: Design rendszerek előkészületei
+        s-mdwds-chapter-4-subchapter-6-p1: 
+            '''
+            Egy napjainkban induló startup számára egyértelműen jó választás a tervezést design rendszerrel kezdeni, hiszen jelentősen csökkenti a termék 
+            komplexitását, és segít abban, hogy köré egy erős és határozott brand épüljön. Nagyon sok pozitív vonzata is van a céges mentalitásra nézve, 
+            ha a design központi szerepet kap: előtérbe kerülnek az egyszerű megoldások, a felhasználóközpontúság, és a megrendelők is jobban belelátnak, 
+            hogy miről szól a webes tervezés. A rendszert ők is bármikor felkereshetik és tanulmányozhatják, hiszen nagyon sok része van, ami érinti őket, 
+            és amihez hozzá tudnak tenni.
+            '''
+        s-mdwds-chapter-4-subchapter-6-p2: 
+            '''
+            Egy évek óta működő vállalatnál a design rendszer gondolata elég futurisztikusnak tűnhet elsőre, hiszen már kiépített, bonyolult rendszerek 
+            vannak, amit nem lehet egyik napról a másikra megváltoztatni. Azonban, ha a vállalat valóban hosszú távú célokat tűz ki maga elé, érdemes 
+            kis lépésekben közeledni felé, és időt és erőforrást szánni rá. Először érdemes azokra a problémákra koncentrálni, amiket viszonylag könnyű 
+            megoldani, viszont sok terhet okoznak.
+            '''
+        s-mdwds-chapter-4-subchapter-6-p3: 
+            '''
+            A tervezés kezdetén érdemes feltenni pár kérdést, ami segít a rendszer céljának tisztázásában: kik fogják használni? Mi segítené őket a munkájuk 
+            minél hatékonyabb és minél magasabb színvonalú elvégzésében? Hol fogják elérni a rendszert? Mekkora erőforrást és költségvetést szán rá a 
+            szervezet? Kik dolgoznak majd rajta? Hogyan és kik által lesz frissítve? Kinek és milyen formában kell jelezni a hiányosságokat és a módosítási 
+            igényeket? Amíg ezek a kérdések nincsenek tisztázva, jó esély van arra, hogy már az elindulásának napján halálra lesz ítélve – éppen ezért érdemes 
+            felmérést készíteni és alaposan megtervezni. Nincs értelme bemutatni egy olyan rendszert, amit a létrehozás után senki nem akar karbantartani, 
+            mert így nem fizetődik ki a kezdeti befektetett energia, ráadásul negatív visszhangja lesz a kezdeményezésnek. Ha rosszul kerül megtervezésre, 
+            és csak hátráltatja a munkavégzőket, értelmetlen keretek közé szorítja őket ahelyett, hogy megoldásokat nyújtana nekik, akkor nem fogják használni. 
+            Egy jó design rendszert nem kötelességből használnak, hanem azért, mert könnyebb általa a munka.
+            '''
+        s-mdwds-chapter-4-subchapter-6-p4: 
+            '''
+            Elég jó esély van arra is, hogy a fejlesztőktől és a designerektől megkapja a rendszer az induláshoz szükséges támogatást, azonban a vezetőség által 
+            nem kerül jóváhagyásra. Brad Frost erre ezt mondja: "Kérj elfogadást, ne pedig engedélyt" – ha egy csapat úgy gondolja, hogy szüksége van rá 
+            (márpedig jó eséllyel szüksége van rá), akkor saját dolga szakmájának legjobb gyakorlatait követnie.
+            '''
+        s-mdwds-chapter-4-subchapter-6-p5: 
+            '''
+            Lehet, hogy kezdetben elég, ha csak a design és a UI fejlesztési részleg számára készül, ebben az esetben például akár munka melletti projekt 
+            keretei között is meg lehet tervezni, vagy akár egy hackathon kíséretében. Majd, amikor mindenki látja a hasznosságát, és egyre nagyobb figyelmet 
+            és támogatást kap, el lehet kezdeni kibővíteni.
+            '''
+        // 5.4.7 MDWDS Chapter 4 Subchapter 7
+        s-mdwds-chapter-4-subtitle-7: Design rendszerek tervezése
+        s-mdwds-chapter-4-subchapter-7-p1: 
+            '''
+            Az elmúlt másfél év során több design rendszer kialakításában játszottam aktív szerepet, legújabb projektem pedig a Chameleon volt, ami a 
+            lorant.design mögött működő rendszer. A Chameleon elég kisméretű, azonban teljeskörű, így megterveztem benne az újrafelhasználható Sketch 
+            szimbólumokat, az ezekhez tartozó <a target="_blank" class="t-article__a" href="http://riotjs.com/>Riot.js</a> alapú komponenseket, megírtam a tervezésnél 
+            használt szabályokat, valamint kitaláltam az oldal kommunikációs stílusát is. A következő sorokat személyes tapasztalataim támasztják alá.
+            '''
+        s-mdwds-chapter-4-subchapter-7-p2:
+            '''
+            Ha a design rendszer túl sok opciót biztosít, akkor lassítja a döntéshozást - nehezebb feldolgozni az információt, és az emberi pszichológia 
+            úgy működik, hogy az összes lehetőség ismeretében szeretne dönteni, <a target="_blank" class="t-article__a" href="https://markmanson.net/analysis-paralysis>mert 
+            fél attól, hogy van jobb választás,</a> csak nem találta még meg. Ha viszont túl kevés lehetőséget biztosít, akkor tervezni kell egy új, 
+            nem szabványos megoldást, egy "kívánságpizzát", ami drágább lesz, hiszen új komponenst kell fejleszteni. Emellett növelni fogja a rendszer 
+            komplexitását is (képzeljük el, ha mindenki által rendelt "kívánságpizza" felkerülne az étlapra - a pár választásból hirtelen több száz lenne, 
+            köztük olyanok, amik alig térnek el egymástól).
+            '''
+        s-mdwds-chapter-4-subchapter-7-p3: 
+            '''
+            Egy jó design rendszer tehát az egyensúlyról szól: annyi választási lehetőséget biztosít, amennyire szükség van, de nem többet. Vannak design 
+            rendszerek, amik legalább 10 különböző árnyalatot nyújtanak színenként. Habár vannak szituációk, amikben indokolt lehet ez a széles színpaletta, 
+            általában a túl sok választási lehetőség zavart és inkonzisztenciát okoz.
+            '''
+        s-mdwds-chapter-4-subchapter-7-p4: 
+            '''
+            Ennek az ellentétével is találkoztam már, amiben összesen 10-12 szín volt. Azzal magyarázták, hogy nem akarják, hogy túl színes legyen az oldal, 
+            mert egy komoly, letisztult és érett márkát kell reprezentálnia. Nem lepődtem meg nagyon, mikor átfuttattam az oldalt a 
+            <a target="_blank" class="t-article__a" href="https://cssstats.com/>CSS Stats</a> nevű webes alkalmazáson, ami összegyűjtötte az összes CSS-ben deklarált színt, 
+            és láttam, hogy számuk a 40-hez közelít. Egyszerűen nem lehet 10 színből interaktív felületet tervezni. Annyi állapotváltozás van, aminek hatására 
+            meg kell változnia egy-egy elem színének, hogy egy ilyen döntés zsákutcába tereli a designt. A felületek úgy fognak kinézni, mintha drótvázak 
+            lennének, miközben számtalan új szín kerül meghatározásra, mert időnként jön egy-egy szituáció, amihez nincs megfelelő szín a készletben.
+            '''
+        s-mdwds-chapter-4-subchapter-7-p5: 
+            '''
+            A Chameleon tervezése közben egy olyan megközelítést alkalmaztam, aminek lényege az volt, hogy nem vezetek be egyedülálló színt, csak színcsaládot. 
+            A színcsaládok legalább két színből álltak, még akkor is, ha volt olyan, amit csak később, vagy esetleg még egyáltalán nem kellett felhasználnom. 
+            Ez azért volt jó, mert amikor azonos színű, de más árnyalatú kiegészítőszínt kellett alkalmaznom, nem volt kérdés, hogy ez milyen legyen. Kisebb 
+            rendszerek esetben jól működhet ez a megközelítés, hiszen általában 2-3 árnyalatnál nincs szükség többre egy színből (kivéve a szürkét). Nagyobb 
+            rendszereknél pedig jól alkalmazható a <a target="_blank" class="t-article__a" href="https://material.io/guidelines/style/color.html>Material 
+            Design-féle skála,</a> amiben a színek százas értékeket kapnak. Annyit kell csak bevezetni egyszerre, amennyire valóban szükség van, de az elnevezésnek 
+            köszönhetően bármikor bővíthető a készlet.
+            '''
+        s-mdwds-chapter-4-subchapter-7-p6: 
+            '''
+            A rendszer vizuális megjelenésének tervezése közben érdemes lehet már a szabályokra is gondolni. Ha egymástól elszeparálva készülnek el a szabályok 
+            és a vizuális egységek, akkor meglehet, hogy nem lesznek összhangban. A tervezés egy hosszú kísérletezés, aminek irányított módon kell történnie. 
+            A Chameleon utolsó szabályának például ezt fogalmaztam meg: "Kísérletezés támogatása: teret kell adni a kísérletezésnek a lenyűgöző eredmény eléréséhez." 
+            Ez azt jelenti, hogy a tervezési folyamatok alatt minél jobban törekedni kell a különböző, és minél változatosabb megoldások készítésére, bevállalva 
+            az esetleges fejlesztési nehézségeket, vagy a kudarcot. Ahhoz, hogy ez a szemlélet ki tudjon bontakozni (főleg egy olyan szervezetben, amiben többen 
+            dolgoznak közösen), fontos minél korábban meghatározni.
+            '''
+        s-mdwds-chapter-4-subchapter-7-p7: 
+            '''
+            A design rendszerek alkalmazása egy általános legjobb gyakorlat lett az utóbbi években, és habár legtöbbet a tech óriások rendszereire hivatkoznak, 
+            az ezeknél sokkal kisebb vállalatok is profitálhatnak egy saját rendszerből. A legfontosabb, amit észben kell tartani tervezésüknél, hogy ez egy 
+            végtelen folyamat kezdete. Amíg a termékek élnek, amiket támogat, addig a rendszert nem lehet magára hagyni. Ha úgy tűnik, hogy túl sok erőforrást 
+            emészt fel, vagy nem térül meg, akkor feltehetően tervezési probléma áll a háttérben. A design rendszer rossz kérdésekre ad választ, vagy nem megfelelő 
+            választ ad a kérdésekre.
+            '''
+        
+
+        s-mdwds-caption-tcds:
+            '''
+            Több saját példát is mutattam az oldalam mögött álló design rendszerből. Ha felkeltettem az érdeklődésedet, itt olvashatsz részletesebben a 
+            felépítéséről és működéséről:
+            '''
     }
     
     en: {
@@ -565,6 +1603,9 @@
             I gave the drawings the song title I listened to while I was making it. (Psst! EDM danger...)
             '''
 
+        s-td-14-title: Let Me Down Slowly
+        s-td-14-date: June 2018
+
         s-td-13-title: Miami 2 Ibiza
         s-td-13-date: April 2018
 
@@ -620,42 +1661,39 @@
 
 
         // 5.  MDWDS
-        s-mdwds-cover-h1: Modular design with<br> design systems
+        s-mdwds-cover-h1: Modular Design with<br> Design Systems
         // 5.0 MDWDS Prologue
         s-mdwds-prologue-title: Prologue
         s-mdwds-prologue-p1:
             '''
-            Az utóbbi időben product designt érintő körökben a design rendszerek talán a legnépszerűbb témának számítanak. Olyannyira, hogy nem csak az óriás technológiai 
-            cégek érzik szükségét elkészítésének és fenntartásának, de még a szigorúan fizikai, kézzel fogható terméket értékesítő vállalatok is, mint például a Royal Canin, 
-            vagy az Audi.
+            Recently, in product design circles, design systems are perhaps the most discussed topics. So much, that not only the giant tech companies feel the need to 
+            create and maintain one, but even companies that strictly market physical, tangible products, like Royal Canin or Audi.
             '''
         s-mdwds-prologue-p2:
             '''
-            Mivel egy ennyire forró témáról van szó, nem csoda, hogy olyan sokan leírták már, hogy hogyan kell létrehozni őket, mint például Brad Frost az Atomic Design 
-            című könyvében, vagy Alla Kholmatova a Design Systems-ben. Ezek a könyvek nagyszerűen végigmennek a működésük- és elkészítésük módján, viszont arról csak 
-            röviden beszélnek, hogy milyen szakmai hajtóerő állt a szisztematikus tervezés elterjedése mögött, és milyen problémákat kíván megoldani. Elsősorban a 
-            "hogyan"-ra fókusználnak, nem pedig a "miért"-re. Szakdolgozatomban én a „miért”-re helyeztem a hangsúlyt, és kutatásokkal alátámasztva felépítettem egy 
-            listát azokból a tényezőkből, amik a design válság kialakulásához hozzájárultak. Ehhez gyakran éveket, néha évtizedeket kellett visszamenni az időben, és 
-            olyan - ma már idejétmúltnak számító - forrásokat keresni, amik alátámasztják a meglátásaimat.
+            Since it's such a hot topic, it's no wonder that so many people has already written about the creation process like Brad Frost in Atomic Design or Alla Kholmatova 
+            in Design Systems. These Books perfectly describe how to design and maintain one, but they just briefly describe the professional driving force that led to designing 
+            in a systematic way and what issues they aim to solve. They mainly focus on the "how" instead of the "why". In my thesis, I emphasized on the "why", and created a 
+            list of factors that contributed to the design crysis, based on research. To achieve this, I often had to go back in time for years, sometimes even decades, and 
+            look for sources - which cover practices that counts outdated nowdays - that support my insights.
             '''
         s-mdwds-prologue-p3:
             '''
-            Szakdolgozatom második felében arról írok, hogy a design rendszer mellett milyen megoldások születtek még a feltárt problémákra, majd részletesebben 
-            megfogalmazom, hogy mit jelent design rendszerben tervezni.
+            In the second half of my dissertation, I write about the solutions of the revealed problems besides design systems, and then I elaborate on what does it actually 
+            mean to work with one.
             '''
         s-mdwds-prologue-p4:
             '''
-            Azért döntöttem úgy, hogy elsősorban nem a design rendszerek felépítésére helyezem a hangsúlyt, mert ebben a megközelítésben már nagyon sokan feldolgozták a 
-            témát. Számomra legalább annyira izgalmas azt vizsgálni, hogy egy szakterület milyen tényezők hatására jutott el odáig, ahol éppen tart, mint az aktuális 
-            szokásait és bevett gyakorlatait. Így a szakma fejlődése nem fog folyamatos meglepetéseket okozni, hiszen ha tudjuk, hogy honnan indult, jobb rálátásunk van 
-            arra is, hogy milyen irányba tart.
+            I decided not to focus primarily on the creation of design systems, because in this approach, the subject has been very much discussed. For me, it is at least as 
+            exciting to examine what factors played a role in a profession to become what it is today, just like it's current habits and best practices. Thus, its development 
+            will not cause us continuous surprises if we know where it came from.
             '''
         s-mdwds-prologue-p5:
             '''
-            Szakdolgozatom írása közben számtalan hasznos visszajelzést kaptam, amik segítettek engem abban, hogy minél több nézőpontból tudjam ezt a témát megvizsgálni és 
-            kifejteni. Kifejezetten köszönöm Nikázy Gusztávnak, egyetemi tanáromnak, aki a sok hasznos meglátása mellett ösztönzött engem arra, hogy minél objektívebben
-            álljak írásnak, valamint nagyon sokat segített a Chameleon front-end technológiai hátterének megválasztásában is. Továbbá testvéremnek, Tóth Bálintnak, aki
-            a végeláthatatlan hosszúságú JavaScript fájljaimat rekordidő alatt tömörítette bele pár sorba.
+            During the time of writing my thesis, I received countless great feebacks, which helped me analyze this subject from different viewpoints. I owe special thanks
+            to my university professor, Gusztav Nikazy, who not only provided useful insights, but along that he encouraged me to start writing more objectively, and 
+            gave me a lot of advices in choosing the Chameleon's front-end technology too. And also to my brother, Balint Toth, who compressed my infinite JavaScript codes
+            into a few lines in record time.
             '''
 
         // 5.1 MDWDS Chapter 1
@@ -1509,103 +2547,103 @@
         // 5.4.6 MDWDS Chapter 4 Subchapter 6
         s-mdwds-chapter-4-subtitle-6: Design rendszerek előkészületei
         s-mdwds-chapter-4-subchapter-6-p1: 
-        '''
-        Egy napjainkban induló startup számára egyértelműen jó választás a tervezést design rendszerrel kezdeni, hiszen jelentősen csökkenti a termék 
-        komplexitását, és segít abban, hogy köré egy erős és határozott brand épüljön. Nagyon sok pozitív vonzata is van a céges mentalitásra nézve, 
-        ha a design központi szerepet kap: előtérbe kerülnek az egyszerű megoldások, a felhasználóközpontúság, és a megrendelők is jobban belelátnak, 
-        hogy miről szól a webes tervezés. A rendszert ők is bármikor felkereshetik és tanulmányozhatják, hiszen nagyon sok része van, ami érinti őket, 
-        és amihez hozzá tudnak tenni.
-        '''
+            '''
+            Egy napjainkban induló startup számára egyértelműen jó választás a tervezést design rendszerrel kezdeni, hiszen jelentősen csökkenti a termék 
+            komplexitását, és segít abban, hogy köré egy erős és határozott brand épüljön. Nagyon sok pozitív vonzata is van a céges mentalitásra nézve, 
+            ha a design központi szerepet kap: előtérbe kerülnek az egyszerű megoldások, a felhasználóközpontúság, és a megrendelők is jobban belelátnak, 
+            hogy miről szól a webes tervezés. A rendszert ők is bármikor felkereshetik és tanulmányozhatják, hiszen nagyon sok része van, ami érinti őket, 
+            és amihez hozzá tudnak tenni.
+            '''
         s-mdwds-chapter-4-subchapter-6-p2: 
-        '''
-        Egy évek óta működő vállalatnál a design rendszer gondolata elég futurisztikusnak tűnhet elsőre, hiszen már kiépített, bonyolult rendszerek 
-        vannak, amit nem lehet egyik napról a másikra megváltoztatni. Azonban, ha a vállalat valóban hosszú távú célokat tűz ki maga elé, érdemes 
-        kis lépésekben közeledni felé, és időt és erőforrást szánni rá. Először érdemes azokra a problémákra koncentrálni, amiket viszonylag könnyű 
-        megoldani, viszont sok terhet okoznak.
-        '''
+            '''
+            Egy évek óta működő vállalatnál a design rendszer gondolata elég futurisztikusnak tűnhet elsőre, hiszen már kiépített, bonyolult rendszerek 
+            vannak, amit nem lehet egyik napról a másikra megváltoztatni. Azonban, ha a vállalat valóban hosszú távú célokat tűz ki maga elé, érdemes 
+            kis lépésekben közeledni felé, és időt és erőforrást szánni rá. Először érdemes azokra a problémákra koncentrálni, amiket viszonylag könnyű 
+            megoldani, viszont sok terhet okoznak.
+            '''
         s-mdwds-chapter-4-subchapter-6-p3: 
-        '''
-        A tervezés kezdetén érdemes feltenni pár kérdést, ami segít a rendszer céljának tisztázásában: kik fogják használni? Mi segítené őket a munkájuk 
-        minél hatékonyabb és minél magasabb színvonalú elvégzésében? Hol fogják elérni a rendszert? Mekkora erőforrást és költségvetést szán rá a 
-        szervezet? Kik dolgoznak majd rajta? Hogyan és kik által lesz frissítve? Kinek és milyen formában kell jelezni a hiányosságokat és a módosítási 
-        igényeket? Amíg ezek a kérdések nincsenek tisztázva, jó esély van arra, hogy már az elindulásának napján halálra lesz ítélve – éppen ezért érdemes 
-        felmérést készíteni és alaposan megtervezni. Nincs értelme bemutatni egy olyan rendszert, amit a létrehozás után senki nem akar karbantartani, 
-        mert így nem fizetődik ki a kezdeti befektetett energia, ráadásul negatív visszhangja lesz a kezdeményezésnek. Ha rosszul kerül megtervezésre, 
-        és csak hátráltatja a munkavégzőket, értelmetlen keretek közé szorítja őket ahelyett, hogy megoldásokat nyújtana nekik, akkor nem fogják használni. 
-        Egy jó design rendszert nem kötelességből használnak, hanem azért, mert könnyebb általa a munka.
-        '''
+            '''
+            A tervezés kezdetén érdemes feltenni pár kérdést, ami segít a rendszer céljának tisztázásában: kik fogják használni? Mi segítené őket a munkájuk 
+            minél hatékonyabb és minél magasabb színvonalú elvégzésében? Hol fogják elérni a rendszert? Mekkora erőforrást és költségvetést szán rá a 
+            szervezet? Kik dolgoznak majd rajta? Hogyan és kik által lesz frissítve? Kinek és milyen formában kell jelezni a hiányosságokat és a módosítási 
+            igényeket? Amíg ezek a kérdések nincsenek tisztázva, jó esély van arra, hogy már az elindulásának napján halálra lesz ítélve – éppen ezért érdemes 
+            felmérést készíteni és alaposan megtervezni. Nincs értelme bemutatni egy olyan rendszert, amit a létrehozás után senki nem akar karbantartani, 
+            mert így nem fizetődik ki a kezdeti befektetett energia, ráadásul negatív visszhangja lesz a kezdeményezésnek. Ha rosszul kerül megtervezésre, 
+            és csak hátráltatja a munkavégzőket, értelmetlen keretek közé szorítja őket ahelyett, hogy megoldásokat nyújtana nekik, akkor nem fogják használni. 
+            Egy jó design rendszert nem kötelességből használnak, hanem azért, mert könnyebb általa a munka.
+            '''
         s-mdwds-chapter-4-subchapter-6-p4: 
-        '''
-        Elég jó esély van arra is, hogy a fejlesztőktől és a designerektől megkapja a rendszer az induláshoz szükséges támogatást, azonban a vezetőség által 
-        nem kerül jóváhagyásra. Brad Frost erre ezt mondja: "Kérj elfogadást, ne pedig engedélyt" – ha egy csapat úgy gondolja, hogy szüksége van rá 
-        (márpedig jó eséllyel szüksége van rá), akkor saját dolga szakmájának legjobb gyakorlatait követnie.
-        '''
+            '''
+            Elég jó esély van arra is, hogy a fejlesztőktől és a designerektől megkapja a rendszer az induláshoz szükséges támogatást, azonban a vezetőség által 
+            nem kerül jóváhagyásra. Brad Frost erre ezt mondja: "Kérj elfogadást, ne pedig engedélyt" – ha egy csapat úgy gondolja, hogy szüksége van rá 
+            (márpedig jó eséllyel szüksége van rá), akkor saját dolga szakmájának legjobb gyakorlatait követnie.
+            '''
         s-mdwds-chapter-4-subchapter-6-p5: 
-        '''
-        Lehet, hogy kezdetben elég, ha csak a design és a UI fejlesztési részleg számára készül, ebben az esetben például akár munka melletti projekt 
-        keretei között is meg lehet tervezni, vagy akár egy hackathon kíséretében. Majd, amikor mindenki látja a hasznosságát, és egyre nagyobb figyelmet 
-        és támogatást kap, el lehet kezdeni kibővíteni.
-        '''
+            '''
+            Lehet, hogy kezdetben elég, ha csak a design és a UI fejlesztési részleg számára készül, ebben az esetben például akár munka melletti projekt 
+            keretei között is meg lehet tervezni, vagy akár egy hackathon kíséretében. Majd, amikor mindenki látja a hasznosságát, és egyre nagyobb figyelmet 
+            és támogatást kap, el lehet kezdeni kibővíteni.
+            '''
         // 5.4.7 MDWDS Chapter 4 Subchapter 7
         s-mdwds-chapter-4-subtitle-7: Design rendszerek tervezése
         s-mdwds-chapter-4-subchapter-7-p1: 
-        '''
-        Az elmúlt másfél év során több design rendszer kialakításában játszottam aktív szerepet, legújabb projektem pedig a Chameleon volt, ami a 
-        lorant.design mögött működő rendszer. A Chameleon elég kisméretű, azonban teljeskörű, így megterveztem benne az újrafelhasználható Sketch 
-        szimbólumokat, az ezekhez tartozó <a target="_blank" class="t-article__a" href="http://riotjs.com/>Riot.js</a> alapú komponenseket, megírtam a tervezésnél 
-        használt szabályokat, valamint kitaláltam az oldal kommunikációs stílusát is. A következő sorokat személyes tapasztalataim támasztják alá.
-        '''
+            '''
+            Az elmúlt másfél év során több design rendszer kialakításában játszottam aktív szerepet, legújabb projektem pedig a Chameleon volt, ami a 
+            lorant.design mögött működő rendszer. A Chameleon elég kisméretű, azonban teljeskörű, így megterveztem benne az újrafelhasználható Sketch 
+            szimbólumokat, az ezekhez tartozó <a target="_blank" class="t-article__a" href="http://riotjs.com/>Riot.js</a> alapú komponenseket, megírtam a tervezésnél 
+            használt szabályokat, valamint kitaláltam az oldal kommunikációs stílusát is. A következő sorokat személyes tapasztalataim támasztják alá.
+            '''
         s-mdwds-chapter-4-subchapter-7-p2:
-        '''
-        Ha a design rendszer túl sok opciót biztosít, akkor lassítja a döntéshozást - nehezebb feldolgozni az információt, és az emberi pszichológia 
-        úgy működik, hogy az összes lehetőség ismeretében szeretne dönteni, <a target="_blank" class="t-article__a" href="https://markmanson.net/analysis-paralysis>mert 
-        fél attól, hogy van jobb választás,</a> csak nem találta még meg. Ha viszont túl kevés lehetőséget biztosít, akkor tervezni kell egy új, 
-        nem szabványos megoldást, egy "kívánságpizzát", ami drágább lesz, hiszen új komponenst kell fejleszteni. Emellett növelni fogja a rendszer 
-        komplexitását is (képzeljük el, ha mindenki által rendelt "kívánságpizza" felkerülne az étlapra - a pár választásból hirtelen több száz lenne, 
-        köztük olyanok, amik alig térnek el egymástól).
-        '''
+            '''
+            Ha a design rendszer túl sok opciót biztosít, akkor lassítja a döntéshozást - nehezebb feldolgozni az információt, és az emberi pszichológia 
+            úgy működik, hogy az összes lehetőség ismeretében szeretne dönteni, <a target="_blank" class="t-article__a" href="https://markmanson.net/analysis-paralysis>mert 
+            fél attól, hogy van jobb választás,</a> csak nem találta még meg. Ha viszont túl kevés lehetőséget biztosít, akkor tervezni kell egy új, 
+            nem szabványos megoldást, egy "kívánságpizzát", ami drágább lesz, hiszen új komponenst kell fejleszteni. Emellett növelni fogja a rendszer 
+            komplexitását is (képzeljük el, ha mindenki által rendelt "kívánságpizza" felkerülne az étlapra - a pár választásból hirtelen több száz lenne, 
+            köztük olyanok, amik alig térnek el egymástól).
+            '''
         s-mdwds-chapter-4-subchapter-7-p3: 
-        '''
-        Egy jó design rendszer tehát az egyensúlyról szól: annyi választási lehetőséget biztosít, amennyire szükség van, de nem többet. Vannak design 
-        rendszerek, amik legalább 10 különböző árnyalatot nyújtanak színenként. Habár vannak szituációk, amikben indokolt lehet ez a széles színpaletta, 
-        általában a túl sok választási lehetőség zavart és inkonzisztenciát okoz.
-        '''
+            '''
+            Egy jó design rendszer tehát az egyensúlyról szól: annyi választási lehetőséget biztosít, amennyire szükség van, de nem többet. Vannak design 
+            rendszerek, amik legalább 10 különböző árnyalatot nyújtanak színenként. Habár vannak szituációk, amikben indokolt lehet ez a széles színpaletta, 
+            általában a túl sok választási lehetőség zavart és inkonzisztenciát okoz.
+            '''
         s-mdwds-chapter-4-subchapter-7-p4: 
-        '''
-        Ennek az ellentétével is találkoztam már, amiben összesen 10-12 szín volt. Azzal magyarázták, hogy nem akarják, hogy túl színes legyen az oldal, 
-        mert egy komoly, letisztult és érett márkát kell reprezentálnia. Nem lepődtem meg nagyon, mikor átfuttattam az oldalt a 
-        <a target="_blank" class="t-article__a" href="https://cssstats.com/>CSS Stats</a> nevű webes alkalmazáson, ami összegyűjtötte az összes CSS-ben deklarált színt, 
-        és láttam, hogy számuk a 40-hez közelít. Egyszerűen nem lehet 10 színből interaktív felületet tervezni. Annyi állapotváltozás van, aminek hatására 
-        meg kell változnia egy-egy elem színének, hogy egy ilyen döntés zsákutcába tereli a designt. A felületek úgy fognak kinézni, mintha drótvázak 
-        lennének, miközben számtalan új szín kerül meghatározásra, mert időnként jön egy-egy szituáció, amihez nincs megfelelő szín a készletben.
-        '''
+            '''
+            Ennek az ellentétével is találkoztam már, amiben összesen 10-12 szín volt. Azzal magyarázták, hogy nem akarják, hogy túl színes legyen az oldal, 
+            mert egy komoly, letisztult és érett márkát kell reprezentálnia. Nem lepődtem meg nagyon, mikor átfuttattam az oldalt a 
+            <a target="_blank" class="t-article__a" href="https://cssstats.com/>CSS Stats</a> nevű webes alkalmazáson, ami összegyűjtötte az összes CSS-ben deklarált színt, 
+            és láttam, hogy számuk a 40-hez közelít. Egyszerűen nem lehet 10 színből interaktív felületet tervezni. Annyi állapotváltozás van, aminek hatására 
+            meg kell változnia egy-egy elem színének, hogy egy ilyen döntés zsákutcába tereli a designt. A felületek úgy fognak kinézni, mintha drótvázak 
+            lennének, miközben számtalan új szín kerül meghatározásra, mert időnként jön egy-egy szituáció, amihez nincs megfelelő szín a készletben.
+            '''
         s-mdwds-chapter-4-subchapter-7-p5: 
-        '''
-        A Chameleon tervezése közben egy olyan megközelítést alkalmaztam, aminek lényege az volt, hogy nem vezetek be egyedülálló színt, csak színcsaládot. 
-        A színcsaládok legalább két színből álltak, még akkor is, ha volt olyan, amit csak később, vagy esetleg még egyáltalán nem kellett felhasználnom. 
-        Ez azért volt jó, mert amikor azonos színű, de más árnyalatú kiegészítőszínt kellett alkalmaznom, nem volt kérdés, hogy ez milyen legyen. Kisebb 
-        rendszerek esetben jól működhet ez a megközelítés, hiszen általában 2-3 árnyalatnál nincs szükség többre egy színből (kivéve a szürkét). Nagyobb 
-        rendszereknél pedig jól alkalmazható a <a target="_blank" class="t-article__a" href="https://material.io/guidelines/style/color.html>Material 
-        Design-féle skála,</a> amiben a színek százas értékeket kapnak. Annyit kell csak bevezetni egyszerre, amennyire valóban szükség van, de az elnevezésnek 
-        köszönhetően bármikor bővíthető a készlet.
-        '''
+            '''
+            A Chameleon tervezése közben egy olyan megközelítést alkalmaztam, aminek lényege az volt, hogy nem vezetek be egyedülálló színt, csak színcsaládot. 
+            A színcsaládok legalább két színből álltak, még akkor is, ha volt olyan, amit csak később, vagy esetleg még egyáltalán nem kellett felhasználnom. 
+            Ez azért volt jó, mert amikor azonos színű, de más árnyalatú kiegészítőszínt kellett alkalmaznom, nem volt kérdés, hogy ez milyen legyen. Kisebb 
+            rendszerek esetben jól működhet ez a megközelítés, hiszen általában 2-3 árnyalatnál nincs szükség többre egy színből (kivéve a szürkét). Nagyobb 
+            rendszereknél pedig jól alkalmazható a <a target="_blank" class="t-article__a" href="https://material.io/guidelines/style/color.html>Material 
+            Design-féle skála,</a> amiben a színek százas értékeket kapnak. Annyit kell csak bevezetni egyszerre, amennyire valóban szükség van, de az elnevezésnek 
+            köszönhetően bármikor bővíthető a készlet.
+            '''
         s-mdwds-chapter-4-subchapter-7-p6: 
-        '''
-        A rendszer vizuális megjelenésének tervezése közben érdemes lehet már a szabályokra is gondolni. Ha egymástól elszeparálva készülnek el a szabályok 
-        és a vizuális egységek, akkor meglehet, hogy nem lesznek összhangban. A tervezés egy hosszú kísérletezés, aminek irányított módon kell történnie. 
-        A Chameleon utolsó szabályának például ezt fogalmaztam meg: "Kísérletezés támogatása: teret kell adni a kísérletezésnek a lenyűgöző eredmény eléréséhez." 
-        Ez azt jelenti, hogy a tervezési folyamatok alatt minél jobban törekedni kell a különböző, és minél változatosabb megoldások készítésére, bevállalva 
-        az esetleges fejlesztési nehézségeket, vagy a kudarcot. Ahhoz, hogy ez a szemlélet ki tudjon bontakozni (főleg egy olyan szervezetben, amiben többen 
-        dolgoznak közösen), fontos minél korábban meghatározni.
-        '''
+            '''
+            A rendszer vizuális megjelenésének tervezése közben érdemes lehet már a szabályokra is gondolni. Ha egymástól elszeparálva készülnek el a szabályok 
+            és a vizuális egységek, akkor meglehet, hogy nem lesznek összhangban. A tervezés egy hosszú kísérletezés, aminek irányított módon kell történnie. 
+            A Chameleon utolsó szabályának például ezt fogalmaztam meg: "Kísérletezés támogatása: teret kell adni a kísérletezésnek a lenyűgöző eredmény eléréséhez." 
+            Ez azt jelenti, hogy a tervezési folyamatok alatt minél jobban törekedni kell a különböző, és minél változatosabb megoldások készítésére, bevállalva 
+            az esetleges fejlesztési nehézségeket, vagy a kudarcot. Ahhoz, hogy ez a szemlélet ki tudjon bontakozni (főleg egy olyan szervezetben, amiben többen 
+            dolgoznak közösen), fontos minél korábban meghatározni.
+            '''
         s-mdwds-chapter-4-subchapter-7-p7: 
-        '''
-        A design rendszerek alkalmazása egy általános legjobb gyakorlat lett az utóbbi években, és habár legtöbbet a tech óriások rendszereire hivatkoznak, 
-        az ezeknél sokkal kisebb vállalatok is profitálhatnak egy saját rendszerből. A legfontosabb, amit észben kell tartani tervezésüknél, hogy ez egy 
-        végtelen folyamat kezdete. Amíg a termékek élnek, amiket támogat, addig a rendszert nem lehet magára hagyni. Ha úgy tűnik, hogy túl sok erőforrást 
-        emészt fel, vagy nem térül meg, akkor feltehetően tervezési probléma áll a háttérben. A design rendszer rossz kérdésekre ad választ, vagy nem megfelelő 
-        választ ad a kérdésekre.
-        '''
+            '''
+            A design rendszerek alkalmazása egy általános legjobb gyakorlat lett az utóbbi években, és habár legtöbbet a tech óriások rendszereire hivatkoznak, 
+            az ezeknél sokkal kisebb vállalatok is profitálhatnak egy saját rendszerből. A legfontosabb, amit észben kell tartani tervezésüknél, hogy ez egy 
+            végtelen folyamat kezdete. Amíg a termékek élnek, amiket támogat, addig a rendszert nem lehet magára hagyni. Ha úgy tűnik, hogy túl sok erőforrást 
+            emészt fel, vagy nem térül meg, akkor feltehetően tervezési probléma áll a háttérben. A design rendszer rossz kérdésekre ad választ, vagy nem megfelelő 
+            választ ad a kérdésekre.
+            '''
         
 
         s-mdwds-caption-tcds:
