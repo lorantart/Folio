@@ -35,6 +35,10 @@
         margin: 0 auto;
         padding: 0 1.5em;
 
+        .false {
+            display: none;
+        }
+
         .u-emailForm__header-wrapper {
             display: flex;
             flex-direction: row;
@@ -67,6 +71,10 @@
         justify-content: flex-end;
 
         margin-right: 2em;
+
+        .false {
+            display: none;
+        }
 
         .t-emailForm__a {
             @extend %t-article__p--small;
