@@ -63,7 +63,11 @@ var VHChromeFix = function(selectors) {
     {
       selector: '.u-project__cover',
       vh: 50,
-    }
+    },
+    {
+        selector: '.u-video-wrapper',
+        vh: 100,
+      }
   ];
   
   var vhFix = new VHChromeFix(options);
