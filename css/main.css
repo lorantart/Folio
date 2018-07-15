@@ -859,7 +859,7 @@ a {
   font-weight: 700;
   line-height: 1.5;
   color: #2979FF;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
   -webkit-text-stroke-width: 0.8px; }
 
 main .c-pageTitle .t-pageTitle__h1, main .o-article .t-article__h1, .t-pageError__h1 {
@@ -1086,7 +1086,7 @@ main {
   font-weight: 700;
   line-height: 1.5;
   color: #2979FF;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
   -webkit-text-stroke-width: 0.8px; }
 
 main .c-pageTitle .t-pageTitle__h1, main .o-article .t-article__h1, .t-pageError__h1 {
@@ -1208,7 +1208,7 @@ main .o-article--chapter .u-highlight-wrapper mark {
   font-weight: 700;
   line-height: 1.5;
   color: #2979FF;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
   -webkit-text-stroke-width: 0.8px; }
 
 main .c-pageTitle .t-pageTitle__h1, main .o-article .t-article__h1, .t-pageError__h1 {
@@ -1348,25 +1348,25 @@ main .o-article--chapter .u-highlight-wrapper mark {
 
 @-webkit-keyframes ripple-shadow {
   0% {
-    -webkit-box-shadow: 0 0 0 transparent;
-    box-shadow: 0 0 0 transparent; }
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0); }
   20% {
     -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04); }
   100% {
-    -webkit-box-shadow: 0 0 0 transparent;
-    box-shadow: 0 0 0 transparent; } }
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0); } }
 
 @keyframes ripple-shadow {
   0% {
-    -webkit-box-shadow: 0 0 0 transparent;
-    box-shadow: 0 0 0 transparent; }
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0); }
   20% {
     -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04); }
   100% {
-    -webkit-box-shadow: 0 0 0 transparent;
-    box-shadow: 0 0 0 transparent; } }
+    -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0); } }
 
 @-webkit-keyframes ripple {
   to {
@@ -1472,7 +1472,7 @@ main .o-article--chapter .u-highlight-wrapper mark {
     display: block;
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
-    background: transparent;
+    background: rgba(0, 0, 0, 0);
     border: none;
     border-bottom: 1px solid #cfd4da; }
   .u-textField-wrapper .t-textField--light {
@@ -1662,7 +1662,7 @@ progress {
   -moz-appearance: none !important;
   appearance: none !important;
   border: none;
-  background: transparent;
+  background: rgba(0, 0, 0, 0);
   color: #2979FF; }
 
 .u-progress-container {
@@ -1671,7 +1671,7 @@ progress {
   position: fixed;
   top: 0;
   left: 0;
-  background: transparent !important;
+  background: rgba(0, 0, 0, 0) !important;
   display: block; }
 
 .c-progress__bar {
@@ -1684,7 +1684,7 @@ progress[value]::-webkit-progress-value {
   background: #2979FF; }
 
 progress[value]::-webkit-progress-bar {
-  background: transparent; }
+  background: rgba(0, 0, 0, 0); }
 
 .o-footer {
   width: 100%;
@@ -2437,10 +2437,10 @@ progress[value]::-webkit-progress-bar {
       position: absolute;
       left: 0;
       top: 0;
-      background: -webkit-gradient(linear, left top, right top, from(#000000), to(transparent));
-      background: -webkit-linear-gradient(left, #000000 0%, transparent 100%);
-      background: -o-linear-gradient(left, #000000 0%, transparent 100%);
-      background: linear-gradient(90deg, #000000 0%, transparent 100%);
+      background: -webkit-gradient(linear, left top, right top, from(#000000), to(rgba(0, 0, 0, 0)));
+      background: -webkit-linear-gradient(left, #000000 0%, rgba(0, 0, 0, 0) 100%);
+      background: -o-linear-gradient(left, #000000 0%, rgba(0, 0, 0, 0) 100%);
+      background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
       border-radius: 8px 0 0 8px; }
 
 @media all and (max-width: 800px) {
