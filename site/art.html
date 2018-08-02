@@ -88,6 +88,7 @@
                     </div>
                 </div>
 
+                <c-projectlist></c-projectlist>
 
             </main>
 
@@ -98,6 +99,7 @@
         <script type="riot/tag" src="components/o-cookiebar.tag"    ></script>
         <script type="riot/tag" src="components/o-header.tag"       ></script>
         <script type="riot/tag" src="components/o-footer.tag"       ></script>
+        <script type="riot/tag" src="components/c-projectlist.tag"  ></script>
 
         <!-- mount Riot tags -->
         <script>
@@ -108,6 +110,15 @@
                 overflow: '', //m-overflow--hidden
                 color: 'm-header--white',
                 maskColor: 'm-header__mask--white'
+            })
+
+            riot.mount('c-projectlist',
+            {
+                project_items: [
+                    { project_cover: 'm-previewCover--reality', project_title: 's-art-standalone-title-03', project_date: 's-art-standalone-date-03', project_link: 'https://mailchi.mp/a8c850560671/the-beauty-that-surrounds-us'},
+                    { project_cover: 'm-previewCover--reality', project_title: 's-art-standalone-title-02', project_date: 's-art-standalone-date-02', project_link: 'https://mailchi.mp/d3aa2eaa2b30/the-bad-in-the-good'},
+                    { project_cover: 'm-previewCover--reality', project_title: 's-art-standalone-title-01', project_date: 's-art-standalone-date-01', project_link: 'https://mailchi.mp/9d15bab9762a/celebrating-my-website-launch-with-new-paintigns'}
+                ]
             })
 
             riot.mount('o-footer',

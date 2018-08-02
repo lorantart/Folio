@@ -6,7 +6,7 @@
     </progress>
     
     <script>
-        $(document).ready(function() {
+        $(window).on('load', function() {
             var getMax = function(){
                 return $('.js-maxScrollHeight').height() - $('.js-coverHeight').height();
             }

@@ -60,6 +60,7 @@
 
 
                 <c-section-navigator></c-section-navigator>
+                <c-socialshare></c-socialshare>
 
 
 
@@ -500,6 +501,7 @@
         <script type="riot/tag" src="components/o-header.tag"               ></script>
         <script type="riot/tag" src="components/c-progressbar.tag"          ></script>
         <script type="riot/tag" src="components/c-section-navigator.tag"    ></script>
+        <script type="riot/tag" src="components/c-socialshare.tag"          ></script>
         <script type="riot/tag" src="components/c-cover-toc.tag"            ></script>
         <script type="riot/tag" src="components/c-chapter-title.tag"        ></script>
         <script type="riot/tag" src="components/c-chapter-subtitle.tag"     ></script>
@@ -512,6 +514,12 @@
         <!-- mount Riot tags -->
         <script>
             riot.mount('o-cookiebar')
+            riot.mount('c-socialshare',
+            {
+                fb_link: 'https://www.facebook.com/share.php?u=https://lorant.design/site/modular-design-with-design-systems.html',
+                li_link: 'https://www.linkedin.com/shareArticle?mini=true&url=https://lorant.design/site/modular-design-with-design-systems.html',
+                tw_link: 'https://twitter.com/intent/tweet?status=https://lorant.design/site/modular-design-with-design-systems.html'
+            })
 
             riot.mount('o-header',
             {

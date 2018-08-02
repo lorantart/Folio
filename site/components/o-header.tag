@@ -2,7 +2,7 @@
     <div class="c-header__popover" id="js-popover">
         <div class="u-header__hero-wrapper js-popover__hero-wrapper">
             <div class="c-header__hero"></div>
-            <div class="c-header__name" data-i18n="s-navigation-name"></div>
+            <div class="c-header__name" data-i18n="s-navigation-name">Error. Please reload page.</div>
         </div>
         <div class="u-popover__navigation-wrapper">
             <ul>
@@ -15,7 +15,7 @@
             <ul>
                 <li class="mb-3">
                     <i class="material-icons md-24 md-black m-popover--icon">phone</i>
-                    <span class="mr-1">+</span>
+                    <span>+</span>
                     <span class="mr-1">36</span>
                     <span class="mr-1">30</span>
                     <span class="mr-1">427</span>
@@ -37,7 +37,7 @@
 
             <div class="u-user-wrapper">
                 <div class="c-header__hero"></div>
-                <div class="c-header__name" data-i18n="s-navigation-name"></div>
+                <div class="c-header__name" data-i18n="s-navigation-name">Error. Please reload page.</div>
             </div>
         </div>
         <div class="u-header__fillspace"></div>

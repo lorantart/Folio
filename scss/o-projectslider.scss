@@ -1,5 +1,14 @@
 @import 'variables';
 
+// SlickSlider visual configurations
+
+// 1. projectSlider
+// 2. categorySlider
+// 3. projectSlider
+
+
+// 1. projectSlider
+// art and design pages
 .u-projectSlider-wrapper {
     padding: 0 2em;
     position: relative;
@@ -142,7 +151,8 @@
 
 
 
-
+// 2. categorySlider
+// index
 .u-categorySlider-wrapper {
         position: relative;
         z-index: 0;
@@ -235,6 +245,88 @@
             .u-category-wrapper {
                 filter: grayscale(0);
             }
+        }
+    }
+}
+
+
+
+
+
+
+// 3. imageGallerySlider
+// for thumbnailed galleries
+.u-imageGallerySlider-wrapper {
+    padding:  0;
+
+    position: relative;
+    z-index: 0;
+
+    a {
+        outline: 0;
+    }
+    
+    .u-imageGallery__item {
+        height: 600px;
+
+        background-position: center center;
+        background-size: cover;
+
+        border-radius: 4px;
+
+        transition: all 0.2s ease-in-out;
+    }
+
+    .u-imageGallery__item--thumb {
+        width:  100px !important;
+        height: 100px;
+
+        background-position: center center;
+        background-size: cover;
+
+        margin: 1px 1px 0 0;
+        border-radius: 4px;
+
+        cursor: pointer;
+    }
+
+    .u-imageGallery__item--thumb:hover {
+        opacity: 0.8;
+    }
+    
+    .js-slick__navigation {
+        display: flex;
+    
+        position: absolute;
+        bottom:  -3em;
+        left: 50%;
+        
+        transform: translate(-50%, 0);
+    
+        li {
+            width:  0.5em;
+            height: 0.5em;
+            
+            margin: 0 1em;
+            border-radius: 1em;
+            outline: 0;
+            background: $transparent24;
+            cursor: pointer;
+        }
+    
+        .slick-active {
+            background: $blue;
+            box-shadow: 0 0 1em $blue;
+        }
+    }
+
+    @media all and (max-width: 1024px) {
+        .o-imageGallerySlider__navigation {
+            display: none;
+        }
+
+        .o-imageGallerySlider {
+            margin-bottom: 6em;
         }
     }
 }

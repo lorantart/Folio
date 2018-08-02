@@ -75,10 +75,6 @@ main {
             @extend %t-article__p;
         }
 
-        p:last-of-type {
-            margin-bottom: 0 !important;
-        }
-
         a {
             text-decoration: none;
             color: $grey300;
@@ -132,10 +128,6 @@ main {
             }
         }
 
-        p:last-of-type {
-            margin-bottom: 0 !important;
-        }
-
         a {
             text-decoration: none;
             color: $grey300;
@@ -147,6 +139,39 @@ main {
 
         .t-article__a {
             @extend %t-article__a;
+        }
+    }
+
+    .o-video--chapter {
+        width:  60%;
+        height: 0;
+
+        position: relative;
+        padding-bottom: 33.75%;
+
+        .u-video-wrapper {
+            width:  100%;
+            height: 100%;
+
+            position: absolute;
+            top:  0;
+            left: 0;
+        }
+    }
+
+    @media all and (max-width: 1400px) {
+        .o-video--chapter {
+            width:  80%;
+
+            padding-bottom: 45%;
+        }
+    }
+
+    @media all and (max-width: 920px) {
+        .o-video--chapter {
+            width:  100%;
+
+            padding-bottom: 56.25%;
         }
     }
 

@@ -1,6 +1,7 @@
 // 0.  GLOBAL
 // 0.1 404
 // 0.2 signup
+// 0.3 socialShare
 
 // 1.  COMPONENTS
 // 1.1 header + footer
@@ -14,12 +15,36 @@
 // 2.  MY STORY
 
 // 3.  ART
-// 3.1 Daydreaming
-// 3.2 Dividedsoul
-// 3.3 Portraitart
+// 3.1 Art projects
+// 3.1.1 Daydreaming
+// 3.1.2 Dividedsoul
+// 3.1.3 Portraitart
+
+// 3.2 Art standalones
+// 3.2.1 Sober Heart Lyrics
+
+// 3.2.2 Reality Lyrics
+// 3.2.2.0 Reality Prologue
+// 3.2.2.1 Reality Chapter 1
+// 3.2.2.1.1 Reality Chapter 1 Subchapter 1
+// 3.2.2.1.2 Reality Chapter 1 Subchapter 2
+// 3.2.2.1.3 Reality Chapter 1 Subchapter 3
+// 3.2.2.1.3 Reality Chapter 1 Subchapter 4
+// 3.2.2.2 Reality Chapter 2
+// 3.2.2.2.1 Reality Chapter 2 Subchapter 1
+// 3.2.2.2.2 Reality Chapter 2 Subchapter 2
+// 3.2.2.2.3 Reality Chapter 2 Subchapter 3
+// 3.2.2.3 Reality Chapter 3
+// 3.2.2.3.1 Reality Chapter 3 Subchapter 1
+// 3.2.2.3.2 Reality Chapter 3 Subchapter 2
+// 3.2.2.4 Reality Chapter 4
+// 3.2.2.4.1 Reality Chapter 4 Subchapter 1
+// 3.2.2.4.1 Reality Chapter 4 Subchapter 2
+
+// 3.2.3 Digital Portrait Tutorial
+// 3.2.4 Say Goodbye Process
 
 // 4.  DESIGN
-
 // 5.  MDWDS
 // 5.0 MDWDS Prologue
 // 5.1 MDWDS Chapter 1
@@ -71,6 +96,9 @@
 
         s-email-title-01: Celebrating my website launch with new paintings!
         s-email-date-01: 2018 június 16.
+        // 0.3 socialShare
+        s-socialshare-title: Pszt! Odacsapnál a megosztásra?
+        s-socialshare-exit: Legközelebb, testvér!
         
         // 1.  COMPONENTS
         // 1.1 header + footer
@@ -175,7 +203,8 @@
         s-artsubpage-to-artworks: Vissza a rajzokhoz
         s-artsubpage-to-story: Olvasd el a történetet
 
-        // 3.1 Daydreaming
+        // 3.1 Art projects
+        // 3.1.1 Daydreaming
         s-dd-about-p1:
             '''
             A Daydreaming egy spontán kísérletezés eredményeként jött létre. Nem projektnek terveztem, hanem egyedülálló rajznak. 2016 nyarán kezdődött;
@@ -218,7 +247,7 @@
         s-dd-01-title: Catch and Release
         s-dd-01-date: 2017 február
 
-        // 3.2 Dividedsoul
+        // 3.1.2 Dividedsoul
         s-ds-about-p1:
             '''
             A Divided Soul egy fantasy stílusú, digitális illusztrációkból álló sorozat, amit 2015 nyarának végén kezdtem el, és a mai napig dolgozom rajta.
@@ -290,7 +319,7 @@
         s-ds-01-title: Entrance of a New World
         s-ds-01-date: 2016 május
 
-        // 3.3 Portraitart
+        // 3.1.3 Portraitart
         s-td-about-p1:
             '''
             Az utóbbi pár év alatt legalább száz portrét rajzoltam grafittal. Emlékszem, mennyire nehezen kezdődött - szinte mindent rosszul csináltam.
@@ -361,6 +390,153 @@
 
         s-td-01-title: It's All On U
         s-td-01-date: 2017 május
+
+
+
+        // 3.2 Art standalones
+        // 3.2.1 Sober Heart Lyrics
+
+
+
+        // 3.2.2 Reality Lyrics
+        s-reality-cover-h1: Reality: Low-Poly<br>Lyrics Video
+        // 3.2.2.0 Reality Prologue
+        s-reality-prologue-title: Előszó
+        s-reality-prologue-p1:
+            '''
+            Aki ismer, tudja, hogy nagyon szeretek zenét hallgatni, és közel állnak hozzám a kreatív videoklipek és dalszöveg videók. Amikor az egyetemen 3D animációt 
+            kellett készíteni, nem is volt kérdés, hogy ilyen irányba szeretnék elindulni. A továbbiakban azt fogom bemutatni, hogy milyen módon építettem fel a projektet, 
+            és mik voltak a fontosabb állomások.
+            '''
+        s-reality-prologue-p2:
+            '''
+            Elöljáróban annyit mondanék, hogy a 3 perces videó elkészítése nagyjából 100 munkaórába telt, amit 300 óra renderidő kísért, és ezzel az egyik leghosszabb és 
+            legösszetettebb projekt volt, amin eddig dolgoztam. Oh, és persze mindenekelőtt a videó:
+
+            '''
+        // 3.2.2.1 Reality Chapter 1
+        s-reality-chapter-1-title: Tervezés
+        s-reality-chapter-1-p1:
+            '''
+            A nagyobb lélegzetvételű feladatoknál kifejezetten fontos a megfelelő tervezés és előkészület, ugyanis ennek hiányában szinte biztos, hogy valahol majd 
+            félresiklik a munka.
+            '''
+        // 3.2.2.1.1 Reality Chapter 1 Subchapter 1
+        s-reality-chapter-1-subtitle-1: Történet
+        s-reality-chapter-1-subchapter-1-p1:
+            '''
+            A klip egy varázslatos, színes erdőt mutat be, aminek közepén egy hatalmas fa áll. A videó elején a patakot követve fedezzük fel az erdő részleteit, és egyre 
+            beljebb érve találkozunk a nagy fával. A videó közepén egy nagylátószögű felvétel során a késő délutánból este lesz, és innentől esti fények mellett tárul 
+            elénk az erdő kékes tónusú világa.
+            '''
+        // 3.2.2.1.2 Reality Chapter 1 Subchapter 2
+        s-reality-chapter-1-subtitle-2: Storyboard
+        s-reality-chapter-1-subchapter-2-p1:
+            '''
+            Habár tudom, hogy mennyire fontos része a mozgóképkészítésnek a storyboard, ebben az esetben mégsem foglalkoztam vele túl sokat, mivel a környezet statikus, 
+            csak a kamerák mozognak. A legfontosabb kameraállásokat azért felvázoltam. Ilyen volt a már említett dupla expozíció a videó közepén, vagy például a víz 
+            alatti felvétel.
+            '''
+        // 3.2.2.1.3 Reality Chapter 1 Subchapter 3
+        s-reality-chapter-1-subtitle-3: Moodboard
+        s-reality-chapter-1-subchapter-3-p1:
+            '''
+            Sok kreatív alkotó küzd azzal a gondolattal, hogy úgy érzik, fel kell találniuk a világot mégegyszer. Nem akarnak másolni, ezért mindent fejből akarnak 
+            megalkotni. Habár a plagizálás szerintem is abszolút kerülendő, azonban úgy gondolom, hogy inspirációkat gyűjteni és megismerni és körbejárni a témát tervezés 
+            előtt nagyon jó hatással van a munka minőségére. Én például nem voltam kifejezetten otthon a low-poly stílusban, ezért sokat segített, hogy összeállítottam 
+            egy moodboardot arról, hogy milyen irányt képzelek el.
+            '''
+        // 3.2.2.1.3 Reality Chapter 1 Subchapter 4
+        s-reality-chapter-1-subtitle-4: Látványtervek
+        s-reality-chapter-1-subchapter-4-p1:
+            '''
+            A moodboard után kellő magabiztossággal tudtam nekiállni a saját látványtervek elkészítésének. Ez egy nagyon jó alkalom arra is, hogy összegyűjtsem, 
+            milyen elemeket szeretnék majd lemodellezni és felhasználni a helyszín készítésekor.
+            '''
+        // 3.2.2.2 Reality Chapter 2
+        s-reality-chapter-2-title: Modellezés
+        s-reality-chapter-2-p1:
+            '''
+            Valójában, ha azt mondom, hogy nem sokat modelleztem ezelőtt, akkor egész enyhén fejezem ki magam, ugyanis mindössze egyetlen rendert készítettem. Nem 
+            véletlen, hogy low-poly úton indultam el (természetesen nagyon szeretem ezt a stílust, és több 2D-s low poly rajzot is készítettem már, de erősen 
+            közrejátszott az is, hogy nem volt sem időm, sem kellő tapasztalatom, hogy egy ekkora helyszínt magas poligonszámmal lemodellezzek.)
+            '''
+        // 3.2.2.2.1 Reality Chapter 2 Subchapter 1
+        s-reality-chapter-2-subtitle-1: Assetek
+        s-reality-chapter-2-subchapter-1-p1:
+            '''
+            Asseteket hoztam létre a környezet minél könnyebb generálásához. Ezek összecsoportosított elemek, amiket szabadon tudok forgatni, méretezni és duplikálni, 
+            így kevésbé lesz feltűnő, hogy a környezet elemei valójában egymásból származtatva jöttek létre.
+            '''
+        // 3.2.2.2.2 Reality Chapter 2 Subchapter 2
+        s-reality-chapter-2-subtitle-1: Környezet
+        s-reality-chapter-2-subchapter-1-p1:
+            '''
+            A terep egy része displacement mappal készült, a fontosabb részeit viszont kézzel alakítottam, hogy minél pontosabb legyen.
+            '''
+        // 3.2.2.2.3 Reality Chapter 2 Subchapter 3
+        s-reality-chapter-2-subtitle-3: Previs
+        s-reality-chapter-2-subchapter-3-p1:
+            '''
+            A határidő folyamatosan kísértett, miközben haladtam a feladattal, így nagyon igyekeztem, hogy minél előbb ki tudjak renderelni egy previs-t a videóról.
+            '''
+        // 3.2.2.3 Reality Chapter 3
+        s-reality-chapter-3-title: Renderelés
+        s-reality-chapter-3-p1:
+            '''
+            A másik dolog, amit fontos volt időben letesztelni, az a renderidő volt. Ehhez beállítottam a megfelelő textúrákat, fényeket és renderbeállításokat, 
+            és feltöltöttem a környezetet elemekkel. A renderidő képkockánként kb. 5-25 perc közé esett (a nagylátószögű felvételeknél a sok objektum miatt elég lassú volt).
+            '''
+        // 3.2.2.3.1 Reality Chapter 3 Subchapter 1
+        s-reality-chapter-3-subtitle-1: Kamerák
+        s-reality-chapter-3-subchapter-1-p1:
+            '''
+            A vágásokat a zenéhez igazítottam, így összesen 30 kameraállásra volt szükségem. Kiszámoltam és feljegyeztem, hogy hol kell a vágásoknak lennie, ami a 
+            zeneszöveg időzítésénél is nagy segítség volt.
+            '''
+        // 3.2.2.3.2 Reality Chapter 3 Subchapter 2
+        s-reality-chapter-3-subtitle-2: Rendszerezés
+        s-reality-chapter-3-subchapter-2-p1:
+            '''
+            A nagy projekteknél sokszor a rendszertelenség jelenti a legnagyobb problémát, és ez áll legjobban a munka útjába. Mivel először dolgoztam ilyen jellegű 
+            feladaton, leginkább arra fókuszáltam, hogy minél gyorsabban haladjak, és kezdetben nem foglalkoztam sokat a megfelelő dokumentálással és a fájlok 
+            rendszerezésével. A végső renderek készítésénél már tudtam, hogy megfelelően kell tárolnom a kameraállásokhoz tartozó képkockákat, hogy az utómunka során 
+            minél kevesebb komplikáció lépjen fel. Rendereléskor olyan hibákba futottam bele, mint például elkezdtem felülírni egy korábbi render fájljait. Rendkívül 
+            amatőrnek tűnhet, de amikor ennyi beállítással kell foglalkozni, a figyelmetlenség benne van a pakliban. Főleg, mikor hajnalban, félálomban, munka előtt 
+            kell elindítani a rendereket :o
+            '''
+        // 3.2.2.4 Reality Chapter 4
+        s-reality-chapter-4-title: Utómunka
+
+        // 3.2.2.4.1 Reality Chapter 4 Subchapter 1
+        s-reality-chapter-4-subtitle-1: Kamerák
+        s-reality-chapter-4-subchapter-1-p1:
+            '''
+            A vágás lényegében annyit tett, hogy egymás mögé igazítottam a kirenderelt felvételeket. Meglehetősen pontosan sikerült meghatároznom a vágások helyét, 
+            így mindössze kb. 1-2 másodpercet kellett time-remappel kikorrigálnom.
+            '''
+        // 3.2.2.4.1 Reality Chapter 4 Subchapter 2
+        s-reality-chapter-4-subtitle-2: Kompozitálás
+        s-reality-chapter-4-subchapter-2-p1:
+            '''
+            Mivel a rendereim nem lettek a legtökéletesebbek, ami a színeket és fényeket illeti, ezért némileg javítani kellett rajtuk utólag. A teljes utómunka After 
+            Effects-ben történt, ahol a nyers felvételeken kiigazítottam a színeket és az expozíciót, hozzáadtam az effekteket, majd végül a zeneszöveget. A kompozitálást 
+            egy 1000 rétegből álló After Effects fájllal zártam, amit egyébként nem is tudtam renderelés előtt egyben lejátszani (sőt, legfeljebb pár másodpercnyi felvételt 
+            tudtam egyszerre visszanézni, úgyhogy lényegében vakon időzítettem).
+            '''
+
+
+
+
+
+        // 3.2.3 Digital Portrait Tutorial
+
+
+
+        // 3.2.4 Say Goodbye Process
+
+
+
 
 
         // 4.  DESIGN
@@ -1388,6 +1564,9 @@
 
         s-email-title-01: Celebrating my website launch with new paintings!
         s-email-date-01: June 16, 2018
+        // 0.3 socialShare
+        s-socialshare-title: Psst! Smash that share, would ya?
+        s-socialshare-exit: Next time, dude!
 
         // 1.  COMPONENTS
         // 1.1 header + footer
@@ -1491,7 +1670,8 @@
         s-artsubpage-to-artworks: Back to the artworks
         s-artsubpage-to-story: Read the story
 
-        // 3.1 Daydreaming
+        // 3.1 Art projects
+        // 3.1.1 Daydreaming
         s-dd-about-p1:
             '''
             Daydreaming is the result of a spontaneous experiment. It wasn’t indended to be a project, but a single piece. It was the summer of 2016; I 
@@ -1534,7 +1714,7 @@
         s-dd-01-title: Catch and Release
         s-dd-01-date: February 2017
 
-        // 3.2 Dividedsoul
+        // 3.1.2 Dividedsoul
         s-ds-about-p1:
             '''
             The Divided Soul is a fantasy series of digital illustrations that I started at the end of the summer of 2015, and I’m still working on it to this 
@@ -1605,7 +1785,7 @@
         s-ds-01-title: Entrance of a New World
         s-ds-01-date: May 2016
 
-        // 3.3 Portraitart
+        // 3.1.3 Portraitart
         s-td-about-p1:
             '''
             During the last couple of years I have drawn at least a hundred graphite portraits. I remember how hard it was the beginning &mdash;I did almost everything 
@@ -1677,6 +1857,25 @@
         s-td-01-title: It's All On U
         s-td-01-date: May 2017
 
+
+        // 3.2 Art standalones
+        // 3.2.1 Sober Heart Lyrics
+
+
+
+        // 3.2.2 Reality Lyrics
+
+
+
+        // 3.2.3 Digital Portrait Tutorial
+
+
+
+        // 3.2.4 Say Goodbye Process
+
+
+
+    
 
 
         // 4.  DESIGN
