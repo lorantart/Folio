@@ -25,7 +25,7 @@ main {
 
     .js-fadingBlock {
         will-change: transform;
-        transition: transform 1s ease-in-out, filter 1s ease-in-out;
+        transition: 1s all ease-in-out;
     }
 
     .c-pageTitle {
@@ -88,10 +88,6 @@ main {
             @extend %t-article__a;
         }
     }
-
-
-    //text introduction to artworks
-    // apply to section
     
 
 
@@ -142,36 +138,33 @@ main {
         }
     }
 
+
+    // Video section
     .o-video--chapter {
-        width:  60%;
-        height: 0;
+        width:  60vw;
+        height: 33.75vw;
+
+        margin-bottom: 4em;
 
         position: relative;
-        padding-bottom: 33.75%;
 
         .u-video-wrapper {
             width:  100%;
             height: 100%;
-
-            position: absolute;
-            top:  0;
-            left: 0;
         }
     }
 
     @media all and (max-width: 1400px) {
         .o-video--chapter {
-            width:  80%;
-
-            padding-bottom: 45%;
+            width:  80vw;
+            height: 45vw;
         }
     }
 
     @media all and (max-width: 920px) {
         .o-video--chapter {
-            width:  100%;
-
-            padding-bottom: 56.25%;
+            width:  100vw;
+            height: 56.25vw;
         }
     }
 

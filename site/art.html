@@ -88,7 +88,7 @@
                     </div>
                 </div>
 
-                <c-projectlist></c-projectlist>
+                <!--<c-projectlist></c-projectlist>-->
 
             </main>
 
@@ -107,17 +107,26 @@
 
             riot.mount('o-header',
             {
-                overflow: '', //m-overflow--hidden
-                color: 'm-header--white',
+                overflow:  '', //m-overflow--hidden
+                color:     'm-header--white',
                 maskColor: 'm-header__mask--white'
             })
 
             riot.mount('c-projectlist',
             {
                 project_items: [
-                    { project_cover: 'm-previewCover--reality', project_title: 's-art-standalone-title-03', project_date: 's-art-standalone-date-03', project_link: 'https://mailchi.mp/a8c850560671/the-beauty-that-surrounds-us'},
-                    { project_cover: 'm-previewCover--reality', project_title: 's-art-standalone-title-02', project_date: 's-art-standalone-date-02', project_link: 'https://mailchi.mp/d3aa2eaa2b30/the-bad-in-the-good'},
-                    { project_cover: 'm-previewCover--reality', project_title: 's-art-standalone-title-01', project_date: 's-art-standalone-date-01', project_link: 'https://mailchi.mp/9d15bab9762a/celebrating-my-website-launch-with-new-paintigns'}
+                    { 
+                    project_title: 's-art-standalone-title-04',
+                    project_date:  's-art-standalone-date-04',
+                    project_cover: 'm-previewCover--say-goodbye',
+                    project_link:  'say-goodbye.html',
+                    project_tag: [
+                        { tags: 'shit'        },
+                        { tags: 'anothershit' }
+                    ]},
+                    { project_title: 's-art-standalone-title-03', project_date: 's-art-standalone-date-03', project_cover: 'm-previewCover--portrait-painting'   ,project_link: 'portrait-painting.html'},
+                    { project_title: 's-art-standalone-title-02', project_date: 's-art-standalone-date-02', project_cover: 'm-previewCover--reality'             ,project_link: 'reality.html'},
+                    { project_title: 's-art-standalone-title-01', project_date: 's-art-standalone-date-01', project_cover: 'm-previewCover--sober-heart'         ,project_link: 'sober-heart.html'}
                 ]
             })
 

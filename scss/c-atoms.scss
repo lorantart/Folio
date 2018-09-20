@@ -185,7 +185,7 @@
     border-radius: 100px;
 
     padding: 0.875em 2em;
-    margin: 2.5em auto 0 auto;
+    margin: 2.5em auto 2em auto;
 
     box-shadow: 0 2px 24px 0 $transparent16;
 
@@ -495,14 +495,26 @@
                 flex-direction: row;
 
                 .c-previewCover {
-                    width:  117px;
-                    height: 117px;
+                    width:  120px;
+                    height: auto;
 
                     background-size: cover !important;
                 }
 
+                .m-previewCover--say-goodbye {
+                    background: url(../assets/img/art/standalones/04-say-goodbye/00-cover/say-goodbye-cover--small.jpg) center center;
+                }
+
+                .m-previewCover--portrait-painting {
+                    background: url(../assets/img/art/standalones/03-portrait-painting-tutorial/00-cover/portrait-painting-cover--small.jpg) center center;
+                }
+
                 .m-previewCover--reality {
-                    background: url(../assets/img/art/standalones/01-reality/cover/reality-cover.jpg) center center;
+                    background: url(../assets/img/art/standalones/02-reality/00-cover/reality-cover--small.jpg) center center;
+                }
+
+                .m-previewCover--sober-heart {
+                    background: url(../assets/img/art/standalones/01-sober-heart/00-cover/sober-heart-cover--small.jpg) center center;
                 }
 
                 .u-projectDetails-wrapper {

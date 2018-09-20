@@ -9,9 +9,10 @@
         width:  4px;
         height: 4em;
         background: $blue;
+        border-radius: 0 100% 100% 0;
 
         position: absolute;
-        top:0;
+        top: 0;
     }
 
     ol {

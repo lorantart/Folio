@@ -29,43 +29,49 @@
         }
 
         .u-cover__mask {
-            background: url(../assets/img/design/modular-design-with-design-systems/cover/cover__mask.png) center center;
+            background: url(../assets/img/design/modular-design-with-design-systems/00-cover/cover__mask.png) center center;
             z-index: 1;
         }
 
 
 
         .u-cover__foreground--mdwds {
-            background: url(../assets/img/design/modular-design-with-design-systems/cover/mdwds-cover__layer-1.png) center center;
+            background: url(../assets/img/design/modular-design-with-design-systems/00-cover/mdwds-cover__layer-1.png) center center;
             z-index: 0;
         }
 
         .u-cover__background--mdwds {
-            background: url(../assets/img/design/modular-design-with-design-systems/cover/mdwds-cover__layer-2.png) center center;
+            background: url(../assets/img/design/modular-design-with-design-systems/00-cover/mdwds-cover__layer-2.png) center center;
             z-index: -1;
         }
 
 
 
         .u-cover__foreground--tcds {
-            background: url(../assets/img/design/the-chameleon-design-system/cover/tcds-cover__layer-1.png) center center;
+            background: url(../assets/img/design/the-chameleon-design-system/00-cover/tcds-cover__layer-1.png) center center;
             z-index: 0;
         }
 
         .u-cover__midground--tcds {
-            background: url(../assets/img/design/the-chameleon-design-system/cover/tcds-cover__layer-2.png) center center;
+            background: url(../assets/img/design/the-chameleon-design-system/00-cover/tcds-cover__layer-2.png) center center;
             z-index: 0;
         }
 
         .u-cover__background--tcds {
-            background: url(../assets/img/design/the-chameleon-design-system/cover/tcds-cover__layer-3.png) center center;
+            background: url(../assets/img/design/the-chameleon-design-system/00-cover/tcds-cover__layer-3.png) center center;
             z-index: -1;
         }
 
 
 
         .u-cover__background--reality {
-            background: url(../assets/img/art/standalones/01-reality/cover/reality-cover.jpg) center center;
+            background: url(../assets/img/art/standalones/01-reality/00-cover/reality-cover.jpg) center center;
+            z-index: -1;
+        }
+
+
+        .u-cover__background--say-goodbye {
+            background: url(../assets/img/art/standalones/04-say-goodbye/00-cover/say-goodbye-cover.jpg) center center;
             z-index: -1;
         }
 

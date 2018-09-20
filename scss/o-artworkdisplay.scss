@@ -1,14 +1,5 @@
 @import 'variables';
 
-.js-displayFadein {
-    opacity: 0;
-    will-change: opacity;
-}
-
-.js-displayFadein:first-of-type {
-    opacity: 1;
-}
-
 .u-display-wrapper {
     width:     100%;
     position: relative;

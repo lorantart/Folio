@@ -14,7 +14,7 @@ $(document).ready(function() {
                 dots: true,
                 dotsClass: 'js-slick__navigation'
             }
-            },]
+        },]
     });
 
     $('.o-imageGallerySlider__navigation').slick({
@@ -36,6 +36,6 @@ $(document).ready(function() {
                 dots: true,
                 dotsClass: 'js-slick__navigation'
             }
-            },]
+        },]
     });
 });
